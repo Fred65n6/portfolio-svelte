@@ -122,7 +122,7 @@
 	section {
 		padding-block: 3rem;
 		align-items: center;
-		width: 1400px;
+		width: 12000px;
 		gap: 10px;
 		display: grid;
 		grid-template-columns: 1fr 1fr;

@@ -26,16 +26,13 @@
 
 <style>
 	header {
-		gap: 30px;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
-		padding: 10px;
-		position: fixed;
-		z-index: 1;
-		right: 0;
+		padding-inline: 2.5rem;
+		padding-block: 1rem;
 		width: 100%;
-		background-color: rgba(0, 0, 0, 0.1);
+		background-color: #f0f8ff;
+		position: sticky;
 	}
 
 	.corner img {
@@ -43,12 +40,13 @@
 		height: auto;
 		padding: 5px;
 		object-fit: contain;
+		filter: invert(1);
 	}
 
 	nav {
 		display: flex;
 		justify-content: center;
-		color: white;
+		color: black;
 	}
 
 	ul {
