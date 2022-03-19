@@ -47,49 +47,51 @@
 		grid-template-columns: 1fr 1fr;
 		place-items: center;
 		width: 100%;
-		padding-block: 6rem;
+		padding-block: 3rem;
 	}
 
-	.container-1 {
-		display: grid;
-		place-items: center;
-		padding: 2rem;
-		border-bottom: solid 2px;
-		border-image: linear-gradient(
-				90deg,
-				rgba(255, 0, 0, 0.4) 0%,
-				rgba(204, 87, 14, 0.4) 27%,
-				rgba(176, 174, 22, 0.4) 49%,
-				rgba(111, 216, 221, 0.4) 67%,
-				rgba(2, 80, 255, 0.4) 100%
-			)
-			1;
-		border-right: solid 2px;
-		border-image: linear-gradient(
-				90deg,
-				rgba(255, 0, 0, 0.4) 0%,
-				rgba(204, 87, 14, 0.4) 27%,
-				rgba(176, 174, 22, 0.4) 49%,
-				rgba(111, 216, 221, 0.4) 67%,
-				rgba(2, 80, 255, 0.4) 100%
-			)
-			1;
-	}
+	@media (min-width: 650px) {
+		.container-1 {
+			display: grid;
+			place-items: center;
+			padding: 2rem;
+			border-bottom: solid 2px;
+			border-image: linear-gradient(
+					90deg,
+					rgba(255, 0, 0, 0.4) 0%,
+					rgba(204, 87, 14, 0.4) 27%,
+					rgba(176, 174, 22, 0.4) 49%,
+					rgba(111, 216, 221, 0.4) 67%,
+					rgba(2, 80, 255, 0.4) 100%
+				)
+				1;
+			border-right: solid 2px;
+			border-image: linear-gradient(
+					90deg,
+					rgba(255, 0, 0, 0.4) 0%,
+					rgba(204, 87, 14, 0.4) 27%,
+					rgba(176, 174, 22, 0.4) 49%,
+					rgba(111, 216, 221, 0.4) 67%,
+					rgba(2, 80, 255, 0.4) 100%
+				)
+				1;
+		}
 
-	.container-2 {
-		display: grid;
-		place-items: center;
-		padding: 2rem;
-		border-top: solid 2px;
-		border-image: linear-gradient(
-				90deg,
-				rgba(2, 80, 255, 0.4) 0%,
-				rgba(111, 216, 221, 0.4) 27%,
-				rgba(176, 174, 22, 0.4) 49%,
-				rgba(204, 87, 14, 0.4) 67%,
-				rgba(255, 0, 0, 0.4) 100%
-			)
-			1;
+		.container-2 {
+			display: grid;
+			place-items: center;
+			padding: 2rem;
+			border-top: solid 2px;
+			border-image: linear-gradient(
+					90deg,
+					rgba(2, 80, 255, 0.4) 0%,
+					rgba(111, 216, 221, 0.4) 27%,
+					rgba(176, 174, 22, 0.4) 49%,
+					rgba(204, 87, 14, 0.4) 67%,
+					rgba(255, 0, 0, 0.4) 100%
+				)
+				1;
+		}
 	}
 
 	img {

@@ -10,8 +10,8 @@
 
 <Hero />
 
-<section id="forside" class="">
-	<div class="box1 spacer ">
+<section id="forside">
+	<div id="box-1" class="spacer ">
 		<div class="text-box ">
 			<a sveltekit:prefetch href="/Portfolio">
 				<h2>Portfolio</h2>
@@ -23,7 +23,7 @@
 		</div>
 	</div>
 
-	<div class="box2 spacer md:border-b-4">
+	<div id="box-2" class="spacer">
 		<div class="text-box ">
 			<a sveltekit:prefetch href="/Om_mig">
 				<h2>Om mig</h2>
@@ -46,21 +46,15 @@
 		place-items: center;
 	}
 
+	section {
+		padding-block: 3rem;
+	}
+
 	.text-box {
 		padding: 2rem;
 		height: auto;
 		background: rgba(37, 36, 47, 0.605);
 		box-shadow: 4px 4px 2px;
-		/* border: solid 4px;
-		border-image: linear-gradient(
-				90deg,
-				rgba(255, 0, 0, 0.4) 0%,
-				rgba(204, 87, 14, 0.4) 27%,
-				rgba(176, 174, 22, 0.4) 49%,
-				rgba(111, 216, 221, 0.4) 67%,
-				rgba(2, 80, 255, 0.4) 100%
-			)
-			1; */
 	}
 
 	.text-box:hover {
@@ -74,8 +68,6 @@
 
 	@media (min-width: 600px) {
 		section {
-			padding-top: 6rem;
-			padding-bottom: 6rem;
 			display: grid;
 			grid-template-columns: 1fr 1fr;
 			place-items: center;
@@ -88,7 +80,7 @@
 			place-items: center;
 		}
 
-		.box1 {
+		#box-1 {
 			border-top: solid 2px white;
 			border-image: linear-gradient(
 					90deg,
@@ -111,7 +103,7 @@
 				)
 				1;
 		}
-		.box2 {
+		#box-2 {
 			border-bottom: solid 2px white;
 			border-image: linear-gradient(
 					90deg,
