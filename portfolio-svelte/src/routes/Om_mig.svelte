@@ -18,7 +18,7 @@
 <div class="heading">
 	<h1>OM MIG</h1>
 </div>
-<section>
+<section id="om-mig">
 	<div class="container-1 grid place-items-center p-8 md:border-b-4 md:border-r-4 w-full">
 		<div class="text-box">
 			<h2>Frederik Milland</h2>
@@ -42,7 +42,7 @@
 <Footer />
 
 <style>
-	section {
+	#om-mig {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		place-items: center;

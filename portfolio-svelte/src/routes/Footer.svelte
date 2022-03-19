@@ -8,16 +8,17 @@
 
 <style>
 	footer {
-		background: rgba(37, 36, 47, 0.605);
+		filter: invert(1);
+		background: rgba(39, 39, 39, 0.605);
 		width: 100%;
-		border-top: solid 2px;
+		border-top: solid 10px;
 		border-image: linear-gradient(
 				90deg,
-				rgba(255, 0, 0, 0.4) 0%,
-				rgba(204, 87, 14, 0.4) 27%,
-				rgba(176, 174, 22, 0.4) 49%,
-				rgba(111, 216, 221, 0.4) 67%,
-				rgba(2, 80, 255, 0.4) 100%
+				rgba(255, 0, 0, 0.5) 0%,
+				rgba(204, 87, 14, 0.5) 27%,
+				rgba(176, 174, 22, 0.5) 49%,
+				rgba(111, 216, 221, 0.5) 67%,
+				rgba(2, 80, 255, 0.5) 100%
 			)
 			1;
 	}

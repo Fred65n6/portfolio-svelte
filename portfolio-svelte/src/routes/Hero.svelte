@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="hero bg-pan-left bg-hero2">
+<div class="hero filter-blur-2 bg-pan-left bg-hero2">
 	<div class="hero-border grid place-items-center md:p-48 p-8 md:border-none ">
 		<div class="w-auto h-auto pt-8 ">
 			<img class="fade-in " src="./Frederik Milland.svg" alt="logo" />
@@ -15,7 +15,7 @@
 
 <style>
 	h1 {
-		font-size: 6;
+		font-size: 5.5rem;
 		letter-spacing: 1rem;
 		padding-bottom: 3px;
 		text-decoration: none;
@@ -47,14 +47,14 @@
 
 	@media (min-width: 650px) {
 		.hero-border {
-			border-bottom: solid 2px;
+			border-bottom: solid 10px;
 			border-image: linear-gradient(
 					90deg,
-					rgba(255, 0, 0, 0.4) 0%,
-					rgba(204, 87, 14, 0.4) 27%,
-					rgba(176, 174, 22, 0.4) 49%,
-					rgba(111, 216, 221, 0.4) 67%,
-					rgba(2, 80, 255, 0.4) 100%
+					rgba(255, 0, 0, 0.5) 0%,
+					rgba(204, 87, 14, 0.5) 27%,
+					rgba(176, 174, 22, 0.5) 49%,
+					rgba(111, 216, 221, 0.5) 67%,
+					rgba(2, 80, 255, 0.5) 100%
 				)
 				1;
 		}
