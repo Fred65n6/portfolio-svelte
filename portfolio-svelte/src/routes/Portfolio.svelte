@@ -270,6 +270,10 @@
 		position: relative;
 	}
 
+	.container:hover img {
+		filter: grayscale(1);
+	}
+
 	.til-toppen {
 		display: grid;
 		place-items: center;
@@ -300,6 +304,11 @@
 		padding: 1rem;
 		border-radius: 12px;
 		background-color: rgb(30, 30, 30);
+	}
+
+	.link:hover {
+		color: white;
+		text-decoration: underline;
 	}
 
 	.card {
@@ -365,11 +374,11 @@
 			transition: 0.5s ease;
 			background: linear-gradient(
 				90deg,
-				rgba(2, 80, 255, 0.3) 0%,
-				rgba(111, 216, 221, 0.3) 27%,
-				rgba(176, 174, 22, 0.3) 49%,
-				rgba(204, 87, 14, 0.3) 67%,
-				rgba(255, 0, 0, 0.3) 100%
+				rgba(2, 80, 255, 0.4) 0%,
+				rgba(111, 216, 221, 0.4) 27%,
+				rgba(176, 174, 22, 0.4) 49%,
+				rgba(204, 87, 14, 0.4) 67%,
+				rgba(255, 0, 0, 0.4) 100%
 			);
 		}
 
