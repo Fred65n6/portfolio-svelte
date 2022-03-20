@@ -27,11 +27,6 @@
 		color: white;
 	}
 
-	a:hover {
-		color: rgb(0, 115, 157);
-		transition: color 0.4s linear;
-	}
-
 	.hero {
 		place-self: center;
 		background-size: cover;
@@ -45,11 +40,11 @@
 		border-block: solid 6px;
 		border-image: linear-gradient(
 				90deg,
-				rgba(255, 0, 0, 0.5) 0%,
-				rgba(204, 87, 14, 0.5) 27%,
-				rgba(176, 174, 22, 0.5) 49%,
-				rgba(111, 216, 221, 0.5) 67%,
-				rgba(2, 80, 255, 0.5) 100%
+				rgb(152, 6, 6, 0.7) 0%,
+				rgb(179, 84, 26, 0.7) 27%,
+				rgb(169, 159, 21, 0.7) 49%,
+				rgb(65, 141, 187, 0.7) 67%,
+				rgb(7, 53, 162, 0.7) 100%
 			)
 			1;
 	}

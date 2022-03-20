@@ -94,22 +94,22 @@
 			border-top: solid 4px white;
 			border-image: linear-gradient(
 					90deg,
-					rgba(255, 0, 0, 0.5) 0%,
-					rgba(204, 87, 14, 0.5) 27%,
-					rgba(176, 174, 22, 0.5) 49%,
-					rgba(111, 216, 221, 0.5) 67%,
-					rgba(2, 80, 255, 0.5) 100%
+					rgb(152, 6, 6) 0%,
+					rgb(179, 84, 26) 27%,
+					rgb(169, 159, 21) 49%,
+					rgb(65, 141, 187) 67%,
+					rgb(7, 53, 162) 100%
 				)
 				1;
 
 			border-right: solid 4px white;
 			border-image: linear-gradient(
 					90deg,
-					rgb(140, 11, 11) 0%,
-					rgba(117, 50, 9, 1) 27%,
-					rgb(111, 110, 15) 49%,
-					rgb(56, 126, 130) 67%,
-					rgb(5, 50, 155) 100%
+					rgb(152, 6, 6) 0%,
+					rgb(179, 84, 26) 27%,
+					rgb(169, 159, 21) 49%,
+					rgb(65, 141, 187) 67%,
+					rgb(7, 53, 162) 100%
 				)
 				1;
 		}
@@ -117,11 +117,11 @@
 			border-bottom: solid 4px white;
 			border-image: linear-gradient(
 					90deg,
-					rgb(5, 50, 155) 0%,
-					rgb(56, 126, 130) 27%,
-					rgb(111, 110, 15) 49%,
-					rgba(117, 50, 9, 1) 67%,
-					rgb(140, 11, 11) 100%
+					rgb(7, 53, 162) 0%,
+					rgb(65, 141, 187) 27%,
+					rgb(169, 159, 21) 49%,
+					rgb(179, 84, 26) 67%,
+					rgb(152, 6, 6) 100%
 				)
 				1;
 		}

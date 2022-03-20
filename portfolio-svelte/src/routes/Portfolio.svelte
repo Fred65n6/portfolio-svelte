@@ -86,7 +86,7 @@
 			<div class="overlay">
 				<div class="text">
 					<a class="desk-link" href="https://skuret.eu/kea/teater_grob/" target="_blank"
-						><h4>kampagne site:</h4>
+						><h4>kampagnesite:</h4>
 						<h3>teater grob</h3></a
 					>
 				</div>
@@ -126,6 +126,10 @@
 	</div>
 </section>
 
+<div class="til-toppen hover:pulsate-fwd">
+	<a href="#top"> ︽<br /> Til toppen</a>
+</div>
+
 <Footer />
 
 <style>
@@ -150,9 +154,14 @@
 			position: static;
 			transition: 0.5s linear;
 		}
+
 		.container:hover .overlay {
 			opacity: 1;
 		}
+	}
+
+	a {
+		text-align: center;
 	}
 	.container {
 		position: relative;
@@ -165,7 +174,6 @@
 	.desk-link {
 		color: black;
 	}
-
 	.card {
 		display: flex;
 	}
@@ -183,7 +191,7 @@
 		width: 100%;
 		opacity: 0;
 		transition: 0.5s ease;
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+		background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
 			url(https://grainy-gradients.vercel.app/noise.svg);
 	}
 

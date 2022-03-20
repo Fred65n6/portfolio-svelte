@@ -50,15 +50,19 @@
 	</article>
 
 	<div class="box">
-		<div class="kompetencer">
+		<div class="kontakt">
 			<h2>Kontakt</h2>
-			<ol>
-				<li>Telefon: +45 22 90 12 44</li>
-				<li>E-mail: Frederik-milland@hotmail.com</li>
-			</ol>
+			<address>
+				<p>E-mail:</p>
+				<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
+				<br />
+				<br />
+				<p>Telefon:</p>
+				<a href="tel:+4522901244">+4522901244</a>
+			</address>
 		</div>
-		<div class="cv">
-			<h2>CV</h2>
+		<div class="kompetencer">
+			<h2>Kompetencer</h2>
 			<ol>
 				<li>- lorem ipsum</li>
 				<li>- lorem ipsum</li>
@@ -73,6 +77,13 @@
 <Footer />
 
 <style>
+	address {
+		font-style: normal;
+	}
+
+	address p {
+		font-weight: 400;
+	}
 	#om-mig {
 		margin-inline: 1rem;
 		padding-block: 3rem;
@@ -98,11 +109,11 @@
 		border-block: solid 6px;
 		border-image: linear-gradient(
 				90deg,
-				rgb(140, 11, 11) 0%,
-				rgba(117, 50, 9, 1) 27%,
-				rgb(111, 110, 15) 49%,
-				rgb(56, 126, 130) 67%,
-				rgb(5, 50, 155) 100%
+				rgb(152, 6, 6) 0%,
+				rgb(179, 84, 26) 27%,
+				rgb(169, 159, 21) 49%,
+				rgb(65, 141, 187) 67%,
+				rgb(7, 53, 162) 100%
 			)
 			1;
 	}
