@@ -30,7 +30,8 @@
 			<div class="overlay">
 				<div class="text">
 					<a class="desk-link" href="https://skuret.eu/kea/3semester/musikloftet/" target="_blank"
-						>MUSIKLOFTET</a
+						><h4>WEBSITE:</h4>
+						<h3>MUSIKLOFTET</h3></a
 					>
 				</div>
 			</div>
@@ -43,20 +44,22 @@
 			<div class="overlay">
 				<div class="text">
 					<a class="desk-link" href="https://skuret.eu/kea/3semester/font_site" target="_blank"
-						>DISPLAY FONT</a
+						><h4>DESIGN:</h4>
+						<h3>DISPLAY FONT</h3></a
 					>
 				</div>
 			</div>
 		</div>
 	</div>
 
-	<div class="card md:col-span-2 ">
+	<div class="card md:col-span-2">
 		<div class="container">
 			<img src="artworks.webp" alt="Artworks" />
 			<div class="overlay">
 				<div class="text">
 					<a class="desk-link" href="https://skuret.eu/kea/1semester/artworks/" target="_blank"
-						>ARTWORKS</a
+						><h4>DESIGN:</h4>
+						<h3>Artworks</h3></a
 					>
 				</div>
 			</div>
@@ -68,7 +71,10 @@
 			<img src="toast.webp" alt="toast no.9" />
 			<div class="overlay">
 				<div class="text">
-					<a class="desk-link" href="https://skuret.eu/kea/toastno9/" target="_blank">TOAST NO.9</a>
+					<a class="desk-link" href="https://skuret.eu/kea/toastno9/" target="_blank"
+						><h4>website:</h4>
+						<h3>Toast no.9</h3></a
+					>
 				</div>
 			</div>
 		</div>
@@ -80,7 +86,8 @@
 			<div class="overlay">
 				<div class="text">
 					<a class="desk-link" href="https://skuret.eu/kea/teater_grob/" target="_blank"
-						>TEATER GROB</a
+						><h4>kampagne site:</h4>
+						<h3>teater grob</h3></a
 					>
 				</div>
 			</div>
@@ -92,7 +99,10 @@
 			<img src="olklubben.webp" alt="Ølklubben" />
 			<div class="overlay">
 				<div class="text">
-					<a class="desk-link" href="https://skuret.eu/kea/olklubben/" target="_blank">ØLKLUBBEN</a>
+					<a class="desk-link" href="https://skuret.eu/kea/olklubben/" target="_blank"
+						><h4>website:</h4>
+						<h3>ølklubben</h3></a
+					>
 				</div>
 			</div>
 		</div>
@@ -100,40 +110,52 @@
 
 	<div class="card ">
 		<div class="container">
-			<img src="spil.webp" alt="grob" />
+			<img class="" src="spil.webp" alt="grob" />
 			<div class="overlay">
 				<div class="text">
 					<a
 						class="desk-link"
 						href="https://skuret.eu/kea/1semester/04_animation/spil/"
-						target="_blank">ANIMATION</a
+						target="_blank"
+						><h4>animation:</h4>
+						<h3>spil</h3></a
 					>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-<div class="til-toppen hover:pulsate-fwd">
-	<a href="#top"> ︽<br /> Til toppen</a>
-</div>
+
 <Footer />
 
 <style>
 	section {
 		padding-block: 3rem;
-		align-items: center;
-		width: 1400px;
-		gap: 10px;
+		gap: 30px;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
-		grid-template-rows: auto;
+		margin-inline: 1rem;
+	}
+	@media (min-width: 650px) {
+		section {
+			align-items: center;
+			width: 1300px;
+			gap: 10px;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: auto;
+		}
+
+		.card:hover {
+			transform: scale(1.02);
+			z-index: 2;
+			position: static;
+			transition: 0.5s linear;
+		}
+		.container:hover .overlay {
+			opacity: 1;
+		}
 	}
 	.container {
 		position: relative;
-	}
-
-	.container:hover img {
-		filter: blur(2px);
 	}
 
 	img {
@@ -161,16 +183,12 @@
 		width: 100%;
 		opacity: 0;
 		transition: 0.5s ease;
-		background-color: rgba(223, 223, 223, 0.4);
-	}
-
-	.container:hover .overlay {
-		opacity: 1;
+		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+			url(https://grainy-gradients.vercel.app/noise.svg);
 	}
 
 	.text {
 		color: white;
-		font-size: 3rem;
 		font-weight: 900;
 		position: absolute;
 		text-transform: uppercase;
@@ -179,15 +197,6 @@
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
-		text-align: center;
-	}
-
-	.til-toppen {
-		display: grid;
-		place-items: center;
-		text-align: center;
-		text-transform: uppercase;
-		font-size: 1.5rem;
-		padding-bottom: 3rem;
+		text-align: left;
 	}
 </style>

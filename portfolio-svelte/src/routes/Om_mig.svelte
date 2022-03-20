@@ -18,97 +18,106 @@
 <div class="heading">
 	<h1>OM MIG</h1>
 </div>
+
+<div class="container">
+	<div class="pictures">
+		<img src="./om-mig.webp" alt="portæt" />
+	</div>
+</div>
 <section id="om-mig">
-	<div class="container-1 grid place-items-center p-8 md:border-b-4 md:border-r-4 w-full">
-		<div class="text-box">
-			<h2>Frederik Milland</h2>
+	<article>
+		<h2>Frederik Milland</h2>
+		<div class="text">
 			<p>
-				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id rerum est eaque sapiente nisi
-				non quam atque ex. Veniam facere dolore vel ex sit quasi blanditiis aut autem, temporibus
-				itaque voluptas et eius pariatur. Molestiae beatae autem optio distinctio, a eum sunt
-				voluptate, quam doloremque enim at iste corporis praesentium similique deleniti minus
-				consectetur delectus vero doloribus quidem animi. Excepturi provident obcaecati odio, quod
-				illum tenetur repellat facilis aspernatur veniam.
+				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores porro rerum
+				temporibus possimus. Nostrum ex odio cupiditate quia, corrupti ea nobis voluptatum ipsa
+				voluptatibus dolore dolorem reprehenderit architecto nisi consectetur, fugit laborum modi.
+				Nemo impedit tempore mollitia, et voluptatum aperiam sed aliquid. Ipsam, tempora optio
+				veniam facere perferendis nihil, alias iste illo esse sint rerum quis accusamus dolores
+				recusandae officia quos cupiditate ratione laborum, consequuntur nobis vel pariatur modi
+				autem! Earum magni quaerat facere.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. At animi officiis nulla qui atque
+				aliquam quo nesciunt, quae ex mollitia. Sint atque quae fugit totam reprehenderit numquam
+				veniam sapiente. Mollitia, distinctio? Consequuntur officia exercitationem vero esse, eius
+				veniam earum temporibus laborum possimus quisquam dolore reprehenderit. Quia, odit dolor.
+				Pariatur, necessitatibus! Unde minima, assumenda vero natus optio quaerat fugiat molestias
+				cumque mollitia tempora amet placeat nihil aut id ducimus sed, rem nesciunt, deserunt
+				laborum expedita porro.
 			</p>
 		</div>
-	</div>
-	<div class="container-2 p-8 md:border-t-4 w-full  grid place-items-center">
-		<div class="text-box-2 ">
-			<img src="portræt.webp" alt="" />
+	</article>
+
+	<div class="box">
+		<div class="kompetencer">
+			<h2>Kontakt</h2>
+			<ol>
+				<li>Telefon: +45 22 90 12 44</li>
+				<li>E-mail: Frederik-milland@hotmail.com</li>
+			</ol>
+		</div>
+		<div class="cv">
+			<h2>CV</h2>
+			<ol>
+				<li>- lorem ipsum</li>
+				<li>- lorem ipsum</li>
+				<li>- lorem ipsum</li>
+			</ol>
 		</div>
 	</div>
 </section>
-
+<div class="til-toppen hover:pulsate-fwd">
+	<a href="#top"> ︽<br /> Til toppen</a>
+</div>
 <Footer />
 
 <style>
 	#om-mig {
-		display: grid;
-		grid-template-columns: 1fr 1fr;
-		place-items: center;
-		width: 100%;
+		margin-inline: 1rem;
 		padding-block: 3rem;
 	}
 
 	@media (min-width: 650px) {
-		.container-1 {
-			display: grid;
-			place-items: center;
-			padding: 2rem;
-			border-bottom: solid 2px;
-			border-image: linear-gradient(
-					90deg,
-					rgba(255, 0, 0, 0.4) 0%,
-					rgba(204, 87, 14, 0.4) 27%,
-					rgba(176, 174, 22, 0.4) 49%,
-					rgba(111, 216, 221, 0.4) 67%,
-					rgba(2, 80, 255, 0.4) 100%
-				)
-				1;
-			border-right: solid 2px;
-			border-image: linear-gradient(
-					90deg,
-					rgba(255, 0, 0, 0.4) 0%,
-					rgba(204, 87, 14, 0.4) 27%,
-					rgba(176, 174, 22, 0.4) 49%,
-					rgba(111, 216, 221, 0.4) 67%,
-					rgba(2, 80, 255, 0.4) 100%
-				)
-				1;
-		}
-
-		.container-2 {
-			display: grid;
-			place-items: center;
-			padding: 2rem;
-			border-top: solid 2px;
-			border-image: linear-gradient(
-					90deg,
-					rgba(2, 80, 255, 0.4) 0%,
-					rgba(111, 216, 221, 0.4) 27%,
-					rgba(176, 174, 22, 0.4) 49%,
-					rgba(204, 87, 14, 0.4) 67%,
-					rgba(255, 0, 0, 0.4) 100%
-				)
-				1;
+		.text {
+			grid-template-columns: 1fr 1fr;
 		}
 	}
-
-	img {
-		height: 32rem;
-		box-shadow: 4px 4px 2px;
+	.box {
+		padding-block: 6rem;
+		text-align: center;
+		box-shadow: 2px 2px 4px;
+		background: rgba(218, 217, 217, 0.605);
+		padding: 2rem;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
 	}
 
-	.text-box {
-		box-shadow: 4px 4px 2px;
-		background: rgba(37, 36, 47, 0.605);
-		width: 24rem;
-		height: 32rem;
-		padding: 1.5rem;
+	.container {
+		margin-top: 3rem;
+		border-block: solid 6px;
+		border-image: linear-gradient(
+				90deg,
+				rgb(140, 11, 11) 0%,
+				rgba(117, 50, 9, 1) 27%,
+				rgb(111, 110, 15) 49%,
+				rgb(56, 126, 130) 67%,
+				rgb(5, 50, 155) 100%
+			)
+			1;
 	}
-
-	.text-box-2 {
-		width: 24rem;
-		height: 32rem;
+	.pictures {
+		object-fit: cover;
+		display: flex;
+	}
+	article {
+		margin-block: 3rem;
+		max-width: 900px;
+		display: grid;
+		place-items: center;
+	}
+	.text {
+		gap: 1rem;
+		display: grid;
 	}
 </style>

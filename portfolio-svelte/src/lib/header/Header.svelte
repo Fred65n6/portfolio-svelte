@@ -26,19 +26,24 @@
 
 <style>
 	header {
+		border-bottom: solid 2px black;
+
+		position: fixed;
+		z-index: 3;
+		margin: 0 auto;
 		gap: 30px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		padding: 10px;
-		position: fixed;
-		z-index: 1;
 		right: 0;
 		width: 100%;
-		background-color: rgba(0, 0, 0, 0.1);
-	}
 
+		background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+			url(https://grainy-gradients.vercel.app/noise.svg);
+	}
 	.corner img {
+		filter: invert(1);
 		width: 4rem;
 		height: auto;
 		padding: 5px;
@@ -48,7 +53,6 @@
 	nav {
 		display: flex;
 		justify-content: center;
-		color: white;
 	}
 
 	ul {
