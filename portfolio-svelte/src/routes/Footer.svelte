@@ -22,6 +22,7 @@
 		font-weight: 400;
 	}
 	footer {
+		margin-bottom: -25px;
 		background: rgba(218, 217, 217, 0.605);
 		width: 100%;
 		border-top: solid 4px;
