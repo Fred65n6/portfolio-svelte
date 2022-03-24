@@ -155,11 +155,14 @@
 			transition: 0.5s linear;
 		}
 
+		.card:hover img {
+			filter: blur(3px);
+		}
+
 		.container:hover .overlay {
 			opacity: 1;
 		}
 	}
-
 	a {
 		text-align: center;
 	}
@@ -191,7 +194,7 @@
 		width: 100%;
 		opacity: 0;
 		transition: 0.5s ease;
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.95)),
+		background: linear-gradient(to right, rgba(233, 231, 231, 0.7), rgba(255, 255, 255, 0.7)),
 			url(https://grainy-gradients.vercel.app/noise.svg);
 	}
 

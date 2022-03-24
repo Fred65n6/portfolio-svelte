@@ -1,5 +1,6 @@
 <script context="module">
 	import Footer from './Footer.svelte';
+
 	import { browser, dev } from '$app/env';
 
 	// we don't need any JS on this page, though we'll load
@@ -84,13 +85,13 @@
 	address p {
 		font-weight: 400;
 	}
-	#om-mig {
-		margin-inline: 1rem;
-		padding-block: 3rem;
-	}
 
 	@media (min-width: 650px) {
 		.text {
+			grid-template-columns: 1fr 1fr;
+		}
+
+		.box {
 			grid-template-columns: 1fr 1fr;
 		}
 	}
@@ -101,7 +102,6 @@
 		background: rgba(218, 217, 217, 0.605);
 		padding: 2rem;
 		display: grid;
-		grid-template-columns: 1fr 1fr;
 	}
 
 	.container {

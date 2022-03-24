@@ -2,6 +2,7 @@
 	export const prerender = true;
 	import Hero from './Hero.svelte';
 	import Footer from './Footer.svelte';
+	import Burgermenu from './Burgermenu.svelte';
 </script>
 
 <svelte:head>
@@ -9,6 +10,8 @@
 </svelte:head>
 
 <Hero />
+
+<Burgermenu />
 
 <section id="forside">
 	<div id="box-1" class="spacer ">
@@ -64,7 +67,12 @@
 	}
 
 	.text-box:hover {
-		background: rgba(177, 177, 177, 0.605);
+		background: linear-gradient(to right, rgba(196, 196, 196, 0.7), rgba(255, 255, 255, 0.7)),
+			url(https://grainy-gradients.vercel.app/noise.svg);
+		transform: scale(1.02);
+		z-index: 2;
+		position: static;
+		transition: 0.5s linear;
 	}
 
 	span {
@@ -75,7 +83,7 @@
 		color: black;
 	}
 
-	@media (min-width: 600px) {
+	@media (min-width: 650px) {
 		section {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
