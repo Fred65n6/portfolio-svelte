@@ -2,7 +2,6 @@
 	export const prerender = true;
 	import Hero from './Hero.svelte';
 	import Footer from './Footer.svelte';
-	import Burgermenu from './Burgermenu.svelte';
 </script>
 
 <svelte:head>
@@ -10,8 +9,6 @@
 </svelte:head>
 
 <Hero />
-
-<Burgermenu />
 
 <section id="forside">
 	<div id="box-1" class="spacer ">
