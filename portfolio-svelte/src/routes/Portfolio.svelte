@@ -22,6 +22,10 @@
 <div class="heading" id="top">
 	<h1>PORTFOLIO</h1>
 </div>
+<p>
+	Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quis beatae culpa amet, odio
+	porro veniam veritatis autem aliquid optio laboriosam alias cupiditate. <span>*</span>
+</p>
 
 <section id="portfolio">
 	<div class="card ">
@@ -100,9 +104,13 @@
 			<div class="overlay">
 				<div class="text">
 					<a class="desk-link" href="https://skuret.eu/kea/olklubben/" target="_blank"
-						><h4>website:</h4>
-						<h3>ølklubben</h3></a
-					>
+						>website:
+						<h3>ølklubben</h3>
+
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam eveniet, ipsa quae
+						accusamus esse corrupti reprehenderit qui ex facilis neque quia facere, rem optio ullam
+						non.
+					</a>
 				</div>
 			</div>
 		</div>
@@ -126,6 +134,13 @@
 	</div>
 </section>
 
+<div class="disclaimer">
+	<p>
+		<span>* </span> Siderne er ikke færdige produkter, men opgaver der har haft et bestemt fokuspunkt,
+		eller en problemstilling der skulle løses. Derfor vil der være ufuldtendte stier og forskellige mangler
+		ved siderne.
+	</p>
+</div>
 <div class="til-toppen hover:pulsate-fwd">
 	<a href="#top"> ︽<br /> Til toppen</a>
 </div>
@@ -134,7 +149,8 @@
 
 <style>
 	section {
-		padding-block: 3rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
 		gap: 30px;
 		display: grid;
 		margin-inline: 1rem;
@@ -163,15 +179,22 @@
 			opacity: 1;
 		}
 	}
-	a {
-		text-align: center;
-	}
+
 	.container {
 		position: relative;
 	}
 
+	.disclaimer {
+		font-style: italic;
+	}
+
 	img {
 		box-shadow: 2px 2px 4px;
+	}
+
+	span {
+		color: red;
+		font-weight: 500;
 	}
 
 	.desk-link {
@@ -208,6 +231,5 @@
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
-		text-align: left;
 	}
 </style>

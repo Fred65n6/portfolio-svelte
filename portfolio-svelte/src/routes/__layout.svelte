@@ -5,8 +5,8 @@
 	import '../app.css';
 </script>
 
-<Burgermenu />
 <Header />
+<Burgermenu />
 
 <main>
 	<slot />

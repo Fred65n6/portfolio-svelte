@@ -15,10 +15,10 @@
 		<div class="text-box ">
 			<a sveltekit:prefetch href="/Portfolio">
 				<h2>Portfolio</h2>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vero iste repudiandae rem ducimus
-				hic ad cum animi iure facere ea porro itaque nemo quos a vel, similique suscipit totam architecto
-				repellat! Fugiat deserunt, dolore mollitia consequuntur reprehenderit aspernatur nisi atque veritatis
-				reiciendis quasi.<span>➝</span>
+				<p>
+					Se nogle af de forskellige projekter som jeg har arbejdet på i den tid jeg har været
+					studerende på KEA<span>➝</span>
+				</p>
 			</a>
 		</div>
 	</div>
@@ -27,10 +27,9 @@
 		<div class="text-box ">
 			<a sveltekit:prefetch href="/Om_mig">
 				<h2>Om mig</h2>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat vero iste repudiandae rem ducimus
-				hic ad cum animi iure facere ea porro itaque nemo quos a vel, similique suscipit totam architecto
-				repellat! Fugiat deserunt, dolore mollitia consequuntur reprehenderit aspernatur nisi atque veritatis
-				reiciendis quasi.<span>➝</span>
+				<p>
+					Lær mig lidt bedre at kende og læs om hvilke kompetencer jeg besidder<span>➝</span>
+				</p>
 			</a>
 		</div>
 	</div>
@@ -61,6 +60,7 @@
 		height: auto;
 		background: rgba(218, 217, 217, 0.605);
 		box-shadow: 2px 2px 4px;
+		height: 15rem;
 	}
 
 	.text-box:hover {
