@@ -58,16 +58,14 @@
 					<div class="text">
 						<h4>WEBSITE:</h4>
 						<h2>TOAST no.9</h2>
-						<a class="desk-link" href="https://skuret.eu/kea/toastno9" target="_blank"
-							>LÆS OM PROCESSEN OG SE SIDEN ➝</a
-						>
+						<a class="desk-link" sveltekit:prefetch href="/Toast">Læs om procesen og se siden ➝</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="mobile-link">
 			<h4>WEBSITE: TOAST no.9</h4>
-			<a href="https://skuret.eu/kea/3semester/musikloftet">LÆS MERE ➝</a>
+			<a sveltekit:prefetch href="/Toast">Læs om procesen og se siden ➝</a>
 		</div>
 	</div>
 
@@ -79,8 +77,8 @@
 					<div class="text">
 						<h4>DESIGN:</h4>
 						<h2>ARTWORKS</h2>
-						<a class="desk-link" href="https://skuret.eu/kea/1semester/artworks/" target="_blank"
-							>LÆS OM PROCESSEN OG SE SIDEN ➝</a
+						<a class="desk-link" sveltekit:prefetch href="/Artworks"
+							>Læs om procesen og se siden ➝</a
 						>
 					</div>
 				</div>
@@ -88,28 +86,26 @@
 		</div>
 		<div class="mobile-link">
 			<h4>DESIGN: ARTWORKS</h4>
-			<a href="https://skuret.eu/kea/1semester/artworks/">LÆS MERE ➝</a>
+			<a sveltekit:prefetch href="/Artworks">Læs om procesen og se siden ➝</a>
 		</div>
 	</div>
 
 	<div class="">
 		<div class="card ">
 			<div class="container">
-				<img src="grob.webp" alt="Artworks" />
+				<img src="grob.webp" alt="Teater grob" />
 				<div class="overlay">
 					<div class="text">
 						<h4>KAMPAGNE SITE:</h4>
 						<h2>TEATER GROB</h2>
-						<a class="desk-link" href="https://skuret.eu/kea/teater_grob/" target="_blank"
-							>LÆS OM PROCESSEN OG SE SIDEN ➝</a
-						>
+						<a class="desk-link" sveltekit:prefetch href="/Teater">Læs om procesen og se siden ➝</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="mobile-link">
 			<h4>KAMPAGNE SITE: TEATER GROB</h4>
-			<a href="https://skuret.eu/kea/teater_grob/">LÆS MERE ➝</a>
+			<a sveltekit:prefetch href="/Teater">Læs om procesen og se siden ➝</a>
 		</div>
 	</div>
 
@@ -121,8 +117,8 @@
 					<div class="text">
 						<h4>WEBSITE:</h4>
 						<h2>UNGDOMSBYEN</h2>
-						<a class="desk-link" href="https://skuret.eu/kea/ungdomsbyen" target="_blank"
-							>LÆS OM PROCESSEN OG SE SIDEN ➝</a
+						<a class="desk-link" sveltekit:prefetch href="/Ungdomsbyen"
+							>Læs om procesen og se siden ➝</a
 						>
 					</div>
 				</div>
@@ -130,7 +126,7 @@
 		</div>
 		<div class="mobile-link">
 			<h4>WEBSITE: UNGDOMSBYEN</h4>
-			<a href="https://skuret.eu/kea/ungdomsbyen">LÆS MERE ➝</a>
+			<a sveltekit:prefetch href="/Ungdomsbyen">Læs om procesen og se siden ➝</a>
 		</div>
 	</div>
 
@@ -142,8 +138,8 @@
 					<div class="text">
 						<h4>WEBSITE:</h4>
 						<h2>ØLKLUBBEN</h2>
-						<a class="desk-link" href="https://skuret.eu/kea/olklubben/" target="_blank"
-							>LÆS OM PROCESSEN OG SE SIDEN ➝</a
+						<a class="desk-link" sveltekit:prefetch href="/Olklubben"
+							>Læs om procesen og se siden ➝</a
 						>
 					</div>
 				</div>
@@ -151,7 +147,7 @@
 		</div>
 		<div class="mobile-link">
 			<h4>WEBSITE: ØLKLUBBEN</h4>
-			<a href="https://skuret.eu/kea/olklubben/">LÆS MERE ➝</a>
+			<a sveltekit:prefetch href="/Olklubben">Læs om procesen og se siden ➝</a>
 		</div>
 	</div>
 
@@ -163,18 +159,14 @@
 					<div class="text">
 						<h4>ANIMATION</h4>
 						<h2>SPIL</h2>
-						<a
-							class="desk-link"
-							href="https://skuret.eu/kea/1semester/04_animation/spil/"
-							target="_blank">LÆS OM PROCESSEN OG SE SIDEN ➝</a
-						>
+						<a class="desk-link" sveltekit:prefetch href="/Spil">Læs om procesen og se siden ➝</a>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="mobile-link">
 			<h4>ANIMATION: SPIL</h4>
-			<a href="https://skuret.eu/kea/1semester/04_animation/spil/">LÆS MERE ➝</a>
+			<a sveltekit:prefetch href="/Spil">Læs om procesen og se siden ➝</a>
 		</div>
 	</div>
 </section>

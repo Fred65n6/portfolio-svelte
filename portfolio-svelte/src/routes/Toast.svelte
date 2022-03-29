@@ -15,15 +15,15 @@
 </script>
 
 <div class="heading">
-	<h2>Musikloftet</h2>
+	<h2>Toast no.9</h2>
 </div>
 
 <div class="card ">
 	<div class="container">
-		<img src="musikloftet.webp" alt="Musikloftet" />
+		<img src="toast.webp" alt="Toast no.9" />
 		<div class="overlay">
 			<div class="text">
-				<a href="https://skuret.eu/kea/3semester/musikloftet/" target="blank">SE SIDEN ➝</a>
+				<a href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
 			</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 	<section>
 		<div class="my-8 flex justify-between">
 			<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
-			<a href="https://skuret.eu/kea/3semester/musikloftet/" target="blank">SE SIDEN ➝</a>
+			<a href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
 		</div>
 	</section>
 </div>
