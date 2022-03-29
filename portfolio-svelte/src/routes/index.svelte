@@ -1,7 +1,6 @@
 <script context="module">
 	export const prerender = true;
 	import Hero from './Hero.svelte';
-	import Footer from './Footer.svelte';
 </script>
 
 <svelte:head>
@@ -34,8 +33,6 @@
 		</div>
 	</div>
 </section>
-
-<Footer />
 
 <style>
 	.spacer {
@@ -77,14 +74,12 @@
 		font-weight: 900;
 	}
 	a:hover {
-		color: black;
+		text-decoration: none;
 	}
-
 	@media (min-width: 650px) {
 		section {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
-
 			place-items: center;
 			width: 100%;
 		}

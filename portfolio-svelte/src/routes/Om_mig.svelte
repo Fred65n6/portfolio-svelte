@@ -1,6 +1,4 @@
 <script context="module">
-	import Footer from './Footer.svelte';
-
 	import { browser, dev } from '$app/env';
 
 	// we don't need any JS on this page, though we'll load
@@ -15,6 +13,10 @@
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
 </script>
+
+<svelte:head>
+	<title>Om mig</title>
+</svelte:head>
 
 <div class="heading">
 	<h1>OM MIG</h1>
@@ -49,35 +51,43 @@
 			</p>
 		</div>
 	</article>
-
-	<div class="box">
-		<div class="kontakt">
-			<h2>Kontakt</h2>
-			<address>
-				<p>E-mail:</p>
-				<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
-				<br />
-				<br />
-				<p>Telefon:</p>
-				<a href="tel:+4522901244">+4522901244</a>
-			</address>
-		</div>
-		<div class="kompetencer">
-			<h2>Kompetencer</h2>
-			<ol>
-				<li>- lorem ipsum</li>
-				<li>- lorem ipsum</li>
-				<li>- lorem ipsum</li>
-			</ol>
-		</div>
-	</div>
 </section>
+
+<div class="box">
+	<div class="kontakt">
+		<h2>Kontakt</h2>
+		<address>
+			<p>E-mail:</p>
+			<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
+			<br />
+			<br />
+			<p>Telefon:</p>
+			<a href="tel:+4522901244">+4522901244</a>
+		</address>
+	</div>
+	<div class="kompetencer">
+		<h2>Kompetencer</h2>
+		<ol>
+			<li>- Erfaring med Adobe Photoshop, Illustrator, XD, Premiere Pro og InDesign</li>
+			<br />
+			<li>- Erfaring med basic html, css og javascript, samt frameworks som Svelte og Tailwind</li>
+			<br />
+			<li>- lorem ipsum</li>
+		</ol>
+	</div>
+</div>
+
 <div class="til-toppen hover:pulsate-fwd">
 	<a href="#top"> ︽<br /> Til toppen</a>
 </div>
-<Footer />
 
 <style>
+	section {
+		gap: 30px;
+		display: grid;
+		margin-inline: 1rem;
+		padding-block: 1rem;
+	}
 	address {
 		font-style: normal;
 	}
@@ -130,5 +140,14 @@
 	.text {
 		gap: 1rem;
 		display: grid;
+	}
+
+	li {
+		font-weight: 100;
+		font-size: 1.1rem;
+	}
+
+	address {
+		font-size: 1.1rem;
 	}
 </style>

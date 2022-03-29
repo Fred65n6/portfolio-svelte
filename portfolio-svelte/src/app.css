@@ -1,7 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 @layer base {
 	body {
 		background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
@@ -15,6 +14,12 @@
 		place-items: center;
 	}
 
+	section {
+		margin-block: 1rem;
+		margin-inline: 1rem;
+		display: grid;
+	}
+
 	/***************SKRIFT***************/
 
 	h1 {
@@ -26,22 +31,23 @@
 
 	h2 {
 		font-size: 3rem;
-		font-weight: 100;
+		font-weight: 300;
 		color: black;
 		padding-bottom: 1rem;
 		text-transform: uppercase;
 	}
 	h3 {
-		font-size: 3rem;
-		font-weight: 400;
+		font-size: 2.2rem;
+		font-weight: 100;
 		color: black;
+		text-transform: uppercase;
 	}
 
 	h4 {
-		font-size: 2rem;
-		font-weight: 100;
+		font-size: 1.4rem;
+		font-weight: 400;
 		color: black;
-		margin-top: 1rem;
+		text-transform: uppercase;
 	}
 
 	p {
@@ -52,18 +58,24 @@
 		line-height: 2rem;
 	}
 
+	/**************KNAPPER************/
+
 	a {
+		font-size: 1.2rem;
 		color: black;
 		font-weight: 100;
 	}
 
 	a:hover {
 		color: rgb(0, 115, 157);
-		transition: color 0.4s linear;
+		transition: color 0.2s linear;
+		text-decoration: underline;
 	}
+
 	.heading {
-		padding-top: 9rem;
-		padding-bottom: 2rem;
+		padding-top: 7rem;
+		padding-bottom: 0.5rem;
+		padding-inline: 0.5rem;
 	}
 
 	.til-toppen {
@@ -74,6 +86,10 @@
 		font-size: 1.5rem;
 		padding-bottom: 6rem;
 		padding-top: 3rem;
+	}
+
+	.til-toppen:hover {
+		text-decoration: none;
 	}
 
 	/***************ANIMATIONER****************/

@@ -27,6 +27,10 @@
 		color: white;
 	}
 
+	a:hover {
+		text-decoration: none;
+	}
+
 	.hero {
 		place-self: center;
 		background-size: cover;
