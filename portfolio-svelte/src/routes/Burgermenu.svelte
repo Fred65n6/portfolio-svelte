@@ -2,179 +2,156 @@
 	import { page } from '$app/stores';
 </script>
 
-<!--    Made by Erik Terwan    -->
-<!--   24th of November 2015   -->
-<!--        MIT License        -->
-
-<nav role="navigation">
-	<div id="menuToggle">
-		<!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-
+<body>
+	<label>
 		<input type="checkbox" />
+		<span class="menu"> <span class="hamburger" /> </span>
 
-		<!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-		<span />
-		<span />
-		<span />
-
-		<!--</div>
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-		<ul id="menu">
-			<li><img src="Fm.svg" alt="FM" /></li>
+		<ul>
+			<li><img src="FM.svg" alt="" /></li>
+			<br />
 			<li class:active={$page.url.pathname === '/'}>
-				<a sveltekit:prefetch href="/">Forside</a>
+				<a sveltekit:prefetch href="/">FORSIDE</a>
 			</li>
 			<li class:active={$page.url.pathname === '/Portfolio'}>
-				<a sveltekit:prefetch href="/Portfolio">Portfolio</a>
+				<a sveltekit:prefetch href="/Portfolio">PORTFOLIO</a>
 			</li>
 			<li class:active={$page.url.pathname === '/Om_mig'}>
-				<a sveltekit:prefetch href="/Om_mig">om mig</a>
+				<a sveltekit:prefetch href="/Om_mig" />OM MIG
 			</li>
 		</ul>
-	</div>
-</nav>
+	</label>
+</body>
 
 <style>
 	@media (max-width: 650px) {
-		#menuToggle {
-			display: block;
-			position: fixed;
-			top: 50px;
-			left: 50px;
-			z-index: 1;
-			-webkit-user-select: none;
-			user-select: none;
+		*,
+		*:before,
+		*:after {
+			box-sizing: border-box;
 		}
 
-		#menuToggle a {
-			text-transform: uppercase;
-			text-decoration: none;
-			color: #232323;
-
-			transition: color 0.3s ease;
+		html {
+			font-size: 18px;
 		}
 
-		#menuToggle a:hover {
-			color: rgb(0, 115, 157);
-			transition: color 0.4s linear;
+		body {
+			font-size: 1.2em;
+			line-height: 1.6;
+			overflow-x: hidden;
 		}
 
 		img {
-			width: 4rem;
+			width: 60px;
 			filter: invert(1);
-			margin: 0 auto;
-			padding-block: 2rem;
 		}
 
-		#menuToggle input {
-			display: block;
-			width: 40px;
-			height: 32px;
-			position: absolute;
-			top: -7px;
-			left: -5px;
-			cursor: pointer;
-			opacity: 0; /* hide this */
-			z-index: 2; /* and place it over the hamburger */
-			-webkit-touch-callout: none;
-		}
-
-		/*
- * Just a quick hamburger
- */
-		#menuToggle span {
-			display: block;
-			width: 33px;
-			height: 4px;
-			margin-bottom: 5px;
-			position: relative;
-			background: black;
-			border-radius: 3px;
+		label .menu {
+			position: fixed;
+			right: -100px;
+			top: -100px;
 			z-index: 1;
-			transform-origin: 4px 0px;
-			transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1),
-				background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+			width: 200px;
+			height: 200px;
+			background: white;
+			border-radius: 50% 50% 50% 50%;
+			-webkit-transition: 0.5s ease-in-out;
+			transition: 0.5s ease-in-out;
+			box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+			cursor: pointer;
 		}
 
-		#menuToggle span:first-child {
-			transform-origin: 0% 0%;
-		}
-
-		#menuToggle span:nth-last-child(2) {
-			transform-origin: 0% 100%;
-		}
-
-		/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-		#menuToggle input:checked ~ span {
-			opacity: 1;
-			transform: rotate(45deg) translate(-2px, -1px);
-			background: #232323;
-		}
-
-		/*
- * But let's hide the middle one.
- */
-		#menuToggle input:checked ~ span:nth-last-child(3) {
-			opacity: 0;
-			transform: rotate(0deg) scale(0.2, 0.2);
-		}
-
-		/*
- * Ohyeah and the last one should go the other direction
- */
-		#menuToggle input:checked ~ span:nth-last-child(2) {
-			transform: rotate(-45deg) translate(0, -1px);
-		}
-
-		/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-		#menu {
+		label .hamburger {
 			position: absolute;
-			width: 100vw;
-			height: 110vh;
-			margin: -100px 0 0 -50px;
-			padding: 50px;
-			padding-top: 12rem;
+			top: 135px;
+			left: 50px;
+			width: 30px;
+			height: 3px;
+			background: black;
+			border-radius: 12px;
+			display: block;
+			-webkit-transform-origin: center;
+			transform-origin: center;
+			-webkit-transition: 0.5s ease-in-out;
+			transition: 0.5s ease-in-out;
+		}
+
+		label .hamburger:after,
+		label .hamburger:before {
+			-webkit-transition: 0.5s ease-in-out;
+			transition: 0.5s ease-in-out;
+			content: '';
+			position: absolute;
+			display: block;
+			width: 100%;
+			height: 100%;
+			background: black;
+			border-radius: 12px;
+		}
+
+		label .hamburger:before {
+			top: -10px;
+		}
+
+		label .hamburger:after {
+			bottom: -10px;
+		}
+
+		label input {
+			display: none;
+		}
+
+		label input:checked + .menu {
+			box-shadow: 0 0 0 100vw #fff, 0 0 0 100vh #fff;
+			border-radius: 0;
+		}
+
+		label input:checked + .menu .hamburger {
+			-webkit-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
+
+		label input:checked + .menu .hamburger:after {
+			-webkit-transform: rotate(90deg);
+			transform: rotate(90deg);
+			bottom: 0;
+		}
+
+		label input:checked + .menu .hamburger:before {
+			-webkit-transform: rotate(90deg);
+			transform: rotate(90deg);
+			top: 0;
+		}
+
+		label input:checked + .menu + ul {
+			opacity: 1;
+		}
+
+		label ul {
+			display: grid;
+			place-items: center;
 			text-align: center;
-			background: linear-gradient(to right, rgba(233, 231, 231, 1), rgba(255, 255, 255, 1)),
-				url(https://grainy-gradients.vercel.app/noise.svg);
-			list-style-type: none;
-			-webkit-font-smoothing: antialiased;
-			transform-origin: 0% 0%;
-			transform: translate(-100%, 0);
-			transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+			z-index: 200;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			-webkit-transform: translate(-50%, -50%);
+			transform: translate(-50%, -50%);
+			opacity: 0;
+			-webkit-transition: 0.25s 0s ease-in-out;
+			transition: 0.25s 0s ease-in-out;
 		}
 
-		#menu li {
-			padding: 10px 0;
-			font-size: 22px;
-		}
-
-		/*
- * And let's slide it in from the left
- */
-		#menuToggle input:checked ~ ul {
-			transform: none;
+		label a {
+			margin-bottom: 1em;
+			display: block;
+			color: black;
+			text-decoration: none;
 		}
 	}
 
 	@media (min-width: 650px) {
-		nav {
+		label {
 			display: none;
 		}
 	}
