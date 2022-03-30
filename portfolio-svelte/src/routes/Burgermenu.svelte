@@ -17,7 +17,7 @@
 				<a sveltekit:prefetch href="/Portfolio">PORTFOLIO</a>
 			</li>
 			<li class:active={$page.url.pathname === '/Om_mig'}>
-				<a sveltekit:prefetch href="/Om_mig" />OM MIG
+				<a sveltekit:prefetch href="/Om_mig">OM MIG</a>
 			</li>
 		</ul>
 	</label>
@@ -29,10 +29,6 @@
 		*:before,
 		*:after {
 			box-sizing: border-box;
-		}
-
-		html {
-			font-size: 18px;
 		}
 
 		body {
@@ -50,7 +46,7 @@
 			position: fixed;
 			right: -100px;
 			top: -100px;
-			z-index: 1;
+			z-index: 4;
 			width: 200px;
 			height: 200px;
 			background: white;
@@ -128,11 +124,12 @@
 		}
 
 		label ul {
+			position: fixed;
 			display: grid;
 			place-items: center;
 			text-align: center;
 			z-index: 200;
-			position: absolute;
+			gap: 20px;
 			top: 50%;
 			left: 50%;
 			-webkit-transform: translate(-50%, -50%);

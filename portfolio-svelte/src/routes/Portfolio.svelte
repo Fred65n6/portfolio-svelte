@@ -22,14 +22,14 @@
 	<h1>PORTFOLIO</h1>
 </div>
 
-<section>
+<!-- <section>
 	<p>
 		Her kan du se et overblik over de forskellige projekter jeg har arbejdet på i min tid på KEA.
 		Klik ind på siderne og se nærmere om selve opgaven, processen og den færdige løsning<span
 			>*</span
 		>
 	</p>
-</section>
+</section> -->
 
 <section id="portfolio">
 	<div class="">

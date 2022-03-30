@@ -72,14 +72,18 @@
 	<div class="kontakt">
 		<h2>Kontakt</h2>
 		<address>
-			<p>E-mail:</p>
-			<p>Telefon:</p>
-			<p>LinkedIn</p>
-			<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
-
-			<a href="tel:+4522901244">+4522901244</a>
-
-			<a href="https://www.linkedin.com/in/frederik-milland-a2b671205/">https://bit.ly/3qOJCFY</a>
+			<div class="">
+				<p>E-mail:</p>
+				<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
+			</div>
+			<div class="">
+				<p>Telefon:</p>
+				<a href="tel:+4522901244">+4522901244</a>
+			</div>
+			<div class="">
+				<p>LinkedIn</p>
+				<a href="https://www.linkedin.com/in/frederik-milland-a2b671205/">https://bit.ly/3qOJCFY</a>
+			</div>
 		</address>
 	</div>
 </section>
@@ -98,7 +102,7 @@
 	address {
 		font-style: normal;
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		gap: 20px;
 		text-align: center;
 		margin-top: 2rem;
 	}
@@ -114,6 +118,9 @@
 	}
 
 	@media (min-width: 650px) {
+		address {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
 		.text {
 			grid-template-columns: 1fr 1fr;
 		}
