@@ -35,5 +35,5 @@ __export(stdin_exports, {
 var module2 = __toESM(require("../entries/pages/Ungdomsbyen.svelte.js"));
 const entry = "pages/Ungdomsbyen.svelte-cc3f55cd.js";
 const js = ["pages/Ungdomsbyen.svelte-cc3f55cd.js", "chunks/vendor-55574a2a.js", "chunks/env-859c48a7.js"];
-const css = ["assets/pages/Artworks.svelte-1ae4d826.css"];
+const css = ["assets/pages/Musikloftet.svelte-6f5e97b9.css"];
 module.exports = __toCommonJS(stdin_exports);

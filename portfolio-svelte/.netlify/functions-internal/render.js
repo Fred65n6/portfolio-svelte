@@ -5,7 +5,7 @@ exports.handler = init({
 	assets: new Set(["android-chrome-192x192.png","android-chrome-512x512.png","apple-touch-icon.png","artworks.png","artworks.webp","artwork_1.png","background.img_portfolio-2.jpg","background.img_portfolio.jpg","background.img_portfolio.png","background.img_portfolio.webp","background.png","background.webp","favicon-16x16.png","favicon-32x32.png","favicon.ico","favicon.svg","fm.png","FM.svg","frederik_milland.svg","grob.png","grob.webp","kramer.png","kramer.webp","musikloftet.png","musikloftet.webp","Musikloftet_logo2_v2.svg","olklubben.png","olklubben.webp","om-mig.png","om-mig.webp","PhInstagramLogoLight.svg","portræt-3.jpg","portræt-3.webp","robots.txt","site.webmanifest","sovereign_edits-70.jpg","spil.png","spil.webp","svelte-welcome.png","svelte-welcome.webp","toast.png","toast.webp","ungdomsbyen.png","ungdomsbyen.webp","zach-miles-Y84-eo8drzk-unsplash.png"]),
 	_: {
 		mime: {".png":"image/png",".webp":"image/webp",".jpg":"image/jpeg",".ico":"image/vnd.microsoft.icon",".svg":"image/svg+xml",".txt":"text/plain",".webmanifest":"application/manifest+json"},
-		entry: {"file":"start-3a8c6d58.js","js":["start-3a8c6d58.js","chunks/vendor-55574a2a.js"],"css":[]},
+		entry: {"file":"start-45885476.js","js":["start-45885476.js","chunks/vendor-55574a2a.js"],"css":[]},
 		nodes: [
 			() => Promise.resolve().then(() => require('../server/nodes/0.js')),
 			() => Promise.resolve().then(() => require('../server/nodes/1.js')),
