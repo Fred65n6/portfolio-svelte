@@ -23,7 +23,9 @@
 		<img src="musikloftet.webp" alt="Musikloftet" />
 		<div class="overlay">
 			<div class="text">
-				<a href="https://skuret.eu/kea/3semester/musikloftet/" target="blank">SE SIDEN ➝</a>
+				<a class="link" href="https://skuret.eu/kea/3semester/musikloftet/" target="blank"
+					>SE SIDEN ➝</a
+				>
 			</div>
 		</div>
 	</div>
@@ -62,7 +64,9 @@
 	<section>
 		<div class="my-8 flex justify-between">
 			<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
-			<a href="https://skuret.eu/kea/3semester/musikloftet/" target="blank">SE SIDEN ➝</a>
+			<a class="se-siden" href="https://skuret.eu/kea/3semester/musikloftet/" target="blank"
+				>SE SIDEN ➝</a
+			>
 		</div>
 	</section>
 </div>
@@ -77,6 +81,16 @@
 
 	img {
 		box-shadow: 2px 2px 4px;
+	}
+
+	.se-siden {
+		border: solid 1px black;
+		border-radius: 12px;
+		padding: 0.5rem;
+	}
+
+	.link {
+		font-size: 2.5rem;
 	}
 
 	.overlay {

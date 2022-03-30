@@ -23,7 +23,7 @@
 		<img src="toast.webp" alt="Toast no.9" />
 		<div class="overlay">
 			<div class="text">
-				<a href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
+				<a class="link" href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
 			</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 	<section>
 		<div class="my-8 flex justify-between">
 			<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
-			<a href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
+			<a class="se-siden" href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
 		</div>
 	</section>
 </div>
@@ -104,6 +104,16 @@
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
 		transition: 0.4s linear;
+	}
+
+	.se-siden {
+		border: solid 1px black;
+		border-radius: 12px;
+		padding: 0.5rem;
+	}
+
+	.link {
+		font-size: 2.5rem;
 	}
 
 	.card:hover {

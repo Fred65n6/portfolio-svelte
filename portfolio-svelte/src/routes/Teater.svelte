@@ -23,7 +23,7 @@
 		<img src="grob.webp" alt="Musikloftet" />
 		<div class="overlay">
 			<div class="text">
-				<a href="https://skuret.eu/kea/teater_grob/" target="blank">SE SIDEN ➝</a>
+				<a class="link" href="https://skuret.eu/kea/teater_grob/" target="blank">SE SIDEN ➝</a>
 			</div>
 		</div>
 	</div>
@@ -62,7 +62,7 @@
 	<section>
 		<div class="my-8 flex justify-between">
 			<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
-			<a href="https://skuret.eu/kea/teater_grob/" target="blank">SE SIDEN ➝</a>
+			<a class="se-siden" href="https://skuret.eu/kea/teater_grob/" target="blank">SE SIDEN ➝</a>
 		</div>
 	</section>
 </div>
@@ -93,6 +93,16 @@
 		transition: 0.5s ease;
 		background: linear-gradient(to right, rgba(233, 231, 231, 0.8), rgba(255, 255, 255, 0.9)),
 			url(https://grainy-gradients.vercel.app/noise.svg);
+	}
+
+	.se-siden {
+		border: solid 1px black;
+		border-radius: 12px;
+		padding: 0.5rem;
+	}
+
+	.link {
+		font-size: 2.5rem;
 	}
 	.text {
 		color: white;

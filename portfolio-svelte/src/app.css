@@ -15,7 +15,7 @@
 	}
 
 	section {
-		margin-block: 1rem;
+		margin-block: 1.5rem;
 		margin-inline: 1rem;
 		display: grid;
 	}
@@ -84,8 +84,8 @@
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 1.5rem;
-		padding-bottom: 6rem;
-		padding-top: 3rem;
+		padding-bottom: 5rem;
+		padding-top: 5rem;
 	}
 
 	.til-toppen:hover {

@@ -54,28 +54,35 @@
 </section>
 
 <div class="box">
+	<div class="kompetencer">
+		<h2>Kompetencer</h2>
+		<ol>
+			<li>- Erfaring med Photoshop, Illustrator, Premiere Pro, InDesign og Figma</li>
+			<br />
+			<li>
+				- Erfaring med at kode basic html, css og javascript, samt frameworks som Svelte og Tailwind
+			</li>
+			<br />
+			<li>- Erfaring med opsætning af hjemmesider i diverse CMS som wordpress og shopify</li>
+		</ol>
+	</div>
+</div>
+
+<section>
 	<div class="kontakt">
 		<h2>Kontakt</h2>
 		<address>
 			<p>E-mail:</p>
-			<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
-			<br />
-			<br />
 			<p>Telefon:</p>
+			<p>LinkedIn</p>
+			<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
+
 			<a href="tel:+4522901244">+4522901244</a>
+
+			<a href="https://www.linkedin.com/in/frederik-milland-a2b671205/">https://bit.ly/3qOJCFY</a>
 		</address>
 	</div>
-	<div class="kompetencer">
-		<h2>Kompetencer</h2>
-		<ol>
-			<li>- Erfaring med Adobe Photoshop, Illustrator, XD, Premiere Pro og InDesign</li>
-			<br />
-			<li>- Erfaring med basic html, css og javascript, samt frameworks som Svelte og Tailwind</li>
-			<br />
-			<li>- lorem ipsum</li>
-		</ol>
-	</div>
-</div>
+</section>
 
 <div class="til-toppen hover:pulsate-fwd">
 	<a href="#top"> ︽<br /> Til toppen</a>
@@ -90,6 +97,16 @@
 	}
 	address {
 		font-style: normal;
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		text-align: center;
+		margin-top: 2rem;
+	}
+
+	.kontakt {
+		display: grid;
+		place-items: center;
+		margin-top: 2rem;
 	}
 
 	address p {
@@ -102,7 +119,7 @@
 		}
 
 		.box {
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr;
 		}
 	}
 	.box {
@@ -110,7 +127,7 @@
 		text-align: center;
 		box-shadow: 2px 2px 4px;
 		background: rgba(218, 217, 217, 0.605);
-		padding: 2rem;
+		padding: 4rem;
 		display: grid;
 	}
 

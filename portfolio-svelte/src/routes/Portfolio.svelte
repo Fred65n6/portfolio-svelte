@@ -24,150 +24,145 @@
 
 <section>
 	<p>
-		Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore quis beatae culpa amet, odio
-		porro veniam veritatis autem aliquid.. <span>*</span>
+		Her kan du se et overblik over de forskellige projekter jeg har arbejdet på i min tid på KEA.
+		Klik ind på siderne og se nærmere om selve opgaven, processen og den færdige løsning<span
+			>*</span
+		>
 	</p>
 </section>
 
 <section id="portfolio">
 	<div class="">
-		<div class="card ">
-			<div class="container">
-				<img src="musikloftet.webp" alt="Musikloftet" />
-				<div class="overlay">
-					<div class="text">
-						<h4>WEBSITE:</h4>
-						<h2>MUSIKLOFTET</h2>
-						<a class="desk-link" sveltekit:prefetch href="/Musikloftet"
-							>Læs om procesen og se siden ➝</a
-						>
+		<a class="" sveltekit:prefetch href="/Musikloftet">
+			<div class="card ">
+				<div class="container">
+					<img src="musikloftet.webp" alt="Musikloftet" />
+					<div class="overlay">
+						<div class="text">
+							<h4>WEBSITE:</h4>
+							<h3>MUSIKLOFTET ➝</h3>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="mobile-link">
-			<h4>WEBSITE: MUSIKLOFTET</h4>
-			<a sveltekit:prefetch href="/Musikloftet">Læs om procesen og se siden ➝</a>
-		</div>
+			</div></a
+		>
 	</div>
-	<div class="">
-		<div class="card ">
-			<div class="container">
-				<img src="toast.webp" alt="Musikloftet" />
-				<div class="overlay">
-					<div class="text">
-						<h4>WEBSITE:</h4>
-						<h2>TOAST no.9</h2>
-						<a class="desk-link" sveltekit:prefetch href="/Toast">Læs om procesen og se siden ➝</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="mobile-link">
-			<h4>WEBSITE: TOAST no.9</h4>
-			<a sveltekit:prefetch href="/Toast">Læs om procesen og se siden ➝</a>
-		</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/Musikloftet"><h4>WEBSITE: MUSIKLOFTET ➝</h4></a>
 	</div>
 
 	<div class="">
-		<div class="card ">
-			<div class="container">
-				<img src="artworks.webp" alt="Artworks" />
-				<div class="overlay">
-					<div class="text">
-						<h4>DESIGN:</h4>
-						<h2>ARTWORKS</h2>
-						<a class="desk-link" sveltekit:prefetch href="/Artworks"
-							>Læs om procesen og se siden ➝</a
-						>
+		<a class="" sveltekit:prefetch href="/Toast">
+			<div class="card ">
+				<div class="container">
+					<img src="Toast.webp" alt="Musikloftet" />
+					<div class="overlay">
+						<div class="text">
+							<h4>WEBSITE:</h4>
+							<h3>TOAST no.9 ➝</h3>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="mobile-link">
-			<h4>DESIGN: ARTWORKS</h4>
-			<a sveltekit:prefetch href="/Artworks">Læs om procesen og se siden ➝</a>
-		</div>
+			</div></a
+		>
+	</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/Toast"><h4>WEBSITE: TOAST no.9 ➝</h4></a>
 	</div>
 
 	<div class="">
-		<div class="card ">
-			<div class="container">
-				<img src="grob.webp" alt="Teater grob" />
-				<div class="overlay">
-					<div class="text">
-						<h4>KAMPAGNE SITE:</h4>
-						<h2>TEATER GROB</h2>
-						<a class="desk-link" sveltekit:prefetch href="/Teater">Læs om procesen og se siden ➝</a>
+		<a class="" sveltekit:prefetch href="/Artworks">
+			<div class="card ">
+				<div class="container">
+					<img src="artworks.webp" alt="Artworks" />
+					<div class="overlay">
+						<div class="text">
+							<h4>DESIGN:</h4>
+							<h3>ARTWORKS➝</h3>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="mobile-link">
-			<h4>KAMPAGNE SITE: TEATER GROB</h4>
-			<a sveltekit:prefetch href="/Teater">Læs om procesen og se siden ➝</a>
-		</div>
+			</div></a
+		>
+	</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/Artworks"><h4>DESIGN: ARTWORKS➝</h4></a>
 	</div>
 
 	<div class="">
-		<div class="card">
-			<div class="container">
-				<img src="ungdomsbyen.webp" alt="Ungdomsbyen" />
-				<div class="overlay">
-					<div class="text">
-						<h4>WEBSITE:</h4>
-						<h2>UNGDOMSBYEN</h2>
-						<a class="desk-link" sveltekit:prefetch href="/Ungdomsbyen"
-							>Læs om procesen og se siden ➝</a
-						>
+		<a class="" sveltekit:prefetch href="/Teater">
+			<div class="card">
+				<div class="container">
+					<img src="Grob.webp" alt="Teater grob" />
+					<div class="overlay">
+						<div class="text">
+							<h4>KAMPAGNESITE:</h4>
+							<h3>TEATER GROB➝</h3>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="mobile-link">
-			<h4>WEBSITE: UNGDOMSBYEN</h4>
-			<a sveltekit:prefetch href="/Ungdomsbyen">Læs om procesen og se siden ➝</a>
-		</div>
+			</div></a
+		>
+	</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/Teater"><h4>KAMPAGENSITE: TEATER GROB ➝</h4></a>
 	</div>
 
 	<div class="">
-		<div class="card ">
-			<div class="container">
-				<img src="olklubben.webp" alt="Ølklubben" />
-				<div class="overlay">
-					<div class="text">
-						<h4>WEBSITE:</h4>
-						<h2>ØLKLUBBEN</h2>
-						<a class="desk-link" sveltekit:prefetch href="/Olklubben"
-							>Læs om procesen og se siden ➝</a
-						>
+		<a class="" sveltekit:prefetch href="/Ungdomsbyen">
+			<div class="card ">
+				<div class="container">
+					<img src="ungdomsbyen.webp" alt="Ungdomsbyen" />
+					<div class="overlay">
+						<div class="text">
+							<h4>WEBSITE:</h4>
+							<h3>UNGDOMSBYEN ➝</h3>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="mobile-link">
-			<h4>WEBSITE: ØLKLUBBEN</h4>
-			<a sveltekit:prefetch href="/Olklubben">Læs om procesen og se siden ➝</a>
-		</div>
+			</div></a
+		>
+	</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/Ungdomsbyen"><h4>WEBSITE: UNGDOMSBYEN ➝</h4></a>
 	</div>
 
 	<div class="">
-		<div class="card ">
-			<div class="container">
-				<img src="spil.webp" alt="Spil" />
-				<div class="overlay">
-					<div class="text">
-						<h4>ANIMATION</h4>
-						<h2>SPIL</h2>
-						<a class="desk-link" sveltekit:prefetch href="/Spil">Læs om procesen og se siden ➝</a>
+		<a class="" sveltekit:prefetch href="/Olklubben">
+			<div class="card ">
+				<div class="container">
+					<img src="olklubben.webp" alt="Ølklubben" />
+					<div class="overlay">
+						<div class="text">
+							<h4>WEBSITE:</h4>
+							<h3>ØLKLUBBEN➝</h3>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="mobile-link">
-			<h4>ANIMATION: SPIL</h4>
-			<a sveltekit:prefetch href="/Spil">Læs om procesen og se siden ➝</a>
-		</div>
+			</div></a
+		>
+	</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/Olklubben"><h4>WEBSITE: ØLKLUBBEN ➝</h4></a>
+	</div>
+
+	<div class="">
+		<a class="" sveltekit:prefetch href="/Spil">
+			<div class="card ">
+				<div class="container">
+					<img src="spil.webp" alt="Spil" />
+					<div class="overlay">
+						<div class="text">
+							<h4>ANIMATION:</h4>
+							<h3>IMPRESS A GIRL➝</h3>
+						</div>
+					</div>
+				</div>
+			</div></a
+		>
+	</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/Spil"><h4>ANIMATION: IMPRESS A GIRL ➝</h4></a>
 	</div>
 </section>
 
@@ -192,10 +187,6 @@
 		box-shadow: 2px 2px 4px;
 	}
 
-	.mobile-link {
-		padding-top: 1rem;
-	}
-
 	span {
 		color: red;
 		font-weight: 500;
@@ -209,6 +200,11 @@
 		width: 100%;
 		display: grid;
 		gap: 10px;
+	}
+
+	.mobile-link {
+		padding-bottom: 2rem;
+		text-align: right;
 	}
 
 	.overlay {
