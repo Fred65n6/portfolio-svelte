@@ -11,26 +11,26 @@
 
 <section id="forside">
 	<div id="box-1" class="spacer ">
-		<div class="text-box ">
-			<a sveltekit:prefetch href="/Portfolio">
+		<a sveltekit:prefetch href="/Portfolio">
+			<div class="text-box ">
 				<h2>Portfolio</h2>
 				<p>
 					Se nogle af de forskellige projekter som jeg har arbejdet på i den tid jeg har været
 					studerende på KEA<span>➝</span>
 				</p>
-			</a>
-		</div>
+			</div>
+		</a>
 	</div>
 
 	<div id="box-2" class="spacer ">
-		<div class="text-box ">
-			<a sveltekit:prefetch href="/Om_mig">
+		<a sveltekit:prefetch href="/Om_mig">
+			<div class="text-box ">
 				<h2>Om mig</h2>
 				<p>
 					Lær mig lidt bedre at kende og læs om hvilke kompetencer jeg besidder<span>➝</span>
 				</p>
-			</a>
-		</div>
+			</div>
+		</a>
 	</div>
 </section>
 
