@@ -32,6 +32,7 @@
 	}
 
 	.hero {
+		background-image: url('../../static/background.img_portfolio.webp');
 		place-self: center;
 		background-size: cover;
 		position: static;

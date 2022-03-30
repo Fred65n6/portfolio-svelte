@@ -17,7 +17,7 @@
       "src/routes/Footer.svelte"
     ],
     "css": [
-      "assets/entries/pages/__layout.svelte-c030966f.css"
+      "assets/entries/pages/__layout.svelte-b540ddf6.css"
     ]
   },
   "src/routes/Footer.svelte": {
@@ -59,7 +59,10 @@
       "_index-8f0b34dd.js"
     ],
     "css": [
-      "assets/entries/pages/Hero.svelte-56eacfd8.css"
+      "assets/entries/pages/Hero.svelte-530ec680.css"
+    ],
+    "assets": [
+      "assets/background.img_portfolio-8d5b32b1.webp"
     ]
   },
   "src/routes/Musikloftet.svelte": {
