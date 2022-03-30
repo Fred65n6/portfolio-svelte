@@ -55,7 +55,7 @@
 		<a class="" sveltekit:prefetch href="/Toast">
 			<div class="card ">
 				<div class="container">
-					<img src="Toast.webp" alt="Musikloftet" />
+					<img src="toast.webp" alt="Musikloftet" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -93,7 +93,7 @@
 		<a class="" sveltekit:prefetch href="/Teater">
 			<div class="card">
 				<div class="container">
-					<img src="Grob.webp" alt="Teater grob" />
+					<img src="grob.webp" alt="Teater grob" />
 					<div class="overlay">
 						<div class="text">
 							<h4>KAMPAGNESITE:</h4>
@@ -243,10 +243,6 @@
 			display: none;
 		}
 		.text {
-			display: none;
-		}
-
-		.desk-link {
 			display: none;
 		}
 	}
