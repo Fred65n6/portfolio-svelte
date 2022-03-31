@@ -36,7 +36,7 @@
 		<a class="" sveltekit:prefetch href="/Musikloftet">
 			<div class="card ">
 				<div class="container">
-					<img src="musikloftet.webp" alt="Musikloftet" />
+					<img src="../../static/musikloftet.webp" alt="Musikloftet" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
