@@ -36,7 +36,7 @@
 		<a class="" sveltekit:prefetch href="/Musikloftet">
 			<div class="card ">
 				<div class="container">
-					<img src="../../static/musikloftet.webp" alt="Musikloftet" />
+					<img src="../static/musikloftet.webp" alt="Musikloftet" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -55,7 +55,7 @@
 		<a class="" sveltekit:prefetch href="/Toast">
 			<div class="card ">
 				<div class="container">
-					<img src="../../static/toast.webp" alt="Musikloftet" />
+					<img src="../static/toast.webp" alt="Musikloftet" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -74,7 +74,7 @@
 		<a class="" sveltekit:prefetch href="/Artworks">
 			<div class="card ">
 				<div class="container">
-					<img src="../../static/artworks.webp" alt="Artworks" />
+					<img src="../static/artworks.webp" alt="Artworks" />
 					<div class="overlay">
 						<div class="text">
 							<h4>DESIGN:</h4>
@@ -93,7 +93,7 @@
 		<a class="" sveltekit:prefetch href="/Teater">
 			<div class="card">
 				<div class="container">
-					<img src="../../static/grob.webp" alt="Teater grob" />
+					<img src="../static/grob.webp" alt="Teater grob" />
 					<div class="overlay">
 						<div class="text">
 							<h4>KAMPAGNESITE:</h4>
@@ -112,7 +112,7 @@
 		<a class="" sveltekit:prefetch href="/Ungdomsbyen">
 			<div class="card ">
 				<div class="container">
-					<img src="../../static/ungdomsbyen.webp" alt="Ungdomsbyen" />
+					<img src="../static/ungdomsbyen.webp" alt="Ungdomsbyen" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -131,7 +131,7 @@
 		<a class="" sveltekit:prefetch href="/Olklubben">
 			<div class="card ">
 				<div class="container">
-					<img src="../../static/olklubben.webp" alt="Ølklubben" />
+					<img src="../static/olklubben.webp" alt="Ølklubben" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -150,7 +150,7 @@
 		<a class="" sveltekit:prefetch href="/Spil">
 			<div class="card ">
 				<div class="container">
-					<img src="../../static/spil.webp" alt="Spil" />
+					<img src="../static/spil.webp" alt="Spil" />
 					<div class="overlay">
 						<div class="text">
 							<h4>ANIMATION:</h4>
