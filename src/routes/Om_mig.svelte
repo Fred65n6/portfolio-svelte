@@ -24,7 +24,7 @@
 
 <div class="container">
 	<div class="pictures">
-		<img src="./om-mig.webp" alt="portæt" />
+		<img src="../../static/om-mig.webp" alt="portæt" />
 	</div>
 </div>
 <section id="om-mig">
