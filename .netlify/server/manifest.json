@@ -1,0 +1,200 @@
+{
+  ".svelte-kit/build/index.js": {
+    "file": "index.js",
+    "src": ".svelte-kit/build/index.js",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js"
+    ]
+  },
+  "src/routes/__layout.svelte": {
+    "file": "entries/pages/__layout.svelte.js",
+    "src": "src/routes/__layout.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_Burgermenu-2af3965e.js",
+      "src/routes/Footer.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/__layout.svelte-b540ddf6.css"
+    ]
+  },
+  "src/routes/Footer.svelte": {
+    "file": "entries/pages/Footer.svelte.js",
+    "src": "src/routes/Footer.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js"
+    ],
+    "css": [
+      "assets/entries/pages/Footer.svelte-331ae977.css"
+    ]
+  },
+  ".svelte-kit/runtime/components/error.svelte": {
+    "file": "entries/fallbacks/error.svelte.js",
+    "src": ".svelte-kit/runtime/components/error.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js"
+    ]
+  },
+  "src/routes/index.svelte": {
+    "file": "entries/pages/index.svelte.js",
+    "src": "src/routes/index.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "src/routes/Hero.svelte"
+    ],
+    "css": [
+      "assets/entries/pages/index.svelte-82b130fb.css"
+    ]
+  },
+  "src/routes/Hero.svelte": {
+    "file": "entries/pages/Hero.svelte.js",
+    "src": "src/routes/Hero.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js"
+    ],
+    "css": [
+      "assets/entries/pages/Hero.svelte-530ec680.css"
+    ],
+    "assets": [
+      "assets/background.img_portfolio-8d5b32b1.webp"
+    ]
+  },
+  "src/routes/Musikloftet.svelte": {
+    "file": "entries/pages/Musikloftet.svelte.js",
+    "src": "src/routes/Musikloftet.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Musikloftet.svelte-81326dcb.css"
+    ]
+  },
+  "src/routes/Ungdomsbyen.svelte": {
+    "file": "entries/pages/Ungdomsbyen.svelte.js",
+    "src": "src/routes/Ungdomsbyen.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Musikloftet.svelte-81326dcb.css"
+    ]
+  },
+  "src/routes/Olklubben.svelte": {
+    "file": "entries/pages/Olklubben.svelte.js",
+    "src": "src/routes/Olklubben.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Olklubben.svelte-e0f0b1c9.css"
+    ]
+  },
+  "src/routes/Portfolio.svelte": {
+    "file": "entries/pages/Portfolio.svelte.js",
+    "src": "src/routes/Portfolio.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Portfolio.svelte-d1ed97d8.css"
+    ]
+  },
+  "src/routes/Artworks.svelte": {
+    "file": "entries/pages/Artworks.svelte.js",
+    "src": "src/routes/Artworks.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Musikloftet.svelte-81326dcb.css"
+    ]
+  },
+  "src/routes/Om_mig.svelte": {
+    "file": "entries/pages/Om_mig.svelte.js",
+    "src": "src/routes/Om_mig.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Om_mig.svelte-3cb93bb8.css"
+    ]
+  },
+  "src/routes/Teater.svelte": {
+    "file": "entries/pages/Teater.svelte.js",
+    "src": "src/routes/Teater.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Teater.svelte-94138627.css"
+    ]
+  },
+  "src/routes/Toast.svelte": {
+    "file": "entries/pages/Toast.svelte.js",
+    "src": "src/routes/Toast.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Toast.svelte-70b507fa.css"
+    ]
+  },
+  "src/routes/Spil.svelte": {
+    "file": "entries/pages/Spil.svelte.js",
+    "src": "src/routes/Spil.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_env-14926626.js"
+    ],
+    "css": [
+      "assets/entries/pages/Spil.svelte-16b058ec.css"
+    ]
+  },
+  "src/routes/Burgermenu.svelte": {
+    "file": "entries/pages/Burgermenu.svelte.js",
+    "src": "src/routes/Burgermenu.svelte",
+    "isEntry": true,
+    "imports": [
+      "_index-8f0b34dd.js",
+      "_Burgermenu-2af3965e.js"
+    ]
+  },
+  "_index-8f0b34dd.js": {
+    "file": "chunks/index-8f0b34dd.js"
+  },
+  "_Burgermenu-2af3965e.js": {
+    "file": "chunks/Burgermenu-2af3965e.js",
+    "imports": [
+      "_index-8f0b34dd.js"
+    ],
+    "css": [
+      "assets/Burgermenu-cd1d3a23.css"
+    ]
+  },
+  "_env-14926626.js": {
+    "file": "chunks/env-14926626.js"
+  }
+}
