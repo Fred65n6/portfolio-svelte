@@ -107,7 +107,7 @@
 	<div class="mobile-link">
 		<a sveltekit:prefetch href="/Teater"><h4>KAMPAGENSITE: TEATER GROB ➝</h4></a>
 	</div>
-
+	<!-- 
 	<div class="">
 		<a class="" sveltekit:prefetch href="/Ungdomsbyen">
 			<div class="card ">
@@ -125,7 +125,7 @@
 	</div>
 	<div class="mobile-link">
 		<a sveltekit:prefetch href="/Ungdomsbyen"><h4>WEBSITE: UNGDOMSBYEN ➝</h4></a>
-	</div>
+	</div> -->
 
 	<div class="">
 		<a class="" sveltekit:prefetch href="/Olklubben">
@@ -253,7 +253,7 @@
 			align-items: center;
 			width: 1300px;
 			gap: 15px;
-			grid-template-columns: 1fr 1fr;
+			grid-template-columns: 1fr 1fr 1fr;
 			grid-template-rows: auto;
 		}
 
