@@ -33,7 +33,7 @@
 
 <section id="portfolio">
 	<div class="">
-		<a class="" sveltekit:prefetch href="/Musikloftet">
+		<a class="desk-link" sveltekit:prefetch href="/Musikloftet">
 			<div class="card ">
 				<div class="container">
 					<img src="musikloftet.webp" alt="Musikloftet" />
@@ -52,7 +52,7 @@
 	</div>
 
 	<div class="">
-		<a class="" sveltekit:prefetch href="/Toast">
+		<a class="desk-link" sveltekit:prefetch href="/Toast">
 			<div class="card ">
 				<div class="container">
 					<img src="toast.webp" alt="Musikloftet" />
@@ -71,7 +71,7 @@
 	</div>
 
 	<div class="">
-		<a class="" sveltekit:prefetch href="/Artworks">
+		<a class="desk-link" sveltekit:prefetch href="/Artworks">
 			<div class="card ">
 				<div class="container">
 					<img src="artworks.webp" alt="Artworks" />
@@ -90,7 +90,7 @@
 	</div>
 
 	<div class="">
-		<a class="" sveltekit:prefetch href="/Teater">
+		<a class="desk-link" sveltekit:prefetch href="/Teater">
 			<div class="card">
 				<div class="container">
 					<img src="grob.webp" alt="Teater grob" />
@@ -128,7 +128,7 @@
 	</div> -->
 
 	<div class="">
-		<a class="" sveltekit:prefetch href="/Olklubben">
+		<a class="desk-link" sveltekit:prefetch href="/Olklubben">
 			<div class="card ">
 				<div class="container">
 					<img src="olklubben.webp" alt="Ølklubben" />
@@ -147,7 +147,7 @@
 	</div>
 
 	<div class="">
-		<a class="" sveltekit:prefetch href="/Spil">
+		<a class="desk-link" sveltekit:prefetch href="/Spil">
 			<div class="card ">
 				<div class="container">
 					<img src="spil.webp" alt="Spil" />
@@ -244,6 +244,10 @@
 		}
 		.text {
 			display: none;
+		}
+
+		.desk-link {
+			pointer-events: none;
 		}
 	}
 

@@ -139,7 +139,6 @@
 	}
 
 	.container {
-		position: relative;
 		width: 100%;
 		display: grid;
 		gap: 10px;

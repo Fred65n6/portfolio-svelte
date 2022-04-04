@@ -57,7 +57,7 @@
 		height: auto;
 		background: rgba(218, 217, 217, 0.605);
 		box-shadow: 2px 2px 4px;
-		height: 15rem;
+		height: 16rem;
 	}
 
 	.text-box:hover {
