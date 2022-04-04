@@ -42,13 +42,13 @@
 		place-items: center;
 	}
 
-	section {
-		padding-block: 6rem;
-	}
-
-	@media (min-width: 650px) {
+	@media (max-width: 650px) {
 		section {
-			padding-block: 12rem;
+			padding-block: 6rem;
+			position: relative;
+			width: 100%;
+			display: grid;
+			gap: 10px;
 		}
 	}
 
@@ -82,7 +82,9 @@
 			grid-template-columns: 1fr 1fr;
 			place-items: center;
 			width: 100%;
+			padding-block: 12rem;
 		}
+
 		.spacer {
 			padding: 4rem;
 			width: 100%;

@@ -139,6 +139,10 @@
 	}
 
 	.container {
+		position: relative;
+		width: 100%;
+		display: grid;
+		gap: 10px;
 		margin-top: 3rem;
 		border-block: solid 6px;
 		border-image: linear-gradient(
