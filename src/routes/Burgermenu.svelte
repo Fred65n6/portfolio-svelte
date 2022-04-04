@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { page } from '$app/stores';
 </script>
 
@@ -152,4 +152,4 @@
 			display: none;
 		}
 	}
-</style>
+</style> -->
