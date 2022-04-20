@@ -1,6 +1,7 @@
 <script context="module">
 	export const prerender = true;
 	import Hero from './Hero.svelte';
+	import Header from '$lib/header/Header.svelte';
 </script>
 
 <svelte:head>
@@ -8,6 +9,7 @@
 </svelte:head>
 
 <Hero />
+<Header />
 
 <section id="forside">
 	<div id="box-1" class="spacer ">

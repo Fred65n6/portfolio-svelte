@@ -36,7 +36,7 @@
 		place-self: center;
 		background-size: cover;
 		position: static;
-		z-index: 5;
+		z-index: 4;
 		overflow: hidden;
 		width: 100%;
 		height: 100vh;

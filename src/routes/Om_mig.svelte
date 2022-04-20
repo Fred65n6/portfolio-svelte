@@ -12,11 +12,14 @@
 	// since there's no dynamic data here, we can prerender
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
+	import Header from '$lib/header/Header.svelte';
 </script>
 
 <svelte:head>
 	<title>Om mig</title>
 </svelte:head>
+
+<Header />
 
 <div class="heading">
 	<h1>OM MIG</h1>
@@ -115,6 +118,9 @@
 
 	address p {
 		font-weight: 400;
+	}
+	.box {
+		max-width: 95%;
 	}
 
 	@media (min-width: 650px) {

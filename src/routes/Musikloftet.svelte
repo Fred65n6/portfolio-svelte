@@ -12,8 +12,10 @@
 	// since there's no dynamic data here, we can prerender
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
+	import Header from '$lib/header/Header.svelte';
 </script>
 
+<Header />
 <div class="heading">
 	<h2>Musikloftet</h2>
 </div>
