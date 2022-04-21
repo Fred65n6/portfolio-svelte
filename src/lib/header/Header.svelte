@@ -3,12 +3,13 @@
 </script>
 
 <header>
-	<div class="corner">
-		<a sveltekit:prefetch href="/">
-			<img class="hover:pulsate-fwd" src="./FM.svg" alt="SvelteKit" />
-		</a>
-	</div>
 	<nav>
+		<div class="corner">
+			<a sveltekit:prefetch href="/">
+				<img src="./FM.svg" alt="SvelteKit" />
+			</a>
+		</div>
+
 		<div class="desktop-menu">
 			<ul>
 				<li class:active={$page.url.pathname === '/'}>
@@ -51,33 +52,34 @@
 <style>
 	/* @media (min-width: 650px) { */
 	header {
-		border-bottom: solid 2px black;
 		position: fixed;
-		z-index: 1;
-		margin: 0 auto;
-		gap: 30px;
 		display: flex;
 		justify-content: space-between;
-		align-items: center;
-		padding: 10px;
-		right: 0;
 		top: 0;
+		z-index: 1;
 		width: 100%;
+		border-bottom: solid 2px black;
+		padding: 10px;
+		align-items: center;
 		background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
 			url(https://grainy-gradients.vercel.app/noise.svg);
+	}
+
+	nav {
+		display: flex;
+		justify-content: space-around;
 	}
 
 	.corner img {
 		filter: invert(1);
 		height: 2rem;
+		padding-right: 60rem;
 	}
 
 	nav {
 		position: sticky;
 		width: 100%;
 		display: flex;
-		justify-content: space-between;
-		padding-inline: 2rem;
 	}
 	ul {
 		position: relative;
@@ -85,16 +87,11 @@
 		margin: 0;
 		height: 3em;
 		display: flex;
-		justify-content: center;
 		align-items: center;
 		list-style: none;
 		background-size: contain;
 	}
 
-	.desktop-menu li {
-		position: relative;
-		height: 100%;
-	}
 	nav a {
 		display: flex;
 		height: 100%;
@@ -195,13 +192,13 @@
 		transition-duration: 0.25s;
 	}
 
-	@media (max-width: 600px) {
+	@media (max-width: 650px) {
 		.desktop-menu {
 			display: none;
 		}
 	}
 
-	@media (min-width: 600px) {
+	@media (min-width: 650px) {
 		.hamburger-menu {
 			display: none;
 		}
