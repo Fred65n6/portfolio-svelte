@@ -52,7 +52,7 @@
 <style>
 	/* @media (min-width: 650px) { */
 	header {
-		position: static;
+		position: fixed;
 		display: flex;
 		justify-content: space-between;
 		top: 0;

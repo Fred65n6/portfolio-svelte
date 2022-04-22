@@ -17,7 +17,7 @@
 
 <Header />
 
-<div class="head" />
+<div class="heading" />
 
 <section>
 	<div class="container">
@@ -69,7 +69,8 @@
 		gap: 20px;
 	}
 
-	.head {
+	.heading {
+		margin-top: 4.2rem;
 		position: static;
 		background-image: url('../../static/spil.webp');
 		background-repeat: no-repeat;
