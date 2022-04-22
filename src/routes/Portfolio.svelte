@@ -190,6 +190,10 @@
 		box-shadow: 2px 2px 4px;
 	}
 
+	#portfolio a:hover {
+		color: black;
+	}
+
 	span {
 		color: red;
 		font-weight: 500;

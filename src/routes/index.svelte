@@ -44,6 +44,10 @@
 		place-items: center;
 	}
 
+	#forside a:hover {
+		color: black;
+	}
+
 	@media (max-width: 650px) {
 		section {
 			padding-block: 6rem;

@@ -15,75 +15,74 @@
 	import Header from '$lib/header/Header.svelte';
 </script>
 
-<div class="heading">
-	<h2>Impress A Girl</h2>
-</div>
-
 <Header />
 
-<div class="card ">
+<div class="head" />
+
+<section>
 	<div class="container">
-		<img src="spil.webp" alt="spil" />
-		<div class="overlay">
-			<div class="text">
-				<a class="link" href="https://skuret.eu/kea/1semester/04_animation/spil/" target="blank"
-					>SE SIDEN ➝</a
-				>
-			</div>
+		<div>
+			<h4>Opgaven</h4>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
+				voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
+				architecto eos quibusdam nostrum.
+			</p>
+		</div>
+
+		<div>
+			<h4>Udfordringer og proces</h4>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
+				voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
+				architecto eos quibusdam nostrum.
+			</p>
+		</div>
+
+		<div>
+			<h4>Løsning</h4>
+			<p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, natus? Aspernatur illum illo
+				atque quia, temporibus aliquam magnam expedita dignissimos obcaecati adipisci voluptatum
+				eaque, voluptate sapiente necessitatibus cumque ipsa aperiam voluptas harum omnis.
+			</p>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="container">
-	<section>
-		<h3>Opgaven</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p>
-	</section>
-
-	<section>
-		<h3>Udfordringer og proces</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p>
-	</section>
-
-	<section>
-		<h3>Løsning</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, natus? Aspernatur illum illo
-			atque quia, temporibus aliquam magnam expedita dignissimos obcaecati adipisci voluptatum
-			eaque, voluptate sapiente necessitatibus cumque ipsa aperiam voluptas harum omnis. Earum velit
-			doloribus suscipit eaque ullam, odio tenetur, quod consequatur vero repellendus veniam
-			molestias iusto, recusandae qui.
-		</p>
-	</section>
-
-	<section>
-		<div class="my-8 flex justify-between">
-			<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
-			<a class="se-siden" href="https://skuret.eu/kea/1semester/04_animation/spil/" target="blank"
-				>SE SIDEN ➝</a
-			>
-		</div>
-	</section>
-</div>
+<section>
+	<div class="links">
+		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
+		<a class="se-siden" href="https://skuret.eu/kea/1semester/04_animation/spil/" target="blank"
+			>SE SIDEN ➝</a
+		>
+	</div>
+</section>
 
 <style>
 	.container {
 		position: relative;
+		max-width: 1100px;
 		width: 100%;
 		display: grid;
-		gap: 10px;
+		grid-template-columns: 1fr 1fr 1fr;
+		gap: 20px;
 	}
 
-	img {
-		box-shadow: 2px 2px 4px;
+	.head {
+		position: static;
+		background-image: url('../../static/spil.webp');
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: contain;
+		height: 35rem;
+		width: 100%;
+	}
+
+	.links {
+		width: 1100px;
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.se-siden {
@@ -92,61 +91,7 @@
 		padding: 0.5rem;
 	}
 
-	.link {
-		font-size: 2.5rem;
-	}
-	.overlay {
-		display: grid;
-		place-items: center;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 100%;
-		width: 100%;
-		opacity: 0;
-		transition: 0.5s ease;
-		background: linear-gradient(to right, rgba(233, 231, 231, 0.8), rgba(255, 255, 255, 0.9)),
-			url(https://grainy-gradients.vercel.app/noise.svg);
-	}
-	.text {
-		color: white;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		justify-items: center;
-		-webkit-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		transition: 0.4s linear;
-	}
-
-	.card:hover {
-		transform: scale(1.02);
-		z-index: 2;
-		position: static;
-		transition: 0.5s linear;
-	}
-
-	.card:hover img {
-		filter: blur(3px);
-	}
-
-	.card:hover .overlay {
-		opacity: 1;
-	}
 	section {
 		display: grid;
-	}
-
-	img {
-		width: 60rem;
-	}
-
-	.container {
-		display: grid;
-
-		max-width: 980px;
 	}
 </style>

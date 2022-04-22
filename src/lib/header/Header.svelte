@@ -6,7 +6,7 @@
 	<nav>
 		<div class="corner">
 			<a sveltekit:prefetch href="/">
-				<img src="./FM.svg" alt="SvelteKit" />
+				<img class="hover:pulsate-fwd" src="./FM.svg" alt="SvelteKit" />
 			</a>
 		</div>
 
@@ -52,28 +52,27 @@
 <style>
 	/* @media (min-width: 650px) { */
 	header {
-		position: fixed;
+		position: static;
 		display: flex;
 		justify-content: space-between;
 		top: 0;
-		z-index: 1;
+		z-index: 3;
 		width: 100%;
-		border-bottom: solid 2px black;
+		border-bottom: solid 1px black;
 		padding: 10px;
 		align-items: center;
-		background: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+		background: linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
 			url(https://grainy-gradients.vercel.app/noise.svg);
 	}
 
 	nav {
 		display: flex;
-		justify-content: space-around;
+		justify-content: space-between;
 	}
 
 	.corner img {
 		filter: invert(1);
 		height: 2rem;
-		padding-right: 60rem;
 	}
 
 	nav {
@@ -98,19 +97,16 @@
 		align-items: center;
 		padding: 0 1em;
 		font-weight: 400;
-		font-size: 0.8rem;
+		font-size: 0.9rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
 		text-decoration: none;
 		transition: color 0.2s linear;
 	}
 
-	a:hover {
-		color: var(--accent-color);
-	}
-
 	.hamburger-menu li {
 		padding: 1rem;
+		margin-top: 2rem;
 	}
 
 	#menu__toggle {

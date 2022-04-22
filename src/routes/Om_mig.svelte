@@ -66,7 +66,7 @@
 				- Erfaring med at kode basic html, css og javascript, samt frameworks som Svelte og Tailwind
 			</li>
 			<br />
-			<li>- Erfaring med opsætning af hjemmesider i diverse CMS som wordpress og shopify</li>
+			<li>- Erfaring med opsætning af hjemmesider i CMS som f.eks. wordpress</li>
 		</ol>
 	</div>
 </div>
