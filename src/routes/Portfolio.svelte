@@ -210,8 +210,9 @@
 	}
 
 	.mobile-link {
+		text-decoration: underline;
 		padding-bottom: 2rem;
-		text-align: right;
+		text-align: center;
 	}
 
 	.overlay {

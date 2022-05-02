@@ -100,7 +100,7 @@
 	}
 
 	.se-siden {
-		border: solid 2px white;
+		border: solid 4px white;
 		border-image: linear-gradient(
 				90deg,
 				rgb(152, 6, 6) 0%,
