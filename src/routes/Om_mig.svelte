@@ -44,7 +44,8 @@
 				hvilket ikke altid er helt lige til selv at lave, ej heller helt billigt at købe sig fra.
 			</p>
 			<p>
-				Men så er det godt at jeg altid har haft mantraet: <span class="font-semibold"
+				Men så er det godt at jeg altid har haft mantraet: <br />
+				<span class="font-semibold"
 					>"Det har jeg ikke prøvet før, så det er jeg sikkert god til".</span
 				>
 				Jeg begav mig nemlig ud i selv at designe artworks til forskellige udgivelser. Bevares, de første
