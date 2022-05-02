@@ -26,7 +26,7 @@
 		<div>
 			<h4>Opgaven</h4>
 			<p>
-				I dette projekt skulle vi designe en hjemmeside, for en fiktiv klient, der udlejer
+				I dette projekt skulle vi designe en hjemmeside for en fiktiv klient, der udlejer
 				øvelokaler. Projektet handlede først og fremmest om at lave et indbyende design, samt at få
 				en masse forskellige informationer ind på siden.
 			</p>
@@ -36,8 +36,8 @@
 			<h4>Processen</h4>
 			<p>
 				Med dette projekt fik vi vores første rigtige møde med Figma som vi brugte til at lave
-				prototyper samt at udarbejde designsystemer. Derudover skulle vi bruge framworket Tailwind
-				til at kode siden, som også var en hel ny måde at kode på.
+				prototyper samt at udarbejde designsystemer. Derudover skulle vi bruge frameworket Tailwind
+				til at kode siden, hvilket også var en hel ny måde at kode på.
 			</p>
 		</div>
 
@@ -45,9 +45,9 @@
 			<h4>Løsning</h4>
 			<p>
 				I vores endelige løsning valgte vi at bruge den røde farve til at skabe en visuel identitet,
-				samt at strømline billederne ved at trække lidt farve ud af dem, og så give dem den her lidt
-				rå grynede effekt. Sitet indeholder information om både medlemspriser, hvem Musikloftet er
-				samt et helt flow for hvordan man booker et lokale.
+				samt at strømline billederne ved at trække lidt farve ud af dem, og give dem den her lidt rå
+				grynede effekt. Sitet indeholder information om både medlemspriser, hvem Musikloftet er samt
+				et helt flow for hvordan man booker et lokale.
 			</p>
 		</div>
 	</div>
@@ -61,7 +61,7 @@
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
 		<a
 			class="se-siden mobil-link"
 			href="https://skuret.eu/kea/3semester/musikloftet/"
@@ -110,7 +110,7 @@
 				rgb(7, 53, 162) 100%
 			)
 			1;
-		border-radius: 20px;
+		box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.449);
 		padding: 0.5rem;
 	}
 	section {
@@ -130,7 +130,7 @@
 		}
 
 		.links {
-			width: 1100px;
+			width: 1300px;
 		}
 
 		.mobil-link {

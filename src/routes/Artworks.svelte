@@ -27,18 +27,18 @@
 			<h4>Opgaven</h4>
 			<p>
 				Dette er artworks som er lavet for det band, som jeg spiller i ved siden af at læse
-				multimediedesign. Alle artworks som vi har brugt gennem tiden har jeg lavet, og er også det
-				der startede min interesse for grafisk design.
+				multimediedesign. Alle artworks som vi har brugt gennem tiden er lavet af mig, og det var
+				også i arbejdet med dette, at min interesse for grafisk design blev vakt.
 			</p>
 		</div>
 
 		<div>
 			<h4>Processen</h4>
 			<p>
-				Der er mange forskellige processer i at lave de forskellige artworks. Som regel starter det
-				med at jeg snakker med de andre bandmedlemmer om hvilke tanker og følelser den sang eller
-				det værk, som jeg laver artwork til tænder i dem. <br />
-				Derefter tager jeg alle de ting med og og begynder at tegne skitser i hånden. Når jeg har nogle
+				Der er mange forskellige processer i at lave artworks. Som regel starter det med at jeg
+				snakker med de andre bandmedlemmer, om hvilke tanker og følelser den sang eller det værk,
+				som jeg laver artwork til tænder i dem. <br />
+				Derefter tager jeg alle de ting med og begynder at tegne skitser i hånden. Når jeg har nogle
 				forskellige oplæg så begynder jeg at prøve at sætte dem op i Photoshop. Hvis jeg skal bruge fotos,
 				så plejer jeg som regel at finde nogle placeholder fotos, indtil jeg kan få taget nogle selv.
 			</p>
@@ -62,7 +62,7 @@
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
 		<a class="se-siden mobil-link" href="https://skuret.eu/kea/1semester/artworks/" target="blank"
 			>SE ARTWORKS ➝</a
 		>
@@ -109,7 +109,7 @@
 				rgb(7, 53, 162) 100%
 			)
 			1;
-		border-radius: 20px;
+		box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.449);
 		padding: 0.5rem;
 	}
 	section {
@@ -129,7 +129,7 @@
 		}
 
 		.links {
-			width: 1100px;
+			width: 1300px;
 		}
 
 		.mobil-link {

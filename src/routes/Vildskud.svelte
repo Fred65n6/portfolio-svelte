@@ -37,10 +37,10 @@
 			<h4>Processen</h4>
 			<p>
 				I vores gruppe valgte vi at gå "all out" på bæredygtigheden, og ikke bruge nogle billeder
-				eller animationer, men kun bygge vores side på vector grafik og fonte. Det gjorde vi
-				hovedsagligt for at udfordre os selv, og se om vi kunne lave et interessant design og nogle
-				billeder overhovedet. Vi brugte nogle stærke farver og fonte til at skabe en visuel
-				identitet og farveklatter til at skabe et sammenhæng på siderne.
+				eller animationer, men kun bygge vores design på vector grafik og fonte. Dette gjorde vi
+				hovedsagligt for at udfordre os selv, samt at se om vi kunne lave et interessant design uden
+				at bruge nogle billeder overhovedet. Vi brugte nogle stærke farver og fonte til at skabe en
+				visuel identitet og farveklatter til at skabe et sammenhæng på siderne.
 			</p>
 		</div>
 
@@ -48,8 +48,8 @@
 			<h4>Løsningen</h4>
 			<p>
 				Selve sitet er blevet kodet i SvelteKit, som er en hybrid imellem Svelte og Tailwind. Mit
-				eget hovedansvarsområde i dette projekt var opsætningen af sitet, og så designede jeg det
-				nye logo, som vi har brugt til at støtte op, om den nye visuelle identitet.
+				eget hovedansvarsområde i dette projekt var opsætningen af sitet. Derudover designede jeg
+				det nye logo, som vi har brugt til at støtte op, om den nye visuelle identitet.
 			</p>
 		</div>
 	</div>
@@ -61,7 +61,7 @@
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ SIDEN</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
 		<a class="se-siden mobil-link" href="https://vildskud.netlify.app/" target="blank"
 			>SE ARTWORKS ➝</a
 		>
@@ -98,7 +98,7 @@
 	}
 
 	.se-siden {
-		border: solid 2px white;
+		border: solid 4px white;
 		border-image: linear-gradient(
 				90deg,
 				rgb(152, 6, 6) 0%,
@@ -108,7 +108,7 @@
 				rgb(7, 53, 162) 100%
 			)
 			1;
-		border-radius: 20px;
+		box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.449);
 		padding: 0.5rem;
 	}
 	section {
@@ -128,7 +128,7 @@
 		}
 
 		.links {
-			width: 1100px;
+			width: 1300px;
 		}
 
 		.mobil-link {

@@ -27,20 +27,21 @@
 			<h4>Opgaven</h4>
 			<p>
 				Dette var eksamensprojektet på 2. semester. Det var et stort projekt, hvor vi kom ud i alle
-				afkroge af det at være Multimedie Designer. Vores case var den lille charmerende toast café
-				'Toast no.9', som vi skulle udvikle en hjemmeside for, samt at producere videomateriale og
-				en so-me strategi.
+				afkroge af det at være Multimedie Designer. Min gruppes case var den lille charmerende café
+				'Toast no.9', som vi skulle udvikle en hjemmeside for, samt producere videomateriale og en
+				so-me strategi for virksomheden.
 			</p>
 		</div>
 
 		<div>
 			<h4>Processen</h4>
 			<p>
-				At udfylde alle kravene der var i denne opgave, var en stor mundfuld, og krævede at vi
-				udeligerede ansvarsområder i gruppen. Mit hovedansvarsområde var design og opsætning af
-				hjemmesiden. <br /> I designprocessen var vi meget inspirerede af 90'er stil og udtryk. Vi vil
-				også gerne have etr let og legende udtryk, derfor valgte vi at tegne forskellige objekter fra
-				caféen, og sætte dem ind på siden som grafik.
+				At opfylde alle kravene der var i denne opgave, var en stor mundfuld, som krævede at vi
+				udeligerede ansvarsområder i gruppen. Mit hovedansvarsområde var sammen med et andet medlem
+				af gruppen, design og opsætning af hjemmesiden. <br /> I designprocessen var vi meget inspirerede
+				af 90'er stil og udtryk, hvilket f.eks. kom til udtryk i logoet. Vi ville også gerne have et
+				let og legende udtryk, derfor valgte vi at tegne forskellige objekter fra caféen, og sætte dem
+				ind på siden som grafik.
 			</p>
 		</div>
 
@@ -62,7 +63,7 @@
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
 		<a class="se-siden mobil-link" href="https://skuret.eu/kea/toastno9" target="blank"
 			>SE SIDEN ➝</a
 		>
@@ -99,7 +100,7 @@
 	}
 
 	.se-siden {
-		border: solid 2px white;
+		border: solid 4px white;
 		border-image: linear-gradient(
 				90deg,
 				rgb(152, 6, 6) 0%,
@@ -109,7 +110,8 @@
 				rgb(7, 53, 162) 100%
 			)
 			1;
-		border-radius: 20px;
+
+		box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.449);
 		padding: 0.5rem;
 	}
 	section {
@@ -129,7 +131,7 @@
 		}
 
 		.links {
-			width: 1100px;
+			width: 1300px;
 		}
 
 		.mobil-link {

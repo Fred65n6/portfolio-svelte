@@ -28,7 +28,7 @@
 			<p>
 				Dette var et gruppe projekt, der handlede om at lave et kampagnesite, som skulle lokke flere
 				unge til at købe årskort til teater Grob. <br /> Sitet skulle udover et tydeligt koncept også
-				indholde en kampagnevideo, samt vidoer til sociale medier.
+				indholde en kampagnevideo og vidoer til sociale medier.
 			</p>
 		</div>
 
@@ -37,9 +37,9 @@
 			<p>
 				Vi startede projektet ud med at brainstorme idéer til et slogan, som vi kunne basere vores
 				koncept på. efter mange iterationer endte vi på sloganet "mangler du også mere drama i din
-				hverdag?". Sloganet lagde grund for vores kampagnevideoer, som viser forskellige folk, der
+				hverdag?". Sloganet lagde grund til vores kampagnevideoer, som viser forskellige folk, der
 				måske savner lidt drama i deres liv. Udover kampagne videoerne, så fandt vi også på at
-				kampagnen også skulle handle om at samle Nørrebro, med Teater Grob som centrum, så hvis man
+				kampagnen skulle handle om at samle Nørrebro, men med Teater Grob som centrum, så hvis man
 				køber et årskort, så ville man også få rabatter hos forskellige klassiske nørrebro
 				forretninger, som feks. BRUS og FRIHEDEN.
 			</p>
@@ -48,8 +48,8 @@
 		<div>
 			<h4>Løsningen</h4>
 			<p>
-				Den endelige løsning, blev et kampagnesite, bygget op i wordpress. I dette projekt som jo
-				var et gruppeprojekt, havde jeg hovedsagligt ansvar for designet og opsætningen af
+				Den endelige løsning, blev et kampagnesite, bygget op i wordpress. I dette projekt, som var
+				et gruppeprojekt, havde jeg hovedsagligt ansvar for designet og opsætningen af
 				kampagnesitet. Sitet og vidoerne blev præsenteret for repræsentanter fra Teater Grob, som
 				var meget positive overfor hele konceptet.
 			</p>
@@ -63,7 +63,7 @@
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
 		<a class="se-siden mobil-link" href="https://skuret.eu/kea/teater_grob/" target="blank"
 			>SE SIDEN ➝</a
 		>
@@ -100,7 +100,7 @@
 	}
 
 	.se-siden {
-		border: solid 2px white;
+		border: solid 4px white;
 		border-image: linear-gradient(
 				90deg,
 				rgb(152, 6, 6) 0%,
@@ -110,7 +110,7 @@
 				rgb(7, 53, 162) 100%
 			)
 			1;
-		border-radius: 20px;
+		box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.449);
 		padding: 0.5rem;
 	}
 	section {
@@ -130,7 +130,7 @@
 		}
 
 		.links {
-			width: 1100px;
+			width: 1300px;
 		}
 
 		.mobil-link {

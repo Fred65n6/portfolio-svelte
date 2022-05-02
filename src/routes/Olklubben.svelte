@@ -26,7 +26,7 @@
 		<div>
 			<h4>Opgaven</h4>
 			<p>
-				Ølklubben var et projekt hvor vi en mindre gruppe, skulle finde en fællespassion, og
+				Ølklubben var et projekt hvor vi i en mindre gruppe, skulle finde en fællespassion, og
 				derefter lave et site, med den passion i centrum. Et af formålene ved dette projekt var at
 				lave et flot site, som skulle indeholde en eller anden form for filtrering af nogle
 				produkter. Vi valgte derfor at lave en hjemmeside for en fiktiv ølklub.
@@ -38,16 +38,16 @@
 			<p>
 				I dette projekt brugte vi lang tid på at lave et logo til vores site. Det var en udfordring,
 				fordi vi skulle lave logoet, inden vi havde nogen anelse om hvordan udtrykket for vores
-				fiktive ølklub skulle være. Vi endte dog med et design vi følte var meget universelt. En af
-				de store opgaver i dette projekt, var at lave en filtrering. Filtreringen blev lavet igennem
-				en databse, hvor vi trak data ind fra et array, som vi kunne sortere i.
+				fiktive ølklub skulle være. Vi endte dog med et design som vi følte var meget universelt. <br
+				/> En af de store opgaver i dette projekt, var at lave en filtrering. Filtreringen blev lavet
+				igennem en database, som vi trak data ind fra i et array, som vi kunne sortere i.
 			</p>
 		</div>
 
 		<div>
 			<h4>Løsningen</h4>
 			<p>
-				Det endelige site, endte med at få en lidt dunkel og hyggelig boedga stemning, støttet op af
+				Det endelige site, endte med at få en lidt dunkel og hyggelig bodega stemning, støttet op af
 				baggrundsbilledet som er gennemgående på sitet.
 			</p>
 		</div>
@@ -107,7 +107,7 @@
 				rgb(7, 53, 162) 100%
 			)
 			1;
-		border-radius: 20px;
+		box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.449);
 		padding: 0.5rem;
 	}
 	section {
