@@ -80,7 +80,7 @@
 
 	.heading {
 		margin-top: 3rem;
-		background-image: url('../../static/SOVEREIGN.webp');
+		background-image: url('../../static/sovereign.webp');
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 100%;

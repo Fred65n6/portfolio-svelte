@@ -78,7 +78,7 @@
 
 	.heading {
 		margin-top: 3rem;
-		background-image: url('../../static/OLKLUBBEN_LOGO.svg');
+		background-image: url('../../static/olklubben_logo.svg');
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 100%;
