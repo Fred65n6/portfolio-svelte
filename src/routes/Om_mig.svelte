@@ -39,21 +39,22 @@
 				og så elsker jeg at lave design og kode hjemmesider. Hvis vi skal lidt længere ind i hvem
 				jeg egentlig er, så kan jeg fortælle at det ikke altid har ligget i kortene, at jeg skulle
 				uddanne mig til multimediedesigner. <br /><br /> Siden jeg var helt ung, så har musik altid været
-				min store passion, og jeg har skrevegt sange og spillet i forskellige bands siden jeg var 12
-				år gammel. Når man er musiker og skal udgive musik, så skal man som regel bruge en form for artwork,
+				min store passion, og jeg har skrevet sange og spillet i forskellige bands siden jeg var 12 år
+				gammel. Når man er musiker og skal udgive musik, så skal man som regel bruge en form for artwork,
 				hvilket ikke altid er helt lige til selv at lave, ej heller helt billigt at købe sig fra.
 			</p>
 			<p>
-				Men så er det godt at jeg at jeg altid har haft mantraet <span class="font-semibold"
+				Men så er det godt at jeg altid har haft mantraet: <span class="font-semibold"
 					>"Det har jeg ikke prøvet før, så det er jeg sikkert god til".</span
 				>
-				Jeg begav mig nemlig ud i selv at designe artworks til forskellige udgivelser. Bevars, de første
+				Jeg begav mig nemlig ud i selv at designe artworks til forskellige udgivelser. Bevares, de første
 				forsøg var nok mindre heldige, men det blev bedre og bedre, og til sidst begyndte andre end jeg
-				selv at kunne lide de designs jeg lavede, og med det blev en interesse for at lave design født.
+				selv at kunne lide de designs jeg lavede, og med det blev en interesse for at lave grafisk design
+				født.
 				<br />
-				<br /> Siden jeg startede på KEA har jeg så også forelsket mig i at sætte hjemmesider op, fordi
-				jeg finder det utroligt tilfredsstillende i at bygge ting op fra bunden, og så elsker jeg at
-				gøre mig umage.
+				<br /> Siden jeg startede på KEA har jeg så også forelsket mig i at kode og sætte hjemmesider
+				op. Ligesom med musikken, så finder jeg noget utroligt tilfredsstillende i at bygge ting op fra
+				bunden, og så elsker jeg at gøre mig umage.
 			</p>
 		</div>
 	</article>
