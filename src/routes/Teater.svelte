@@ -81,7 +81,7 @@
 
 	.heading {
 		margin-top: 3rem;
-		background-image: url('../../static/grob_logo.webp');
+		background-image: url('../../static/grob.webp');
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 100%;
