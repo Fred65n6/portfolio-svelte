@@ -12,138 +12,132 @@
 	// since there's no dynamic data here, we can prerender
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
-	import Header from '$lib/header/Header.svelte';
+	import Header from '$lib/header/Header_2.svelte';
 </script>
-
-<div class="heading">
-	<h2>Toast no.9</h2>
-</div>
 
 <Header />
 
-<div class="card ">
+<div class="heading" />
+
+<section><h1>Toast no.9</h1></section>
+
+<section>
 	<div class="container">
-		<img src="toast.webp" alt="Toast no.9" />
-		<div class="overlay">
-			<div class="text">
-				<a class="link" href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
-			</div>
+		<div>
+			<h4>Opgaven</h4>
+			<p>
+				Dette var eksamensprojektet på 2. semester. Det var et stort projekt, hvor vi kom ud i alle
+				afkroge af det at være Multimedie Designer. Vores case var den lille charmerende toast café
+				'Toast no.9', som vi skulle udvikle en hjemmeside for, samt at producere videomateriale og
+				en so-me strategi.
+			</p>
+		</div>
+
+		<div>
+			<h4>Processen</h4>
+			<p>
+				At udfylde alle kravene der var i denne opgave, var en stor mundfuld, og krævede at vi
+				udeligerede ansvarsområder i gruppen. Mit hovedansvarsområde var design og opsætning af
+				hjemmesiden. <br /> I designprocessen var vi meget inspirerede af 90'er stil og udtryk. Vi vil
+				også gerne have etr let og legende udtryk, derfor valgte vi at tegne forskellige objekter fra
+				caféen, og sætte dem ind på siden som grafik.
+			</p>
+		</div>
+
+		<div>
+			<h4>Løsningen</h4>
+			<p>
+				Den endelige løsning blev et hyggeligt, gult og lyserødt samsurium af tegninger og gakkede
+				elementer, som afspejlede caféen og ejeren Boris personlighed. Sitet blev præsenteret for
+				ejeren af 'Toast no.9' som var utrolig tilfreds, med den visuelle identitet vi havde skabt
+				for hans café.
+			</p>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="container">
-	<section>
-		<h3>Opgaven</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p>
-	</section>
+<section class="grid place-items-center desk-link">
+	<a class="se-siden" href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
+</section>
 
-	<section>
-		<h3>Udfordringer og proces</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p>
-	</section>
-
-	<section>
-		<h3>Løsning</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, natus? Aspernatur illum illo
-			atque quia, temporibus aliquam magnam expedita dignissimos obcaecati adipisci voluptatum
-			eaque, voluptate sapiente necessitatibus cumque ipsa aperiam voluptas harum omnis. Earum velit
-			doloribus suscipit eaque ullam, odio tenetur, quod consequatur vero repellendus veniam
-			molestias iusto, recusandae qui.
-		</p>
-	</section>
-
-	<section>
-		<div class="my-8 flex justify-between">
-			<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
-			<a class="se-siden" href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
-		</div>
-	</section>
-</div>
+<section>
+	<div class="links">
+		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
+		<a class="se-siden mobil-link" href="https://skuret.eu/kea/toastno9" target="blank"
+			>SE SIDEN ➝</a
+		>
+	</div>
+</section>
 
 <style>
 	.container {
-		position: relative;
+		max-width: 1300px;
 		width: 100%;
 		display: grid;
-		gap: 10px;
+		grid-template-columns: 1fr;
+		gap: 50px;
 	}
 
-	img {
-		box-shadow: 2px 2px 4px;
-	}
-
-	.overlay {
-		display: grid;
-		place-items: center;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 100%;
+	.heading {
+		margin-top: 3rem;
+		background-image: url('../../static/toast_logo.webp');
+		background-repeat: no-repeat;
+		background-size: contain;
 		width: 100%;
-		opacity: 0;
-		transition: 0.5s ease;
-		background: linear-gradient(to right, rgba(233, 231, 231, 0.8), rgba(255, 255, 255, 0.9)),
-			url(https://grainy-gradients.vercel.app/noise.svg);
+		height: 15rem;
 	}
-	.text {
-		color: white;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		justify-items: center;
-		-webkit-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		transition: 0.4s linear;
+
+	.desk-link {
+		display: none;
+	}
+
+	.links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 80px;
 	}
 
 	.se-siden {
-		border: solid 1px black;
-		border-radius: 12px;
+		border: solid 2px white;
+		border-image: linear-gradient(
+				90deg,
+				rgb(152, 6, 6) 0%,
+				rgb(179, 84, 26) 27%,
+				rgb(169, 159, 21) 49%,
+				rgb(65, 141, 187) 67%,
+				rgb(7, 53, 162) 100%
+			)
+			1;
+		border-radius: 20px;
 		padding: 0.5rem;
-	}
-
-	.link {
-		font-size: 2.5rem;
-	}
-
-	.card:hover {
-		transform: scale(1.02);
-		z-index: 2;
-		position: static;
-		transition: 0.5s linear;
-	}
-
-	.card:hover img {
-		filter: blur(3px);
-	}
-
-	.card:hover .overlay {
-		opacity: 1;
 	}
 	section {
 		display: grid;
 	}
 
-	img {
-		width: 60rem;
-	}
+	@media (min-width: 650px) {
+		.container {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
 
-	.container {
-		display: grid;
+		.heading {
+			background-attachment: fixed;
+			position: static;
+			height: 35rem;
+			margin-top: 4.2rem;
+		}
 
-		max-width: 980px;
+		.links {
+			width: 1100px;
+		}
+
+		.mobil-link {
+			display: none;
+		}
+
+		.desk-link {
+			display: grid;
+		}
 	}
 </style>

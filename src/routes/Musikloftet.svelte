@@ -12,141 +12,133 @@
 	// since there's no dynamic data here, we can prerender
 	// it so that it gets served as a static asset in prod
 	export const prerender = true;
-	import Header from '$lib/header/Header.svelte';
+	import Header from '$lib/header/Header_2.svelte';
 </script>
 
 <Header />
-<div class="heading">
-	<h2>Musikloftet</h2>
-</div>
 
-<div class="card ">
+<div class="heading" />
+
+<section><h1>Musiklofet</h1></section>
+
+<section>
 	<div class="container">
-		<img src="musikloftet.webp" alt="Musikloftet" />
-		<div class="overlay">
-			<div class="text">
-				<a class="link" href="https://skuret.eu/kea/3semester/musikloftet/" target="blank"
-					>SE SIDEN ➝</a
-				>
-			</div>
+		<div>
+			<h4>Opgaven</h4>
+			<p>
+				I dette projekt skulle vi designe en hjemmeside, for en fiktiv klient, der udlejer
+				øvelokaler. Projektet handlede først og fremmest om at lave et indbyende design, samt at få
+				en masse forskellige informationer ind på siden.
+			</p>
+		</div>
+
+		<div>
+			<h4>Processen</h4>
+			<p>
+				Med dette projekt fik vi vores første rigtige møde med Figma som vi brugte til at lave
+				prototyper samt at udarbejde designsystemer. Derudover skulle vi bruge framworket Tailwind
+				til at kode siden, som også var en hel ny måde at kode på.
+			</p>
+		</div>
+
+		<div>
+			<h4>Løsning</h4>
+			<p>
+				I vores endelige løsning valgte vi at bruge den røde farve til at skabe en visuel identitet,
+				samt at strømline billederne ved at trække lidt farve ud af dem, og så give dem den her lidt
+				rå grynede effekt. Sitet indeholder information om både medlemspriser, hvem Musikloftet er
+				samt et helt flow for hvordan man booker et lokale.
+			</p>
 		</div>
 	</div>
-</div>
+</section>
 
-<div class="container">
-	<section>
-		<h3>Opgaven</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p>
-	</section>
+<section class="grid place-items-center desk-link">
+	<a class="se-siden" href="https://skuret.eu/kea/3semester/musikloftet/" target="blank"
+		>SE SIDEN ➝</a
+	>
+</section>
 
-	<section>
-		<h3>Udfordringer og proces</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p>
-	</section>
-
-	<section>
-		<h3>Løsning</h3>
-		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, natus? Aspernatur illum illo
-			atque quia, temporibus aliquam magnam expedita dignissimos obcaecati adipisci voluptatum
-			eaque, voluptate sapiente necessitatibus cumque ipsa aperiam voluptas harum omnis. Earum velit
-			doloribus suscipit eaque ullam, odio tenetur, quod consequatur vero repellendus veniam
-			molestias iusto, recusandae qui.
-		</p>
-	</section>
-
-	<section>
-		<div class="my-8 flex justify-between">
-			<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
-			<a class="se-siden" href="https://skuret.eu/kea/3semester/musikloftet/" target="blank"
-				>SE SIDEN ➝</a
-			>
-		</div>
-	</section>
-</div>
+<section>
+	<div class="links">
+		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
+		<a
+			class="se-siden mobil-link"
+			href="https://skuret.eu/kea/3semester/musikloftet/"
+			target="blank">SE SIDEN ➝</a
+		>
+	</div>
+</section>
 
 <style>
 	.container {
-		position: relative;
+		max-width: 1300px;
 		width: 100%;
 		display: grid;
-		gap: 10px;
+		grid-template-columns: 1fr;
+		gap: 50px;
 	}
 
-	img {
-		box-shadow: 2px 2px 4px;
+	.heading {
+		margin-top: 3rem;
+		background-image: url('../../static/musikloftet.svg');
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 100%;
+		height: 15rem;
+	}
+
+	.desk-link {
+		display: none;
+	}
+
+	.links {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 80px;
 	}
 
 	.se-siden {
-		border: solid 1px black;
-		border-radius: 12px;
+		border: solid 2px white;
+		border-image: linear-gradient(
+				90deg,
+				rgb(152, 6, 6) 0%,
+				rgb(179, 84, 26) 27%,
+				rgb(169, 159, 21) 49%,
+				rgb(65, 141, 187) 67%,
+				rgb(7, 53, 162) 100%
+			)
+			1;
+		border-radius: 20px;
 		padding: 0.5rem;
-	}
-
-	.link {
-		font-size: 2.5rem;
-	}
-
-	.overlay {
-		display: grid;
-		place-items: center;
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		left: 0;
-		right: 0;
-		height: 100%;
-		width: 100%;
-		opacity: 0;
-		transition: 0.5s ease;
-		background: linear-gradient(to right, rgba(233, 231, 231, 0.8), rgba(255, 255, 255, 0.9)),
-			url(https://grainy-gradients.vercel.app/noise.svg);
-	}
-	.text {
-		color: white;
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		justify-items: center;
-		-webkit-transform: translate(-50%, -50%);
-		-ms-transform: translate(-50%, -50%);
-		transform: translate(-50%, -50%);
-		transition: 0.4s linear;
-	}
-
-	.card:hover {
-		transform: scale(1.02);
-		z-index: 2;
-		position: static;
-		transition: 0.5s linear;
-	}
-
-	.card:hover img {
-		filter: blur(3px);
-	}
-
-	.card:hover .overlay {
-		opacity: 1;
 	}
 	section {
 		display: grid;
 	}
 
-	img {
-		width: 60rem;
-	}
+	@media (min-width: 650px) {
+		.container {
+			grid-template-columns: 1fr 1fr 1fr;
+		}
 
-	.container {
-		display: grid;
+		.heading {
+			background-attachment: fixed;
+			position: static;
+			height: 35rem;
+			margin-top: 4.2rem;
+		}
 
-		max-width: 980px;
+		.links {
+			width: 1100px;
+		}
+
+		.mobil-link {
+			display: none;
+		}
+
+		.desk-link {
+			display: grid;
+		}
 	}
 </style>

@@ -19,53 +19,51 @@
 
 <div class="heading" />
 
-<section><h1>Teater Grob</h1></section>
+<section><h1>Vildskud</h1></section>
 
 <section>
 	<div class="container">
 		<div>
 			<h4>Opgaven</h4>
 			<p>
-				Dette var et gruppe projekt, der handlede om at lave et kampagnesite, som skulle lokke flere
-				unge til at købe årskort til teater Grob. <br /> Sitet skulle udover et tydeligt koncept også
-				indholde en kampagnevideo, samt vidoer til sociale medier.
+				Dette gruppe projekt havde to overskrifter: revoltionært redesign og bæredygtigt design. Vi
+				skulle redesigne den eksisterende site for scenekunst festivallen 'Vildskud'. Samtidig
+				skulle vores design også være bæredygtigt, så de enkelte sider måtte ikke fylde mere end 0.5
+				mb, hvilket satte en del begrænsninger.
 			</p>
 		</div>
 
 		<div>
 			<h4>Processen</h4>
 			<p>
-				Vi startede projektet ud med at brainstorme idéer til et slogan, som vi kunne basere vores
-				koncept på. efter mange iterationer endte vi på sloganet "mangler du også mere drama i din
-				hverdag?". Sloganet lagde grund for vores kampagnevideoer, som viser forskellige folk, der
-				måske savner lidt drama i deres liv. Udover kampagne videoerne, så fandt vi også på at
-				kampagnen også skulle handle om at samle Nørrebro, med Teater Grob som centrum, så hvis man
-				køber et årskort, så ville man også få rabatter hos forskellige klassiske nørrebro
-				forretninger, som feks. BRUS og FRIHEDEN.
+				I vores gruppe valgte vi at gå "all out" på bæredygtigheden, og ikke bruge nogle billeder
+				eller animationer, men kun bygge vores side på vector grafik og fonte. Det gjorde vi
+				hovedsagligt for at udfordre os selv, og se om vi kunne lave et interessant design og nogle
+				billeder overhovedet. Vi brugte nogle stærke farver og fonte til at skabe en visuel
+				identitet og farveklatter til at skabe et sammenhæng på siderne.
 			</p>
 		</div>
 
 		<div>
 			<h4>Løsningen</h4>
 			<p>
-				Den endelige løsning, blev et kampagnesite, bygget op i wordpress. I dette projekt som jo
-				var et gruppeprojekt, havde jeg hovedsagligt ansvar for designet og opsætningen af
-				kampagnesitet. Sitet og vidoerne blev præsenteret for repræsentanter fra Teater Grob, som
-				var meget positive overfor hele konceptet.
+				Selve sitet er blevet kodet i SvelteKit, som er en hybrid imellem Svelte og Tailwind. Mit
+				eget hovedansvarsområde i dette projekt var opsætningen af sitet, og så designede jeg det
+				nye logo, som vi har brugt til at støtte op, om den nye visuelle identitet.
 			</p>
 		</div>
 	</div>
 </section>
 
 <section class="grid place-items-center desk-link">
-	<a class="se-siden" href="https://skuret.eu/kea/teater_grob/" target="blank">SE SIDEN ➝</a>
+	<a class="se-siden" href="https://vildskud.netlify.app/" target="blank">SE SIDEN ➝</a>
 </section>
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
-		<a class="se-siden mobil-link" href="https://skuret.eu/kea/teater_grob/" target="blank"
-			>SE SIDEN ➝</a
+		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ SIDEN</a>
+		<a class="se-siden mobil-link" href="https://vildskud.netlify.app/" target="blank"
+			>SE ARTWORKS ➝</a
 		>
 	</div>
 </section>
@@ -81,7 +79,7 @@
 
 	.heading {
 		margin-top: 3rem;
-		background-image: url('../../static/grob_logo.webp');
+		background-image: url('../../static/hero_bg_2.svg');
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 100%;

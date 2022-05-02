@@ -32,25 +32,28 @@
 </div>
 <section id="om-mig">
 	<article>
-		<h2>Frederik Milland</h2>
+		<h1>Frederik Milland</h1>
 		<div class="text">
 			<p>
-				Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores porro rerum
-				temporibus possimus. Nostrum ex odio cupiditate quia, corrupti ea nobis voluptatum ipsa
-				voluptatibus dolore dolorem reprehenderit architecto nisi consectetur, fugit laborum modi.
-				Nemo impedit tempore mollitia, et voluptatum aperiam sed aliquid. Ipsam, tempora optio
-				veniam facere perferendis nihil, alias iste illo esse sint rerum quis accusamus dolores
-				recusandae officia quos cupiditate ratione laborum, consequuntur nobis vel pariatur modi
-				autem! Earum magni quaerat facere.
+				Hvis man skal gøre det helt kort, så hedder jeg Frederik, jeg er 27 år, opvokset i København
+				og så elsker jeg at lave design og kode hjemmesider. Hvis vi skal lidt længere ind i hvem
+				jeg egentlig er, så kan jeg fortælle at det ikke altid har ligget i kortene, at jeg skulle
+				uddanne mig til multimediedesigner. <br /><br /> Siden jeg var helt ung, så har musik altid været
+				min store passion, og jeg har skrevegt sange og spillet i forskellige bands siden jeg var 12
+				år gammel. Når man er musiker og skal udgive musik, så skal man som regel bruge en form for artwork,
+				hvilket ikke altid er helt lige til selv at lave, ej heller helt billigt at købe sig fra.
 			</p>
 			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. At animi officiis nulla qui atque
-				aliquam quo nesciunt, quae ex mollitia. Sint atque quae fugit totam reprehenderit numquam
-				veniam sapiente. Mollitia, distinctio? Consequuntur officia exercitationem vero esse, eius
-				veniam earum temporibus laborum possimus quisquam dolore reprehenderit. Quia, odit dolor.
-				Pariatur, necessitatibus! Unde minima, assumenda vero natus optio quaerat fugiat molestias
-				cumque mollitia tempora amet placeat nihil aut id ducimus sed, rem nesciunt, deserunt
-				laborum expedita porro.
+				Men så er det godt at jeg at jeg altid har haft mantraet <span class="font-semibold"
+					>"Det har jeg ikke prøvet før, så det er jeg sikkert god til".</span
+				>
+				Jeg begav mig nemlig ud i selv at designe artworks til forskellige udgivelser. Bevars, de første
+				forsøg var nok mindre heldige, men det blev bedre og bedre, og til sidst begyndte andre end jeg
+				selv at kunne lide de designs jeg lavede, og med det blev en interesse for at lave design født.
+				<br />
+				<br /> Siden jeg startede på KEA har jeg så også forelsket mig i at sætte hjemmesider op, fordi
+				jeg finder det utroligt tilfredsstillende i at bygge ting op fra bunden, og så elsker jeg at
+				gøre mig umage.
 			</p>
 		</div>
 	</article>
@@ -63,7 +66,7 @@
 			<li>- Erfaring med Photoshop, Illustrator, Premiere Pro, InDesign og Figma</li>
 			<br />
 			<li>
-				- Erfaring med at kode basic html, css og javascript, samt frameworks som Svelte og Tailwind
+				- Erfaring med at kode html, css og javascript, samt frameworks som Svelte og Tailwind
 			</li>
 			<br />
 			<li>- Erfaring med opsætning af hjemmesider i CMS som f.eks. wordpress</li>
@@ -171,7 +174,8 @@
 		place-items: center;
 	}
 	.text {
-		gap: 1rem;
+		margin-top: 1rem;
+		gap: 4rem;
 		display: grid;
 	}
 

@@ -36,10 +36,29 @@
 
 <section id="portfolio">
 	<div class="">
+		<a class="desk-link" sveltekit:prefetch href="/Vildskud">
+			<div class="card ">
+				<div class="container">
+					<img src="hero_bg_2.svg" alt="Spil" />
+					<div class="overlay">
+						<div class="text">
+							<h4>WEBSITE:</h4>
+							<h3>VILDSKUD➝</h3>
+						</div>
+					</div>
+				</div>
+			</div></a
+		>
+	</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/Vildskud"><h4>WEBSITE: VILDSKUD ➝</h4></a>
+	</div>
+
+	<div class="">
 		<a class="desk-link" sveltekit:prefetch href="/Musikloftet">
 			<div class="card ">
 				<div class="container">
-					<img src="musikloftet.webp" alt="Musikloftet" />
+					<img src="musikloftet.svg" alt="Musikloftet" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -58,7 +77,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Toast">
 			<div class="card ">
 				<div class="container">
-					<img src="toast.webp" alt="Musikloftet" />
+					<img src="toast_LOGO.webp" alt="Musikloftet" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -77,7 +96,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Artworks">
 			<div class="card ">
 				<div class="container">
-					<img src="artworks.webp" alt="Artworks" />
+					<img src="SOVEREIGN.webp" alt="Artworks" />
 					<div class="overlay">
 						<div class="text">
 							<h4>DESIGN:</h4>
@@ -96,7 +115,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Teater">
 			<div class="card">
 				<div class="container">
-					<img src="grob.webp" alt="Teater grob" />
+					<img src="grob_LOGO.webp" alt="Teater grob" />
 					<div class="overlay">
 						<div class="text">
 							<h4>KAMPAGNESITE:</h4>
@@ -134,7 +153,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Olklubben">
 			<div class="card ">
 				<div class="container">
-					<img src="olklubben.webp" alt="Ølklubben" />
+					<img src="olklubben_LOGO.SVG" alt="Ølklubben" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -147,25 +166,6 @@
 	</div>
 	<div class="mobile-link">
 		<a sveltekit:prefetch href="/Olklubben"><h4>WEBSITE: ØLKLUBBEN ➝</h4></a>
-	</div>
-
-	<div class="">
-		<a class="desk-link" sveltekit:prefetch href="/Spil">
-			<div class="card ">
-				<div class="container">
-					<img src="spil.webp" alt="Spil" />
-					<div class="overlay">
-						<div class="text">
-							<h4>ANIMATION:</h4>
-							<h3>IMPRESS A GIRL➝</h3>
-						</div>
-					</div>
-				</div>
-			</div></a
-		>
-	</div>
-	<div class="mobile-link">
-		<a sveltekit:prefetch href="/Spil"><h4>ANIMATION: IMPRESS A GIRL ➝</h4></a>
 	</div>
 </section>
 
