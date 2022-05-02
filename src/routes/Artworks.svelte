@@ -64,7 +64,7 @@
 	<div class="links">
 		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
 		<a class="se-siden mobil-link" href="https://skuret.eu/kea/1semester/artworks/" target="blank"
-			>SE ARTWORKS ➝</a
+			>SE SIDEN ➝</a
 		>
 	</div>
 </section>

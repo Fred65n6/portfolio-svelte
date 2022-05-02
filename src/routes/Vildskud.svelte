@@ -62,8 +62,7 @@
 <section>
 	<div class="links">
 		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
-		<a class="se-siden mobil-link" href="https://vildskud.netlify.app/" target="blank"
-			>SE ARTWORKS ➝</a
+		<a class="se-siden mobil-link" href="https://vildskud.netlify.app/" target="blank">SE SIDEN ➝</a
 		>
 	</div>
 </section>
