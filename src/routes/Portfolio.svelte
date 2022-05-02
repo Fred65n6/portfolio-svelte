@@ -96,7 +96,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Artworks">
 			<div class="card ">
 				<div class="container">
-					<img src="sovereign.webp" alt="Artworks" />
+					<img src="artworks.webp" alt="Artworks" />
 					<div class="overlay">
 						<div class="text">
 							<h4>DESIGN:</h4>
@@ -115,7 +115,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Teater">
 			<div class="card">
 				<div class="container">
-					<img src="grob_logo.webp" alt="Teater grob" />
+					<img src="grob.webp" alt="Teater grob" />
 					<div class="overlay">
 						<div class="text">
 							<h4>KAMPAGNESITE:</h4>
@@ -153,7 +153,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Olklubben">
 			<div class="card ">
 				<div class="container">
-					<img src="olklubben_logo.svg" alt="Ølklubben" />
+					<img src="olklubben.webp" alt="Ølklubben" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
