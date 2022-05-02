@@ -1,229 +1,256 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-ad47f78f.js",
+    "file": "start-2a20967c.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
-      "_vendor-55574a2a.js"
+      "_vendor-c78dc340.js"
     ],
     "dynamicImports": [
       "src/routes/__layout.svelte",
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
       "src/routes/Musikloftet.svelte",
-      "src/routes/Ungdomsbyen.svelte",
-      "_Burgermenu-73b6646f.js",
       "src/routes/Olklubben.svelte",
       "src/routes/Portfolio.svelte",
       "src/routes/Artworks.svelte",
+      "src/routes/Vildskud.svelte",
       "src/routes/Footer.svelte",
       "src/routes/Om_mig.svelte",
       "src/routes/Teater.svelte",
       "src/routes/Toast.svelte",
-      "src/routes/Hero.svelte",
-      "src/routes/Spil.svelte"
+      "src/routes/Hero.svelte"
     ]
   },
   "src/routes/__layout.svelte": {
-    "file": "pages/__layout.svelte-fbae44fd.js",
+    "file": "pages/__layout.svelte-0b8cb568.js",
     "src": "src/routes/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "_Burgermenu-73b6646f.js",
+      "_vendor-c78dc340.js",
       "src/routes/Footer.svelte"
     ],
     "css": [
-      "assets/pages/__layout.svelte-4f74d1c5.css"
+      "assets/pages/__layout.svelte-41b523ac.css"
     ]
   },
   "src/routes/Footer.svelte": {
-    "file": "pages/Footer.svelte-c67a95f1.js",
+    "file": "pages/Footer.svelte-bfacbd09.js",
     "src": "src/routes/Footer.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js"
+      "_vendor-c78dc340.js"
     ],
     "css": [
       "assets/pages/Footer.svelte-7a5fe79b.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
-    "file": "error.svelte-05163aa1.js",
+    "file": "error.svelte-7e391793.js",
     "src": ".svelte-kit/runtime/components/error.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js"
+      "_vendor-c78dc340.js"
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-e0e08bb3.js",
+    "file": "pages/index.svelte-ddd73017.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "src/routes/Hero.svelte"
+      "_vendor-c78dc340.js",
+      "_Header-f306a29f.js",
+      "src/routes/Hero.svelte",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/index.svelte-d40b1da0.css"
+      "assets/pages/index.svelte-146a796d.css"
     ]
   },
   "src/routes/Hero.svelte": {
-    "file": "pages/Hero.svelte-73149c65.js",
+    "file": "pages/Hero.svelte-83342a90.js",
     "src": "src/routes/Hero.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js"
+      "_vendor-c78dc340.js"
     ],
     "css": [
-      "assets/pages/Hero.svelte-7ede3279.css"
+      "assets/pages/Hero.svelte-e99dfc5e.css"
     ],
     "assets": [
       "assets/background.img_portfolio-8d5b32b1.webp"
     ]
   },
   "src/routes/Musikloftet.svelte": {
-    "file": "pages/Musikloftet.svelte-12fc2022.js",
+    "file": "pages/Musikloftet.svelte-62c4c33d.js",
     "src": "src/routes/Musikloftet.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "_vendor-c78dc340.js",
+      "_Header_2-e598e7d6.js",
+      "_env-859c48a7.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/Musikloftet.svelte-6f5e97b9.css"
-    ]
-  },
-  "src/routes/Ungdomsbyen.svelte": {
-    "file": "pages/Ungdomsbyen.svelte-cc3f55cd.js",
-    "src": "src/routes/Ungdomsbyen.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "assets/pages/Musikloftet.svelte-f85ed4d1.css"
     ],
-    "css": [
-      "assets/pages/Musikloftet.svelte-6f5e97b9.css"
+    "assets": [
+      "assets/musikloftet-f84c26dd.svg"
     ]
   },
   "src/routes/Olklubben.svelte": {
-    "file": "pages/Olklubben.svelte-1f489440.js",
+    "file": "pages/Olklubben.svelte-0eedddcb.js",
     "src": "src/routes/Olklubben.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "_vendor-c78dc340.js",
+      "_Header_2-e598e7d6.js",
+      "_env-859c48a7.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/Olklubben.svelte-39d7e823.css"
+      "assets/pages/Olklubben.svelte-c45ec5c7.css"
+    ],
+    "assets": [
+      "assets/olklubben_logo-fac6180d.svg"
     ]
   },
   "src/routes/Portfolio.svelte": {
-    "file": "pages/Portfolio.svelte-17654ed9.js",
+    "file": "pages/Portfolio.svelte-57eb1f34.js",
     "src": "src/routes/Portfolio.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "_vendor-c78dc340.js",
+      "_Header-f306a29f.js",
+      "_env-859c48a7.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/Portfolio.svelte-51c71282.css"
+      "assets/pages/Portfolio.svelte-a2c3051e.css"
     ]
   },
   "src/routes/Artworks.svelte": {
-    "file": "pages/Artworks.svelte-d9511693.js",
+    "file": "pages/Artworks.svelte-bef1eb8b.js",
     "src": "src/routes/Artworks.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "_vendor-c78dc340.js",
+      "_Header_2-e598e7d6.js",
+      "_env-859c48a7.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/Musikloftet.svelte-6f5e97b9.css"
+      "assets/pages/Artworks.svelte-73c661da.css"
+    ],
+    "assets": [
+      "assets/sovereign-7accb4a4.webp"
+    ]
+  },
+  "src/routes/Vildskud.svelte": {
+    "file": "pages/Vildskud.svelte-6544f486.js",
+    "src": "src/routes/Vildskud.svelte",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-c78dc340.js",
+      "_Header_2-e598e7d6.js",
+      "_env-859c48a7.js",
+      "_stores-684355ab.js"
+    ],
+    "css": [
+      "assets/pages/Vildskud.svelte-5a1c8658.css"
+    ],
+    "assets": [
+      "assets/hero_bg_2-de978f83.svg"
     ]
   },
   "src/routes/Om_mig.svelte": {
-    "file": "pages/Om_mig.svelte-be9a1052.js",
+    "file": "pages/Om_mig.svelte-ae60e997.js",
     "src": "src/routes/Om_mig.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "_vendor-c78dc340.js",
+      "_Header-f306a29f.js",
+      "_env-859c48a7.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/Om_mig.svelte-f430833e.css"
+      "assets/pages/Om_mig.svelte-7876d0cb.css"
     ]
   },
   "src/routes/Teater.svelte": {
-    "file": "pages/Teater.svelte-bd8c4a07.js",
+    "file": "pages/Teater.svelte-02365920.js",
     "src": "src/routes/Teater.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "_vendor-c78dc340.js",
+      "_Header_2-e598e7d6.js",
+      "_env-859c48a7.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/Teater.svelte-2763a6b6.css"
+      "assets/pages/Teater.svelte-6b1749f1.css"
+    ],
+    "assets": [
+      "assets/grob_logo-fbeaf69a.webp"
     ]
   },
   "src/routes/Toast.svelte": {
-    "file": "pages/Toast.svelte-30c84ea4.js",
+    "file": "pages/Toast.svelte-4fbb9db3.js",
     "src": "src/routes/Toast.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "_vendor-c78dc340.js",
+      "_Header_2-e598e7d6.js",
+      "_env-859c48a7.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/Toast.svelte-55622442.css"
+      "assets/pages/Toast.svelte-45b763cb.css"
+    ],
+    "assets": [
+      "assets/toast_logo-08ad043b.webp"
     ]
   },
-  "src/routes/Spil.svelte": {
-    "file": "pages/Spil.svelte-c07c99ae.js",
-    "src": "src/routes/Spil.svelte",
-    "isEntry": true,
-    "isDynamicEntry": true,
+  "_vendor-c78dc340.js": {
+    "file": "chunks/vendor-c78dc340.js"
+  },
+  "_Header-f306a29f.js": {
+    "file": "chunks/Header-f306a29f.js",
     "imports": [
-      "_vendor-55574a2a.js",
-      "_env-859c48a7.js"
+      "_vendor-c78dc340.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/pages/Spil.svelte-0260e311.css"
+      "assets/Header-8b6ba75f.css"
     ]
   },
-  "src/routes/Burgermenu.svelte": {
-    "file": "pages/Burgermenu.svelte-2039314f.js",
-    "src": "src/routes/Burgermenu.svelte",
-    "isEntry": true,
+  "_stores-684355ab.js": {
+    "file": "chunks/stores-684355ab.js",
     "imports": [
-      "_vendor-55574a2a.js",
-      "_Burgermenu-73b6646f.js"
+      "_vendor-c78dc340.js"
     ]
   },
-  "_vendor-55574a2a.js": {
-    "file": "chunks/vendor-55574a2a.js"
-  },
-  "_Burgermenu-73b6646f.js": {
-    "file": "chunks/Burgermenu-73b6646f.js",
-    "isDynamicEntry": true,
+  "_Header_2-e598e7d6.js": {
+    "file": "chunks/Header_2-e598e7d6.js",
     "imports": [
-      "_vendor-55574a2a.js"
+      "_vendor-c78dc340.js",
+      "_stores-684355ab.js"
     ],
     "css": [
-      "assets/Burgermenu-948fa5fd.css"
+      "assets/Header_2-c5dc1589.css"
     ]
   },
   "_env-859c48a7.js": {

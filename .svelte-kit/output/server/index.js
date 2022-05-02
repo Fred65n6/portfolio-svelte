@@ -17,7 +17,7 @@ var __privateSet = (obj, member, value, setter) => {
   return value;
 };
 var _use_hashes, _dev, _script_needs_csp, _style_needs_csp, _directives, _script_src, _style_src;
-import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./chunks/index-8f0b34dd.js";
+import { c as create_ssr_component, s as setContext, v as validate_component, m as missing_component } from "./chunks/index-e03aaaec.js";
 import cookie from "cookie";
 import { v4 } from "@lukeed/uuid";
 function afterUpdate() {
@@ -1944,7 +1944,7 @@ var user_hooks = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProp
   __proto__: null,
   handle
 }, Symbol.toStringTag, { value: "Module" }));
-const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html class="scroll-smooth" lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="description" content="Svelte demo app" />\n		<link class="favicon" rel="icon" href="' + assets2 + '/favicon.svg" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<link rel="preconnect" href="https://fonts.googleapis.com" />\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n		<link\n			href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"\n			rel="stylesheet"\n		/>\n		' + head + "\n	</head>\n	<body>\n		<div>" + body + "</div>\n	</body>\n</html>\n\n<style></style>\n";
+const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\r\n<html class="scroll-smooth" lang="en">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<meta name="description" content="Svelte demo app" />\r\n		<link class="favicon" rel="icon" href="' + assets2 + '/favicon.svg" />\r\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n		<link rel="preconnect" href="https://fonts.googleapis.com" />\r\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\r\n		<link\r\n			href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"\r\n			rel="stylesheet"\r\n		/>\r\n		' + head + "\r\n	</head>\r\n	<body>\r\n		<div>" + body + "</div>\r\n	</body>\r\n</html>\r\n\r\n<style></style>\r\n";
 let read = null;
 set_paths({ "base": "", "assets": "" });
 const get_hooks = (hooks) => ({

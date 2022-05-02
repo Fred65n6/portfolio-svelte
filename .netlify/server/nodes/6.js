@@ -32,8 +32,8 @@ __export(stdin_exports, {
   js: () => js,
   module: () => module2
 });
-var module2 = __toESM(require("../entries/pages/Olklubben.svelte.js"));
-const entry = "pages/Olklubben.svelte-1f489440.js";
-const js = ["pages/Olklubben.svelte-1f489440.js", "chunks/vendor-55574a2a.js", "chunks/env-859c48a7.js"];
-const css = ["assets/pages/Olklubben.svelte-39d7e823.css"];
+var module2 = __toESM(require("../entries/pages/Artworks.svelte.js"));
+const entry = "pages/Artworks.svelte-bef1eb8b.js";
+const js = ["pages/Artworks.svelte-bef1eb8b.js", "chunks/vendor-c78dc340.js", "chunks/Header_2-e598e7d6.js", "chunks/stores-684355ab.js", "chunks/env-859c48a7.js"];
+const css = ["assets/pages/Artworks.svelte-73c661da.css", "assets/Header_2-c5dc1589.css"];
 module.exports = __toCommonJS(stdin_exports);

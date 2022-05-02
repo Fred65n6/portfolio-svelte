@@ -47,7 +47,7 @@ __export(stdin_exports, {
   Server: () => Server,
   override: () => override
 });
-var import_index_8f0b34dd = require("./chunks/index-8f0b34dd.js");
+var import_index_e03aaaec = require("./chunks/index-e03aaaec.js");
 var import_cookie = __toESM(require("cookie"));
 var import_uuid = require("@lukeed/uuid");
 var __accessCheck = (obj, member, msg) => {
@@ -71,14 +71,14 @@ var __privateSet = (obj, member, value, setter) => {
 var _use_hashes, _dev, _script_needs_csp, _style_needs_csp, _directives, _script_src, _style_src;
 function afterUpdate() {
 }
-const Root = (0, import_index_8f0b34dd.c)(($$result, $$props, $$bindings, slots) => {
+const Root = (0, import_index_e03aaaec.c)(($$result, $$props, $$bindings, slots) => {
   let { stores } = $$props;
   let { page } = $$props;
   let { components } = $$props;
   let { props_0 = null } = $$props;
   let { props_1 = null } = $$props;
   let { props_2 = null } = $$props;
-  (0, import_index_8f0b34dd.s)("__svelte__", stores);
+  (0, import_index_e03aaaec.s)("__svelte__", stores);
   afterUpdate(stores.page.notify);
   if ($$props.stores === void 0 && $$bindings.stores && stores !== void 0)
     $$bindings.stores(stores);
@@ -98,15 +98,15 @@ const Root = (0, import_index_8f0b34dd.c)(($$result, $$props, $$bindings, slots)
   return `
 
 
-${components[1] ? `${(0, import_index_8f0b34dd.v)(components[0] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {
+${components[1] ? `${(0, import_index_e03aaaec.v)(components[0] || import_index_e03aaaec.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {
     default: () => {
-      return `${components[2] ? `${(0, import_index_8f0b34dd.v)(components[1] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {
+      return `${components[2] ? `${(0, import_index_e03aaaec.v)(components[1] || import_index_e03aaaec.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {
         default: () => {
-          return `${(0, import_index_8f0b34dd.v)(components[2] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_2 || {}), {}, {})}`;
+          return `${(0, import_index_e03aaaec.v)(components[2] || import_index_e03aaaec.m, "svelte:component").$$render($$result, Object.assign(props_2 || {}), {}, {})}`;
         }
-      })}` : `${(0, import_index_8f0b34dd.v)(components[1] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {})}`}`;
+      })}` : `${(0, import_index_e03aaaec.v)(components[1] || import_index_e03aaaec.m, "svelte:component").$$render($$result, Object.assign(props_1 || {}), {}, {})}`}`;
     }
-  })}` : `${(0, import_index_8f0b34dd.v)(components[0] || import_index_8f0b34dd.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {})}`}
+  })}` : `${(0, import_index_e03aaaec.v)(components[0] || import_index_e03aaaec.m, "svelte:component").$$render($$result, Object.assign(props_0 || {}), {}, {})}`}
 
 ${``}`;
 });
@@ -1985,7 +1985,7 @@ var user_hooks = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProp
   __proto__: null,
   handle
 }, Symbol.toStringTag, { value: "Module" }));
-const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\n<html class="scroll-smooth" lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<meta name="description" content="Svelte demo app" />\n		<link class="favicon" rel="icon" href="' + assets2 + '/favicon.svg" />\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\n		<link rel="preconnect" href="https://fonts.googleapis.com" />\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\n		<link\n			href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"\n			rel="stylesheet"\n		/>\n		' + head + "\n	</head>\n	<body>\n		<div>" + body + "</div>\n	</body>\n</html>\n\n<style></style>\n";
+const template = ({ head, body, assets: assets2, nonce }) => '<!DOCTYPE html>\r\n<html class="scroll-smooth" lang="en">\r\n	<head>\r\n		<meta charset="utf-8" />\r\n		<meta name="description" content="Svelte demo app" />\r\n		<link class="favicon" rel="icon" href="' + assets2 + '/favicon.svg" />\r\n		<meta name="viewport" content="width=device-width, initial-scale=1" />\r\n		<link rel="preconnect" href="https://fonts.googleapis.com" />\r\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />\r\n		<link\r\n			href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap"\r\n			rel="stylesheet"\r\n		/>\r\n		' + head + "\r\n	</head>\r\n	<body>\r\n		<div>" + body + "</div>\r\n	</body>\r\n</html>\r\n\r\n<style></style>\r\n";
 let read = null;
 set_paths({ "base": "", "assets": "" });
 const get_hooks = (hooks) => ({

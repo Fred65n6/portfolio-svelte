@@ -77,7 +77,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Toast">
 			<div class="card ">
 				<div class="container">
-					<img src="./toast_logo.webp" alt="Toast no.9" />
+					<img src="toast_logo.webp" alt="Toast no.9" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>

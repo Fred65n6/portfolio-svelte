@@ -1,8 +1,10 @@
-import { c as create_ssr_component } from "../../chunks/index-8f0b34dd.js";
+import { c as create_ssr_component, v as validate_component } from "../../chunks/index-e03aaaec.js";
+import { H as Header } from "../../chunks/Header-27610834.js";
 import { d as dev, b as browser } from "../../chunks/env-14926626.js";
+import "../../chunks/stores-5fe3ad3b.js";
 var Om_mig_svelte_svelte_type_style_lang = "";
 const css = {
-  code: "section.svelte-e01wyf.svelte-e01wyf{gap:30px;display:grid;margin-inline:1rem;padding-block:1rem}address.svelte-e01wyf.svelte-e01wyf{font-style:normal;display:grid;gap:20px;text-align:center;margin-top:2rem}.kontakt.svelte-e01wyf.svelte-e01wyf{display:grid;place-items:center;margin-top:2rem}address.svelte-e01wyf p.svelte-e01wyf{font-weight:400}@media(min-width: 650px){address.svelte-e01wyf.svelte-e01wyf{grid-template-columns:1fr 1fr 1fr}.text.svelte-e01wyf.svelte-e01wyf{grid-template-columns:1fr 1fr}.box.svelte-e01wyf.svelte-e01wyf{grid-template-columns:1fr}}.box.svelte-e01wyf.svelte-e01wyf{padding-block:6rem;text-align:center;box-shadow:2px 2px 4px;background:rgba(218, 217, 217, 0.605);padding:4rem;display:grid}.container.svelte-e01wyf.svelte-e01wyf{margin-top:3rem;border-block:solid 6px;border-image:linear-gradient(\r\n				90deg,\r\n				rgb(152, 6, 6) 0%,\r\n				rgb(179, 84, 26) 27%,\r\n				rgb(169, 159, 21) 49%,\r\n				rgb(65, 141, 187) 67%,\r\n				rgb(7, 53, 162) 100%\r\n			)\r\n			1}.pictures.svelte-e01wyf.svelte-e01wyf{object-fit:cover;display:flex}article.svelte-e01wyf.svelte-e01wyf{margin-block:3rem;max-width:900px;display:grid;place-items:center}.text.svelte-e01wyf.svelte-e01wyf{gap:1rem;display:grid}li.svelte-e01wyf.svelte-e01wyf{font-weight:100;font-size:1.1rem}address.svelte-e01wyf.svelte-e01wyf{font-size:1.1rem}",
+  code: "section.svelte-11nfio8.svelte-11nfio8{gap:30px;display:grid;margin-inline:1rem;padding-block:1rem}address.svelte-11nfio8.svelte-11nfio8{font-style:normal;display:grid;gap:20px;text-align:center;margin-top:2rem}.kontakt.svelte-11nfio8.svelte-11nfio8{display:grid;place-items:center;margin-top:2rem}address.svelte-11nfio8 p.svelte-11nfio8{font-weight:400}.box.svelte-11nfio8.svelte-11nfio8{max-width:95%}@media(min-width: 650px){address.svelte-11nfio8.svelte-11nfio8{grid-template-columns:1fr 1fr 1fr}.text.svelte-11nfio8.svelte-11nfio8{grid-template-columns:1fr 1fr}.box.svelte-11nfio8.svelte-11nfio8{grid-template-columns:1fr}}.box.svelte-11nfio8.svelte-11nfio8{padding-block:6rem;text-align:center;box-shadow:2px 2px 4px;background:rgba(218, 217, 217, 0.605);padding:4rem;display:grid}.container.svelte-11nfio8.svelte-11nfio8{width:100%;display:grid;gap:10px;margin-top:3rem;border-block:solid 6px;border-image:linear-gradient(\r\n				90deg,\r\n				rgb(152, 6, 6) 0%,\r\n				rgb(179, 84, 26) 27%,\r\n				rgb(169, 159, 21) 49%,\r\n				rgb(65, 141, 187) 67%,\r\n				rgb(7, 53, 162) 100%\r\n			)\r\n			1}.pictures.svelte-11nfio8.svelte-11nfio8{object-fit:cover;display:flex}article.svelte-11nfio8.svelte-11nfio8{margin-block:3rem;max-width:900px;display:grid;place-items:center}.text.svelte-11nfio8.svelte-11nfio8{margin-top:1rem;gap:4rem;display:grid}li.svelte-11nfio8.svelte-11nfio8{font-weight:100;font-size:1.1rem}address.svelte-11nfio8.svelte-11nfio8{font-size:1.1rem}",
   map: null
 };
 const hydrate = dev;
@@ -12,41 +14,44 @@ const Om_mig = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
   return `${$$result.head += `${$$result.title = `<title>Om mig</title>`, ""}`, ""}
 
+${validate_component(Header, "Header").$$render($$result, {}, {}, {})}
+
 <div class="${"heading"}"><h1>OM MIG</h1></div>
 
-<div class="${"container svelte-e01wyf"}"><div class="${"pictures svelte-e01wyf"}"><img src="${"./om-mig.webp"}" alt="${"port\xE6t"}"></div></div>
-<section id="${"om-mig"}" class="${"svelte-e01wyf"}"><article class="${"svelte-e01wyf"}"><h2>Frederik Milland</h2>
-		<div class="${"text svelte-e01wyf"}"><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste asperiores porro rerum
-				temporibus possimus. Nostrum ex odio cupiditate quia, corrupti ea nobis voluptatum ipsa
-				voluptatibus dolore dolorem reprehenderit architecto nisi consectetur, fugit laborum modi.
-				Nemo impedit tempore mollitia, et voluptatum aperiam sed aliquid. Ipsam, tempora optio
-				veniam facere perferendis nihil, alias iste illo esse sint rerum quis accusamus dolores
-				recusandae officia quos cupiditate ratione laborum, consequuntur nobis vel pariatur modi
-				autem! Earum magni quaerat facere.
+<div class="${"container svelte-11nfio8"}"><div class="${"pictures svelte-11nfio8"}"><img src="${"om-mig.webp"}" alt="${"port\xE6t"}"></div></div>
+<section id="${"om-mig"}" class="${"svelte-11nfio8"}"><article class="${"svelte-11nfio8"}"><h1>Frederik Milland</h1>
+		<div class="${"text svelte-11nfio8"}"><p>Hvis man skal g\xF8re det helt kort, s\xE5 hedder jeg Frederik, jeg er 27 \xE5r, opvokset i K\xF8benhavn
+				og s\xE5 elsker jeg at lave design og kode hjemmesider. Hvis vi skal lidt l\xE6ngere ind i hvem
+				jeg egentlig er, s\xE5 kan jeg fort\xE6lle at det ikke altid har ligget i kortene, at jeg skulle
+				uddanne mig til multimediedesigner. <br><br> Siden jeg var helt ung, s\xE5 har musik altid v\xE6ret
+				min store passion, og jeg har skrevegt sange og spillet i forskellige bands siden jeg var 12
+				\xE5r gammel. N\xE5r man er musiker og skal udgive musik, s\xE5 skal man som regel bruge en form for artwork,
+				hvilket ikke altid er helt lige til selv at lave, ej heller helt billigt at k\xF8be sig fra.
 			</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At animi officiis nulla qui atque
-				aliquam quo nesciunt, quae ex mollitia. Sint atque quae fugit totam reprehenderit numquam
-				veniam sapiente. Mollitia, distinctio? Consequuntur officia exercitationem vero esse, eius
-				veniam earum temporibus laborum possimus quisquam dolore reprehenderit. Quia, odit dolor.
-				Pariatur, necessitatibus! Unde minima, assumenda vero natus optio quaerat fugiat molestias
-				cumque mollitia tempora amet placeat nihil aut id ducimus sed, rem nesciunt, deserunt
-				laborum expedita porro.
+			<p>Men s\xE5 er det godt at jeg at jeg altid har haft mantraet <span class="${"font-semibold"}">&quot;Det har jeg ikke pr\xF8vet f\xF8r, s\xE5 det er jeg sikkert god til&quot;.</span>
+				Jeg begav mig nemlig ud i selv at designe artworks til forskellige udgivelser. Bevars, de f\xF8rste
+				fors\xF8g var nok mindre heldige, men det blev bedre og bedre, og til sidst begyndte andre end jeg
+				selv at kunne lide de designs jeg lavede, og med det blev en interesse for at lave design f\xF8dt.
+				<br>
+				<br> Siden jeg startede p\xE5 KEA har jeg s\xE5 ogs\xE5 forelsket mig i at s\xE6tte hjemmesider op, fordi
+				jeg finder det utroligt tilfredsstillende i at bygge ting op fra bunden, og s\xE5 elsker jeg at
+				g\xF8re mig umage.
 			</p></div></article></section>
 
-<div class="${"box svelte-e01wyf"}"><div class="${"kompetencer"}"><h2>Kompetencer</h2>
-		<ol><li class="${"svelte-e01wyf"}">- Erfaring med Photoshop, Illustrator, Premiere Pro, InDesign og Figma</li>
+<div class="${"box svelte-11nfio8"}"><div class="${"kompetencer"}"><h2>Kompetencer</h2>
+		<ol><li class="${"svelte-11nfio8"}">- Erfaring med Photoshop, Illustrator, Premiere Pro, InDesign og Figma</li>
 			<br>
-			<li class="${"svelte-e01wyf"}">- Erfaring med at kode basic html, css og javascript, samt frameworks som Svelte og Tailwind
+			<li class="${"svelte-11nfio8"}">- Erfaring med at kode html, css og javascript, samt frameworks som Svelte og Tailwind
 			</li>
 			<br>
-			<li class="${"svelte-e01wyf"}">- Erfaring med ops\xE6tning af hjemmesider i diverse CMS som wordpress og shopify</li></ol></div></div>
+			<li class="${"svelte-11nfio8"}">- Erfaring med ops\xE6tning af hjemmesider i CMS som f.eks. wordpress</li></ol></div></div>
 
-<section class="${"svelte-e01wyf"}"><div class="${"kontakt svelte-e01wyf"}"><h2>Kontakt</h2>
-		<address class="${"svelte-e01wyf"}"><div class="${""}"><p class="${"svelte-e01wyf"}">E-mail:</p>
+<section class="${"svelte-11nfio8"}"><div class="${"kontakt svelte-11nfio8"}"><h2>Kontakt</h2>
+		<address class="${"svelte-11nfio8"}"><div class="${""}"><p class="${"svelte-11nfio8"}">E-mail:</p>
 				<a href="${"mailto:frederik-milland@hotmail.com"}">frederik-milland@hotmail.com</a></div>
-			<div class="${""}"><p class="${"svelte-e01wyf"}">Telefon:</p>
+			<div class="${""}"><p class="${"svelte-11nfio8"}">Telefon:</p>
 				<a href="${"tel:+4522901244"}">+4522901244</a></div>
-			<div class="${""}"><p class="${"svelte-e01wyf"}">LinkedIn</p>
+			<div class="${""}"><p class="${"svelte-11nfio8"}">LinkedIn</p>
 				<a href="${"https://www.linkedin.com/in/frederik-milland-a2b671205/"}">https://bit.ly/3qOJCFY</a></div></address></div></section>
 
 <div class="${"til-toppen hover:pulsate-fwd"}"><a href="${"#top"}">\uFE3D<br> Til toppen</a>

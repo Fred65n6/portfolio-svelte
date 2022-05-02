@@ -1,8 +1,10 @@
-import { c as create_ssr_component } from "../../chunks/index-8f0b34dd.js";
+import { c as create_ssr_component, v as validate_component } from "../../chunks/index-e03aaaec.js";
+import { H as Header_2 } from "../../chunks/Header_2-0c1d907c.js";
 import { d as dev, b as browser } from "../../chunks/env-14926626.js";
+import "../../chunks/stores-5fe3ad3b.js";
 var Musikloftet_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".container.svelte-lwnjp5.svelte-lwnjp5{position:relative;width:100%;display:grid;gap:10px}img.svelte-lwnjp5.svelte-lwnjp5{box-shadow:2px 2px 4px}.se-siden.svelte-lwnjp5.svelte-lwnjp5{border:solid 1px black;border-radius:12px;padding:0.5rem}.link.svelte-lwnjp5.svelte-lwnjp5{font-size:2.5rem}.overlay.svelte-lwnjp5.svelte-lwnjp5{display:grid;place-items:center;position:absolute;top:0;bottom:0;left:0;right:0;height:100%;width:100%;opacity:0;transition:0.5s ease;background:linear-gradient(to right, rgba(233, 231, 231, 0.8), rgba(255, 255, 255, 0.9)),\r\n			url(https://grainy-gradients.vercel.app/noise.svg)}.text.svelte-lwnjp5.svelte-lwnjp5{color:white;position:absolute;top:50%;left:50%;justify-items:center;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);transition:0.4s linear}.card.svelte-lwnjp5.svelte-lwnjp5:hover{transform:scale(1.02);z-index:2;position:static;transition:0.5s linear}.card.svelte-lwnjp5:hover img.svelte-lwnjp5{filter:blur(3px)}.card.svelte-lwnjp5:hover .overlay.svelte-lwnjp5{opacity:1}section.svelte-lwnjp5.svelte-lwnjp5{display:grid}img.svelte-lwnjp5.svelte-lwnjp5{width:60rem}.container.svelte-lwnjp5.svelte-lwnjp5{display:grid;max-width:980px}",
+  code: ".container.svelte-10ztac7{max-width:1300px;width:100%;display:grid;grid-template-columns:1fr;gap:50px}.heading.svelte-10ztac7{margin-top:3rem;background-image:url('../../static/musikloftet.svg');background-repeat:no-repeat;background-size:contain;width:100%;height:15rem}.desk-link.svelte-10ztac7{display:none}.links.svelte-10ztac7{display:flex;justify-content:space-between;align-items:center;gap:80px}.se-siden.svelte-10ztac7{border:solid 2px white;border-image:linear-gradient(\r\n				90deg,\r\n				rgb(152, 6, 6) 0%,\r\n				rgb(179, 84, 26) 27%,\r\n				rgb(169, 159, 21) 49%,\r\n				rgb(65, 141, 187) 67%,\r\n				rgb(7, 53, 162) 100%\r\n			)\r\n			1;border-radius:20px;padding:0.5rem}section.svelte-10ztac7{display:grid}@media(min-width: 650px){.container.svelte-10ztac7{grid-template-columns:1fr 1fr 1fr}.heading.svelte-10ztac7{background-attachment:fixed;position:static;height:35rem;margin-top:4.2rem}.links.svelte-10ztac7{width:1100px}.mobil-link.svelte-10ztac7{display:none}.desk-link.svelte-10ztac7{display:grid}}",
   map: null
 };
 const hydrate = dev;
@@ -10,33 +12,35 @@ const router = browser;
 const prerender = true;
 const Musikloftet = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<div class="${"heading"}"><h2>Musikloftet</h2></div>
+  return `${validate_component(Header_2, "Header").$$render($$result, {}, {}, {})}
 
-<div class="${"card  svelte-lwnjp5"}"><div class="${"container svelte-lwnjp5"}"><img src="${"musikloftet.webp"}" alt="${"Musikloftet"}" class="${"svelte-lwnjp5"}">
-		<div class="${"overlay svelte-lwnjp5"}"><div class="${"text svelte-lwnjp5"}"><a class="${"link svelte-lwnjp5"}" href="${"https://skuret.eu/kea/3semester/musikloftet/"}" target="${"blank"}">SE SIDEN \u279D</a></div></div></div></div>
+<div class="${"heading svelte-10ztac7"}"></div>
 
-<div class="${"container svelte-lwnjp5"}"><section class="${"svelte-lwnjp5"}"><h3>Opgaven</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p></section>
+<section class="${"svelte-10ztac7"}"><h1>Musiklofet</h1></section>
 
-	<section class="${"svelte-lwnjp5"}"><h3>Udfordringer og proces</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p></section>
+<section class="${"svelte-10ztac7"}"><div class="${"container svelte-10ztac7"}"><div><h4>Opgaven</h4>
+			<p>I dette projekt skulle vi designe en hjemmeside, for en fiktiv klient, der udlejer
+				\xF8velokaler. Projektet handlede f\xF8rst og fremmest om at lave et indbyende design, samt at f\xE5
+				en masse forskellige informationer ind p\xE5 siden.
+			</p></div>
 
-	<section class="${"svelte-lwnjp5"}"><h3>L\xF8sning</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, natus? Aspernatur illum illo
-			atque quia, temporibus aliquam magnam expedita dignissimos obcaecati adipisci voluptatum
-			eaque, voluptate sapiente necessitatibus cumque ipsa aperiam voluptas harum omnis. Earum velit
-			doloribus suscipit eaque ullam, odio tenetur, quod consequatur vero repellendus veniam
-			molestias iusto, recusandae qui.
-		</p></section>
+		<div><h4>Processen</h4>
+			<p>Med dette projekt fik vi vores f\xF8rste rigtige m\xF8de med Figma som vi brugte til at lave
+				prototyper samt at udarbejde designsystemer. Derudover skulle vi bruge framworket Tailwind
+				til at kode siden, som ogs\xE5 var en hel ny m\xE5de at kode p\xE5.
+			</p></div>
 
-	<section class="${"svelte-lwnjp5"}"><div class="${"my-8 flex justify-between"}"><a sveltekit:prefetch href="${"/Portfolio"}">\u{1F814} G\xC5 TILBAGE</a>
-			<a class="${"se-siden svelte-lwnjp5"}" href="${"https://skuret.eu/kea/3semester/musikloftet/"}" target="${"blank"}">SE SIDEN \u279D</a></div></section>
-</div>`;
+		<div><h4>L\xF8sning</h4>
+			<p>I vores endelige l\xF8sning valgte vi at bruge den r\xF8de farve til at skabe en visuel identitet,
+				samt at str\xF8mline billederne ved at tr\xE6kke lidt farve ud af dem, og s\xE5 give dem den her lidt
+				r\xE5 grynede effekt. Sitet indeholder information om b\xE5de medlemspriser, hvem Musikloftet er
+				samt et helt flow for hvordan man booker et lokale.
+			</p></div></div></section>
+
+<section class="${"grid place-items-center desk-link svelte-10ztac7"}"><a class="${"se-siden svelte-10ztac7"}" href="${"https://skuret.eu/kea/3semester/musikloftet/"}" target="${"blank"}">SE SIDEN \u279D</a></section>
+
+<section class="${"svelte-10ztac7"}"><div class="${"links svelte-10ztac7"}"><a sveltekit:prefetch href="${"/Portfolio"}">\u{1F814} G\xC5 TILBAGE</a>
+		<a class="${"se-siden mobil-link svelte-10ztac7"}" href="${"https://skuret.eu/kea/3semester/musikloftet/"}" target="${"blank"}">SE SIDEN \u279D</a></div>
+</section>`;
 });
 export { Musikloftet as default, hydrate, prerender, router };

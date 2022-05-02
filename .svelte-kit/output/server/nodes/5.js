@@ -1,6 +1,6 @@
-import * as module from '../entries/pages/Burgermenu.svelte.js';
+import * as module from '../entries/pages/Portfolio.svelte.js';
 
 export { module };
-export const entry = 'pages/Burgermenu.svelte-2039314f.js';
-export const js = ["pages/Burgermenu.svelte-2039314f.js","chunks/vendor-55574a2a.js","chunks/Burgermenu-73b6646f.js"];
-export const css = ["assets/Burgermenu-948fa5fd.css"];
+export const entry = 'pages/Portfolio.svelte-57eb1f34.js';
+export const js = ["pages/Portfolio.svelte-57eb1f34.js","chunks/vendor-c78dc340.js","chunks/Header-f306a29f.js","chunks/stores-684355ab.js","chunks/env-859c48a7.js"];
+export const css = ["assets/pages/Portfolio.svelte-a2c3051e.css","assets/Header-8b6ba75f.css"];

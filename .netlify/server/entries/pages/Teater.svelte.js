@@ -27,45 +27,53 @@ __export(stdin_exports, {
   prerender: () => prerender,
   router: () => router
 });
-var import_index_8f0b34dd = require("../../chunks/index-8f0b34dd.js");
+var import_index_e03aaaec = require("../../chunks/index-e03aaaec.js");
+var import_Header_2_0c1d907c = require("../../chunks/Header_2-0c1d907c.js");
 var import_env_14926626 = require("../../chunks/env-14926626.js");
+var import_stores_5fe3ad3b = require("../../chunks/stores-5fe3ad3b.js");
 var Teater_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".container.svelte-1ry9ug1.svelte-1ry9ug1{position:relative;width:100%;display:grid;gap:10px}img.svelte-1ry9ug1.svelte-1ry9ug1{box-shadow:2px 2px 4px}.overlay.svelte-1ry9ug1.svelte-1ry9ug1{display:grid;place-items:center;position:absolute;top:0;bottom:0;left:0;right:0;height:100%;width:100%;opacity:0;transition:0.5s ease;background:linear-gradient(to right, rgba(233, 231, 231, 0.8), rgba(255, 255, 255, 0.9)),\r\n			url(https://grainy-gradients.vercel.app/noise.svg)}.se-siden.svelte-1ry9ug1.svelte-1ry9ug1{border:solid 1px black;border-radius:12px;padding:0.5rem}.link.svelte-1ry9ug1.svelte-1ry9ug1{font-size:2.5rem}.text.svelte-1ry9ug1.svelte-1ry9ug1{color:white;position:absolute;top:50%;left:50%;justify-items:center;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);transition:0.4s linear}.card.svelte-1ry9ug1.svelte-1ry9ug1:hover{transform:scale(1.02);z-index:2;position:static;transition:0.5s linear}.card.svelte-1ry9ug1:hover img.svelte-1ry9ug1{filter:blur(3px)}.card.svelte-1ry9ug1:hover .overlay.svelte-1ry9ug1{opacity:1}section.svelte-1ry9ug1.svelte-1ry9ug1{display:grid}img.svelte-1ry9ug1.svelte-1ry9ug1{width:60rem}.container.svelte-1ry9ug1.svelte-1ry9ug1{display:grid;max-width:980px}",
+  code: ".container.svelte-1v7p36i{max-width:1300px;width:100%;display:grid;grid-template-columns:1fr;gap:50px}.heading.svelte-1v7p36i{margin-top:3rem;background-image:url('../../static/grob_logo.webp');background-repeat:no-repeat;background-size:contain;width:100%;height:15rem}.desk-link.svelte-1v7p36i{display:none}.links.svelte-1v7p36i{display:flex;justify-content:space-between;align-items:center;gap:80px}.se-siden.svelte-1v7p36i{border:solid 2px white;border-image:linear-gradient(\r\n				90deg,\r\n				rgb(152, 6, 6) 0%,\r\n				rgb(179, 84, 26) 27%,\r\n				rgb(169, 159, 21) 49%,\r\n				rgb(65, 141, 187) 67%,\r\n				rgb(7, 53, 162) 100%\r\n			)\r\n			1;border-radius:20px;padding:0.5rem}section.svelte-1v7p36i{display:grid}@media(min-width: 650px){.container.svelte-1v7p36i{grid-template-columns:1fr 1fr 1fr}.heading.svelte-1v7p36i{background-attachment:fixed;position:static;height:35rem;margin-top:4.2rem}.links.svelte-1v7p36i{width:1100px}.mobil-link.svelte-1v7p36i{display:none}.desk-link.svelte-1v7p36i{display:grid}}",
   map: null
 };
 const hydrate = import_env_14926626.d;
 const router = import_env_14926626.b;
 const prerender = true;
-const Teater = (0, import_index_8f0b34dd.c)(($$result, $$props, $$bindings, slots) => {
+const Teater = (0, import_index_e03aaaec.c)(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<div class="${"heading"}"><h2>Teater Grob</h2></div>
+  return `${(0, import_index_e03aaaec.v)(import_Header_2_0c1d907c.H, "Header").$$render($$result, {}, {}, {})}
 
-<div class="${"card  svelte-1ry9ug1"}"><div class="${"container svelte-1ry9ug1"}"><img src="${"grob.webp"}" alt="${"Musikloftet"}" class="${"svelte-1ry9ug1"}">
-		<div class="${"overlay svelte-1ry9ug1"}"><div class="${"text svelte-1ry9ug1"}"><a class="${"link svelte-1ry9ug1"}" href="${"https://skuret.eu/kea/teater_grob/"}" target="${"blank"}">SE SIDEN \u279D</a></div></div></div></div>
+<div class="${"heading svelte-1v7p36i"}"></div>
 
-<div class="${"container svelte-1ry9ug1"}"><section class="${"svelte-1ry9ug1"}"><h3>Opgaven</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p></section>
+<section class="${"svelte-1v7p36i"}"><h1>Teater Grob</h1></section>
 
-	<section class="${"svelte-1ry9ug1"}"><h3>Udfordringer og proces</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p></section>
+<section class="${"svelte-1v7p36i"}"><div class="${"container svelte-1v7p36i"}"><div><h4>Opgaven</h4>
+			<p>Dette var et gruppe projekt, der handlede om at lave et kampagnesite, som skulle lokke flere
+				unge til at k\xF8be \xE5rskort til teater Grob. <br> Sitet skulle udover et tydeligt koncept ogs\xE5
+				indholde en kampagnevideo, samt vidoer til sociale medier.
+			</p></div>
 
-	<section class="${"svelte-1ry9ug1"}"><h3>L\xF8sning</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, natus? Aspernatur illum illo
-			atque quia, temporibus aliquam magnam expedita dignissimos obcaecati adipisci voluptatum
-			eaque, voluptate sapiente necessitatibus cumque ipsa aperiam voluptas harum omnis. Earum velit
-			doloribus suscipit eaque ullam, odio tenetur, quod consequatur vero repellendus veniam
-			molestias iusto, recusandae qui.
-		</p></section>
+		<div><h4>Processen</h4>
+			<p>Vi startede projektet ud med at brainstorme id\xE9er til et slogan, som vi kunne basere vores
+				koncept p\xE5. efter mange iterationer endte vi p\xE5 sloganet &quot;mangler du ogs\xE5 mere drama i din
+				hverdag?&quot;. Sloganet lagde grund for vores kampagnevideoer, som viser forskellige folk, der
+				m\xE5ske savner lidt drama i deres liv. Udover kampagne videoerne, s\xE5 fandt vi ogs\xE5 p\xE5 at
+				kampagnen ogs\xE5 skulle handle om at samle N\xF8rrebro, med Teater Grob som centrum, s\xE5 hvis man
+				k\xF8ber et \xE5rskort, s\xE5 ville man ogs\xE5 f\xE5 rabatter hos forskellige klassiske n\xF8rrebro
+				forretninger, som feks. BRUS og FRIHEDEN.
+			</p></div>
 
-	<section class="${"svelte-1ry9ug1"}"><div class="${"my-8 flex justify-between"}"><a sveltekit:prefetch href="${"/Portfolio"}">\u{1F814} G\xC5 TILBAGE</a>
-			<a class="${"se-siden svelte-1ry9ug1"}" href="${"https://skuret.eu/kea/teater_grob/"}" target="${"blank"}">SE SIDEN \u279D</a></div></section>
-</div>`;
+		<div><h4>L\xF8sningen</h4>
+			<p>Den endelige l\xF8sning, blev et kampagnesite, bygget op i wordpress. I dette projekt som jo
+				var et gruppeprojekt, havde jeg hovedsagligt ansvar for designet og ops\xE6tningen af
+				kampagnesitet. Sitet og vidoerne blev pr\xE6senteret for repr\xE6sentanter fra Teater Grob, som
+				var meget positive overfor hele konceptet.
+			</p></div></div></section>
+
+<section class="${"grid place-items-center desk-link svelte-1v7p36i"}"><a class="${"se-siden svelte-1v7p36i"}" href="${"https://skuret.eu/kea/teater_grob/"}" target="${"blank"}">SE SIDEN \u279D</a></section>
+
+<section class="${"svelte-1v7p36i"}"><div class="${"links svelte-1v7p36i"}"><a sveltekit:prefetch href="${"/Portfolio"}">\u{1F814} G\xC5 TILBAGE</a>
+		<a class="${"se-siden mobil-link svelte-1v7p36i"}" href="${"https://skuret.eu/kea/teater_grob/"}" target="${"blank"}">SE SIDEN \u279D</a></div>
+</section>`;
 });
 module.exports = __toCommonJS(stdin_exports);

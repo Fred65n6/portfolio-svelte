@@ -1,8 +1,10 @@
-import { c as create_ssr_component } from "../../chunks/index-8f0b34dd.js";
+import { c as create_ssr_component, v as validate_component } from "../../chunks/index-e03aaaec.js";
+import { H as Header_2 } from "../../chunks/Header_2-0c1d907c.js";
 import { d as dev, b as browser } from "../../chunks/env-14926626.js";
+import "../../chunks/stores-5fe3ad3b.js";
 var Toast_svelte_svelte_type_style_lang = "";
 const css = {
-  code: ".container.svelte-11h9vqr.svelte-11h9vqr{position:relative;width:100%;display:grid;gap:10px}img.svelte-11h9vqr.svelte-11h9vqr{box-shadow:2px 2px 4px}.overlay.svelte-11h9vqr.svelte-11h9vqr{display:grid;place-items:center;position:absolute;top:0;bottom:0;left:0;right:0;height:100%;width:100%;opacity:0;transition:0.5s ease;background:linear-gradient(to right, rgba(233, 231, 231, 0.8), rgba(255, 255, 255, 0.9)),\r\n			url(https://grainy-gradients.vercel.app/noise.svg)}.text.svelte-11h9vqr.svelte-11h9vqr{color:white;position:absolute;top:50%;left:50%;justify-items:center;-webkit-transform:translate(-50%, -50%);-ms-transform:translate(-50%, -50%);transform:translate(-50%, -50%);transition:0.4s linear}.se-siden.svelte-11h9vqr.svelte-11h9vqr{border:solid 1px black;border-radius:12px;padding:0.5rem}.link.svelte-11h9vqr.svelte-11h9vqr{font-size:2.5rem}.card.svelte-11h9vqr.svelte-11h9vqr:hover{transform:scale(1.02);z-index:2;position:static;transition:0.5s linear}.card.svelte-11h9vqr:hover img.svelte-11h9vqr{filter:blur(3px)}.card.svelte-11h9vqr:hover .overlay.svelte-11h9vqr{opacity:1}section.svelte-11h9vqr.svelte-11h9vqr{display:grid}img.svelte-11h9vqr.svelte-11h9vqr{width:60rem}.container.svelte-11h9vqr.svelte-11h9vqr{display:grid;max-width:980px}",
+  code: ".container.svelte-2mtujb{max-width:1300px;width:100%;display:grid;grid-template-columns:1fr;gap:50px}.heading.svelte-2mtujb{margin-top:3rem;background-image:url('../../static/toast_logo.webp');background-repeat:no-repeat;background-size:contain;width:100%;height:15rem}.desk-link.svelte-2mtujb{display:none}.links.svelte-2mtujb{display:flex;justify-content:space-between;align-items:center;gap:80px}.se-siden.svelte-2mtujb{border:solid 2px white;border-image:linear-gradient(\r\n				90deg,\r\n				rgb(152, 6, 6) 0%,\r\n				rgb(179, 84, 26) 27%,\r\n				rgb(169, 159, 21) 49%,\r\n				rgb(65, 141, 187) 67%,\r\n				rgb(7, 53, 162) 100%\r\n			)\r\n			1;border-radius:20px;padding:0.5rem}section.svelte-2mtujb{display:grid}@media(min-width: 650px){.container.svelte-2mtujb{grid-template-columns:1fr 1fr 1fr}.heading.svelte-2mtujb{background-attachment:fixed;position:static;height:35rem;margin-top:4.2rem}.links.svelte-2mtujb{width:1100px}.mobil-link.svelte-2mtujb{display:none}.desk-link.svelte-2mtujb{display:grid}}",
   map: null
 };
 const hydrate = dev;
@@ -10,33 +12,38 @@ const router = browser;
 const prerender = true;
 const Toast = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   $$result.css.add(css);
-  return `<div class="${"heading"}"><h2>Toast no.9</h2></div>
+  return `${validate_component(Header_2, "Header").$$render($$result, {}, {}, {})}
 
-<div class="${"card  svelte-11h9vqr"}"><div class="${"container svelte-11h9vqr"}"><img src="${"toast.webp"}" alt="${"Toast no.9"}" class="${"svelte-11h9vqr"}">
-		<div class="${"overlay svelte-11h9vqr"}"><div class="${"text svelte-11h9vqr"}"><a class="${"link svelte-11h9vqr"}" href="${"https://skuret.eu/kea/toastno9"}" target="${"blank"}">SE SIDEN \u279D</a></div></div></div></div>
+<div class="${"heading svelte-2mtujb"}"></div>
 
-<div class="${"container svelte-11h9vqr"}"><section class="${"svelte-11h9vqr"}"><h3>Opgaven</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p></section>
+<section class="${"svelte-2mtujb"}"><h1>Toast no.9</h1></section>
 
-	<section class="${"svelte-11h9vqr"}"><h3>Udfordringer og proces</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore eos ut earum eligendi
-			voluptas. Atque distinctio libero error, rem nemo, fugit voluptas explicabo sequi sunt odit,
-			architecto eos quibusdam nostrum.
-		</p></section>
+<section class="${"svelte-2mtujb"}"><div class="${"container svelte-2mtujb"}"><div><h4>Opgaven</h4>
+			<p>Dette var eksamensprojektet p\xE5 2. semester. Det var et stort projekt, hvor vi kom ud i alle
+				afkroge af det at v\xE6re Multimedie Designer. Vores case var den lille charmerende toast caf\xE9
+				&#39;Toast no.9&#39;, som vi skulle udvikle en hjemmeside for, samt at producere videomateriale og
+				en so-me strategi.
+			</p></div>
 
-	<section class="${"svelte-11h9vqr"}"><h3>L\xF8sning</h3>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, natus? Aspernatur illum illo
-			atque quia, temporibus aliquam magnam expedita dignissimos obcaecati adipisci voluptatum
-			eaque, voluptate sapiente necessitatibus cumque ipsa aperiam voluptas harum omnis. Earum velit
-			doloribus suscipit eaque ullam, odio tenetur, quod consequatur vero repellendus veniam
-			molestias iusto, recusandae qui.
-		</p></section>
+		<div><h4>Processen</h4>
+			<p>At udfylde alle kravene der var i denne opgave, var en stor mundfuld, og kr\xE6vede at vi
+				udeligerede ansvarsomr\xE5der i gruppen. Mit hovedansvarsomr\xE5de var design og ops\xE6tning af
+				hjemmesiden. <br> I designprocessen var vi meget inspirerede af 90&#39;er stil og udtryk. Vi vil
+				ogs\xE5 gerne have etr let og legende udtryk, derfor valgte vi at tegne forskellige objekter fra
+				caf\xE9en, og s\xE6tte dem ind p\xE5 siden som grafik.
+			</p></div>
 
-	<section class="${"svelte-11h9vqr"}"><div class="${"my-8 flex justify-between"}"><a sveltekit:prefetch href="${"/Portfolio"}">\u{1F814} G\xC5 TILBAGE</a>
-			<a class="${"se-siden svelte-11h9vqr"}" href="${"https://skuret.eu/kea/toastno9"}" target="${"blank"}">SE SIDEN \u279D</a></div></section>
-</div>`;
+		<div><h4>L\xF8sningen</h4>
+			<p>Den endelige l\xF8sning blev et hyggeligt, gult og lyser\xF8dt samsurium af tegninger og gakkede
+				elementer, som afspejlede caf\xE9en og ejeren Boris personlighed. Sitet blev pr\xE6senteret for
+				ejeren af &#39;Toast no.9&#39; som var utrolig tilfreds, med den visuelle identitet vi havde skabt
+				for hans caf\xE9.
+			</p></div></div></section>
+
+<section class="${"grid place-items-center desk-link svelte-2mtujb"}"><a class="${"se-siden svelte-2mtujb"}" href="${"https://skuret.eu/kea/toastno9"}" target="${"blank"}">SE SIDEN \u279D</a></section>
+
+<section class="${"svelte-2mtujb"}"><div class="${"links svelte-2mtujb"}"><a sveltekit:prefetch href="${"/Portfolio"}">\u{1F814} G\xC5 TILBAGE</a>
+		<a class="${"se-siden mobil-link svelte-2mtujb"}" href="${"https://skuret.eu/kea/toastno9"}" target="${"blank"}">SE SIDEN \u279D</a></div>
+</section>`;
 });
 export { Toast as default, hydrate, prerender, router };
