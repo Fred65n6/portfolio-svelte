@@ -115,7 +115,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Teater">
 			<div class="card">
 				<div class="container">
-					<img src="grob_LOGO.webp" alt="Teater grob" />
+					<img src="GROB_LOGO.webp" alt="Teater grob" />
 					<div class="overlay">
 						<div class="text">
 							<h4>KAMPAGNESITE:</h4>
@@ -153,7 +153,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Olklubben">
 			<div class="card ">
 				<div class="container">
-					<img src="olklubben_LOGO.SVG" alt="Ølklubben" />
+					<img src="OLKLUBBEN_LOGO.SVG" alt="Ølklubben" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
