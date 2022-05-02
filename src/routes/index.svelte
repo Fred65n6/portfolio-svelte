@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-	<title>FM Design</title>
+	<title>Portfolio</title>
 </svelte:head>
 
 <Hero />
