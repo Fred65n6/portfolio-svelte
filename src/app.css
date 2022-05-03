@@ -12,6 +12,7 @@
 		margin: 0 auto;
 		display: grid;
 		place-items: center;
+		overflow-x: none;
 	}
 
 	section {

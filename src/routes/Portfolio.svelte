@@ -174,7 +174,7 @@
 		<p>
 			<span>* </span>
 			These websites aren't finished products, but school projects with certain focusses or problems
-			we had to solve. <br /> That means that some of the sites have links that doesn't work, or paths
+			we had to solve. <br /> That means that some of the sites have links that don't work, or paths
 			that lead nowhere .
 		</p>
 	</div>

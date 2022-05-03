@@ -37,10 +37,10 @@
 			<p>
 				My name is Frederik, I'm 27 years old, born and raised in Copenhagen and I love to make
 				designs and set up websites. Now If you want to get a bit more familiar, I can tell you that
-				it hasn't always been on the cards that i should choose to study multimedia design.
+				it hasn't always been on the cards that I should choose to study multimedia design.
 				<br /><br />
-				Ever since i was a boy, I've had a big passion for music, and I've been writing music and playing
-				in different bands since i was 12 years old. But when you're a performing musician who wants
+				Ever since I was a boy, I've had a big passion for music, and I've been writing music and playing
+				in different bands since I was 12 years old. But when you're a performing musician who wants
 				to release your music to the world, you usually need some kind of artwork to supplement your
 				music, and cool artworks arent all that easy to make yourself, nor is it that cheap to get somebody
 				else to make for you.
@@ -49,12 +49,12 @@
 				But then it's lucky that I've always had a <span class="font-semibold"
 					>"Can do attitude".</span
 				>
-				So i started to artworks to some of our earliest releases. Don't get me wrong, some of the first
-				ones i made were terrible. But I learned by doing, and suddenly people started to actually like
+				So I started to artworks to some of our earliest releases. Don't get me wrong, some of the first
+				ones I made were terrible. But I learned by doing, and suddenly people started to actually like
 				the designs I made, and for the first time ever, I knew what I wanted to do, if I werent meant
 				to be a musician.
 				<br /><br />
-				Since i started studying at KEA, I've fallen in love with coding and setting up websites. Because
+				Since I started studying at KEA, I've fallen in love with coding and setting up websites. Because
 				just like with writing music, I love to build things from scratch, and I love a chance to do
 				my best and get better at something.
 			</p>
