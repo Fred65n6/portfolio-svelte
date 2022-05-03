@@ -8,7 +8,7 @@
 	<title>Portfolio</title>
 </svelte:head>
 
-<Hero />
+<!-- <Hero /> -->
 <Header />
 
 <section id="forside">
