@@ -39,7 +39,6 @@
 <style>
 	.spacer {
 		padding: 2rem;
-		width: 100%;
 		display: grid;
 		place-items: center;
 	}
@@ -50,31 +49,23 @@
 
 	@media (max-width: 650px) {
 		section {
-			padding-block: 6rem;
+			padding-block: 4rem;
 			display: grid;
 			gap: 10px;
 		}
 	}
 
 	.text-box {
-		padding: 2rem;
+		padding: 0.5rem;
+		padding-block: 1rem;
 		height: auto;
 		background: rgba(218, 217, 217, 0.605);
 		box-shadow: 2px 2px 4px;
-		height: 16rem;
-	}
-
-	.text-box:hover {
-		background: linear-gradient(to right, rgba(196, 196, 196, 0.7), rgba(255, 255, 255, 0.7)),
-			url(https://grainy-gradients.vercel.app/noise.svg);
-		transform: scale(1.02);
-		z-index: 2;
-		position: static;
-		transition: 0.5s linear;
+		height: 13rem;
 	}
 
 	span {
-		padding-left: 1rem;
+		margin-left: 1rem;
 		font-weight: 900;
 	}
 	a:hover {
@@ -89,11 +80,23 @@
 			padding-block: 12rem;
 		}
 
+		.text-box:hover {
+			background: linear-gradient(to right, rgba(196, 196, 196, 0.7), rgba(255, 255, 255, 0.7)),
+				url(https://grainy-gradients.vercel.app/noise.svg);
+			transform: scale(1.02);
+			z-index: 2;
+			position: static;
+			transition: 0.5s linear;
+		}
+
 		.spacer {
 			padding: 4rem;
 			width: 100%;
 			display: grid;
 			place-items: center;
+		}
+		.text-box {
+			padding: 2rem;
 		}
 
 		#box-1 {
