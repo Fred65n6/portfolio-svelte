@@ -19,8 +19,8 @@
 	}
 
 	a {
-		position: relative;
-		top: 6rem;
+		position: static;
+		padding-top: 4rem;
 		font-size: 3.5rem;
 		scroll-margin-top: 50px;
 		scroll-behavior: smooth;

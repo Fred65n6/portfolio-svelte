@@ -51,7 +51,6 @@
 	@media (max-width: 650px) {
 		section {
 			padding-block: 6rem;
-			width: 100%;
 			display: grid;
 			gap: 10px;
 		}
