@@ -2,9 +2,9 @@
 </script>
 
 <div class="hero md:bg-pan-left">
-	<div class="hero-border grid place-items-center md:border-none ">
+	<div class="grid place-items-center md:border-none ">
 		<img class="fade-in " src="./frederik_milland.svg" alt="logo" />
-		<h1 class="md:tracking-in-expand-fwd fade-in ">WEBDESIGNER</h1>
+		<h1 class="tracking-in-expand-fwd">WEBDESIGNER</h1>
 		<a class="pulsate-fwd" href="#forside">︾</a>
 	</div>
 </div>
@@ -64,6 +64,11 @@
 	@media (max-width: 650px) {
 		h1 {
 			font-size: 1.5rem;
+		}
+
+		.hero {
+			background-size: fill;
+			background-repeat: no-repeat;
 		}
 		.hero {
 			padding-inline: 2rem;
