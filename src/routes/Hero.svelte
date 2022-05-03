@@ -1,10 +1,10 @@
 <script>
 </script>
 
-<div class="hero md:bg-pan-left bg-hero2">
+<div class="hero md:bg-pan-left">
 	<div class="hero-border grid place-items-center md:border-none ">
 		<img class="fade-in " src="./frederik_milland.svg" alt="logo" />
-		<h1 class="md:tracking-in-expand-fwd fade-in">WEBDESIGNER</h1>
+		<h1 class="tracking-in-expand-fwd ">WEBDESIGNER</h1>
 		<a class="pulsate-fwd" href="#forside">︾</a>
 	</div>
 </div>
@@ -33,12 +33,13 @@
 
 	.hero {
 		background-image: url('../../static/background.img_portfolio.webp');
-		place-self: center;
+		display: grid;
+		place-items: center;
 		background-size: cover;
 		position: static;
 		z-index: 4;
 		overflow: hidden;
-		width: 100%;
+		width: 100vw;
 		height: 100vh;
 		padding-top: 14rem;
 		padding-bottom: 11.9rem;
@@ -55,11 +56,6 @@
 	}
 
 	@media (max-width: 650px) {
-		.hero {
-			padding-block: 15rem;
-			padding-inline: 2rem;
-		}
-
 		h1 {
 			font-size: 1.5rem;
 		}
