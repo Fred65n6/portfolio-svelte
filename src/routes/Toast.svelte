@@ -48,7 +48,7 @@
 		</div>
 
 		<div>
-			<h4>Løsningen</h4>
+			<h4>The solution</h4>
 
 			<p>
 				The final solution became this playfull, yellow and pink website filled with whacky elements
