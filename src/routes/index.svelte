@@ -39,7 +39,6 @@
 <style>
 	.spacer {
 		padding: 2rem;
-		width: 100%;
 		display: grid;
 		place-items: center;
 	}
@@ -50,19 +49,18 @@
 
 	@media (max-width: 650px) {
 		section {
-			padding-block: 6rem;
+			padding-block: 4rem;
 			width: 100%;
 			display: grid;
-			gap: 10px;
 		}
 	}
 
 	.text-box {
-		padding: 2rem;
+		padding: 1rem;
 		height: auto;
 		background: rgba(218, 217, 217, 0.605);
 		box-shadow: 2px 2px 4px;
-		height: 16rem;
+		height: 13rem;
 	}
 
 	.text-box:hover {
