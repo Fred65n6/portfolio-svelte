@@ -67,12 +67,7 @@
 
 	@media (max-width: 650px) {
 		h1 {
-			font-size: 1rem;
-		}
-
-		img {
-			place-self: center;
-			width: 80%;
+			font-size: 0.8rem;
 		}
 
 		.hero {
