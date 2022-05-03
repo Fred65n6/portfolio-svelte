@@ -2,9 +2,9 @@
 </script>
 
 <div class="hero md:bg-pan-left">
-	<div class="grid place-items-center md:border-none ">
-		<img class="md:fade-in " src="./frederik_milland.svg" alt="logo" />
-		<h1 class="md:tracking-in-expand-fwd ">WEBDESIGNER</h1>
+	<div class="container">
+		<img class="fade-in " src="./frederik_milland.svg" alt="logo" />
+		<h1 class="tracking-in-expand-fwd ">WEBDESIGNER</h1>
 		<a class="pulsate-fwd" href="#forside">︾</a>
 	</div>
 </div>
@@ -18,11 +18,15 @@
 		color: WHITE;
 	}
 
+	.container {
+		display: grid;
+		place-items: center;
+	}
+
 	a {
 		position: static;
 		padding-top: 4rem;
 		font-size: 3.5rem;
-		scroll-margin-top: 50px;
 		scroll-behavior: smooth;
 		color: white;
 	}
@@ -64,6 +68,11 @@
 	@media (max-width: 650px) {
 		h1 {
 			font-size: 1.5rem;
+		}
+
+		img {
+			place-self: center;
+			width: 80%;
 		}
 
 		.hero {
