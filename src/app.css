@@ -8,11 +8,10 @@
 	}
 
 	main {
-		overflow: hidden;
+		overflow-x: hidden;
 		margin: 0 auto;
 		display: grid;
 		place-items: center;
-		width: 100vw;
 	}
 
 	section {

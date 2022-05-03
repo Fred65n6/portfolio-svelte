@@ -40,6 +40,7 @@
 		z-index: 4;
 		overflow: hidden;
 		height: 100vh;
+		width: 100%;
 		padding-top: 14rem;
 		padding-bottom: 11.9rem;
 		border-block: solid 6px;

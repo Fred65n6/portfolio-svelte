@@ -72,10 +72,6 @@
 		transition: 0.5s linear;
 	}
 
-	span {
-		margin-left: 1rem;
-		font-weight: 900;
-	}
 	a:hover {
 		text-decoration: none;
 	}
