@@ -67,7 +67,7 @@
 
 	@media (max-width: 650px) {
 		h1 {
-			font-size: 0.6rem;
+			font-size: 1.5rem;
 		}
 
 		.hero {
@@ -76,6 +76,12 @@
 		}
 		.hero {
 			padding-inline: 2rem;
+		}
+	}
+
+	@media (max-width: 450px) {
+		h1 {
+			font-size: 0.5rem;
 		}
 	}
 </style>

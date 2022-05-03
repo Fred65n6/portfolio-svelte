@@ -11,7 +11,7 @@
 <Hero />
 <Header />
 
-<!-- <section id="forside">
+<section id="forside">
 	<div id="box-1" class="spacer ">
 		<a sveltekit:prefetch href="/Portfolio">
 			<div class="text-box ">
@@ -34,7 +34,8 @@
 			</div>
 		</a>
 	</div>
-</section> -->
+</section>
+
 <style>
 	.spacer {
 		padding: 2rem;
