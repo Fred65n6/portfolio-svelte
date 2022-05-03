@@ -61,6 +61,7 @@
 		background: rgba(218, 217, 217, 0.605);
 		box-shadow: 2px 2px 4px;
 		height: 13rem;
+<<<<<<< HEAD
 	}
 
 	.text-box:hover {
@@ -70,10 +71,12 @@
 		z-index: 2;
 		position: static;
 		transition: 0.5s linear;
+=======
+>>>>>>> 57d547eab0f1cbb8122f787ffcdbabdfbda0e89b
 	}
 
 	span {
-		padding-left: 1rem;
+		margin-left: 1rem;
 		font-weight: 900;
 	}
 	a:hover {
@@ -88,11 +91,23 @@
 			padding-block: 12rem;
 		}
 
+		.text-box:hover {
+			background: linear-gradient(to right, rgba(196, 196, 196, 0.7), rgba(255, 255, 255, 0.7)),
+				url(https://grainy-gradients.vercel.app/noise.svg);
+			transform: scale(1.02);
+			z-index: 2;
+			position: static;
+			transition: 0.5s linear;
+		}
+
 		.spacer {
 			padding: 4rem;
 			width: 100%;
 			display: grid;
 			place-items: center;
+		}
+		.text-box {
+			padding: 2rem;
 		}
 
 		#box-1 {
