@@ -35,10 +35,9 @@
 		<h1>Frederik Milland</h1>
 		<div class="text">
 			<p>
-				To put it briefly, my name is Frederik, I'm 27 years old, born and raised in Copenhagen and
-				I love to make designs and set up websites. If you want to get a bit more familiar, I can
-				tell you that it hasn't always been on the cards that i should choose to study multimedia
-				design.
+				My name is Frederik, I'm 27 years old, born and raised in Copenhagen and I love to make
+				designs and set up websites. <br /> Now If you want to get a bit more familiar, I can tell
+				you that it hasn't always been on the cards that i should choose to study multimedia design.
 				<br /><br />
 				Ever since i was a boy, I've had a big passion for music, and I've been writing music and playing
 				in different bands since i was 12 years old. But when you're a performing musician who wants
