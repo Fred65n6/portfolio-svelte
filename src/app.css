@@ -59,6 +59,15 @@
 		line-height: 2rem;
 	}
 
+	@media (max-width: 650px) {
+		h1 {
+			font-size: 2rem;
+		}
+		h2 {
+			font-size: 1.8rem;
+		}
+	}
+
 	/**************KNAPPER************/
 
 	a {
