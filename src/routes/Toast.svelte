@@ -52,7 +52,7 @@
 
 			<p>
 				The final solution became this playfull, yellow and pink website filled with whacky elements
-				that reflect the owners personality. We presented the site for the owner, who were very
+				that reflect the owner's personality. We presented the site for the owner, who was very
 				satisfied with the visual identity that we created for him.
 			</p>
 		</div>

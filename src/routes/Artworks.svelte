@@ -39,9 +39,9 @@
 			<p>
 				There are a lot of different processes when making artworks. I usually start of by talking
 				with the other band members and bouncing ideas off of them. <br /> Then I start handdrawing mocks-ups
-				with different ideas, and when I have something I like, I start trying to set it up in photosop.
+				with different ideas, and when I have something I like, I start trying to set it up in photoshop.
 				If I have an idea where I need certain photos, I use placeholders untill I'm able to take the
-				pictures my self.
+				pictures myself.
 			</p>
 		</div>
 

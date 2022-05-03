@@ -51,7 +51,7 @@
 
 			<p>
 				The site was coded using sveltekit which is a hybrid bewteen svelte and tailwind, and my
-				main area of responsibility was setting up the site. Besides that i also designed the new
+				main area of responsibility was setting up the site. Besides that I also designed the new
 				logo, which we based a lot of the visual identuty on.
 			</p>
 		</div>

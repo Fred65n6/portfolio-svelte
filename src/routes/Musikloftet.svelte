@@ -38,7 +38,7 @@
 
 			<p>
 				In this project we had our first real meeting with Figma which we used to make the
-				prototypes as well as developing design systems. Other that that we also had to used the
+				prototypes as well as developing design systems. Other than that we also had to used the
 				framework Tailwind to code the site, which was also a first.
 			</p>
 		</div>

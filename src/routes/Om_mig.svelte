@@ -42,17 +42,17 @@
 				Ever since I was a boy, I've had a big passion for music, and I've been writing music and playing
 				in different bands since I was 12 years old. But when you're a performing musician who wants
 				to release your music to the world, you usually need some kind of artwork to supplement your
-				music, and cool artworks arent all that easy to make yourself, nor is it that cheap to get somebody
+				music, and cool artworks aren't all that easy to make yourself, nor is it that cheap to get somebody
 				else to make for you.
 			</p>
 			<p>
 				But then it's lucky that I've always had a <span class="font-semibold"
 					>"Can do attitude".</span
 				>
-				So I started to artworks to some of our earliest releases. Don't get me wrong, some of the first
-				ones I made were terrible. But I learned by doing, and suddenly people started to actually like
-				the designs I made, and for the first time ever, I knew what I wanted to do, if I werent meant
-				to be a musician.
+				So I started to do artworks to some of our earliest releases. Don't get me wrong, some of the
+				first ones I made were terrible. But I learned by doing, and suddenly people started to actually
+				like the designs I made, and for the first time ever, I knew what I wanted to do, if I weren't
+				meant to be a musician.
 				<br /><br />
 				Since I started studying at KEA, I've fallen in love with coding and setting up websites. Because
 				just like with writing music, I love to build things from scratch, and I love a chance to do

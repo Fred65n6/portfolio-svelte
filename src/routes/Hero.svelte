@@ -11,7 +11,7 @@
 
 <style>
 	h1 {
-		font-size: 5.5rem;
+		font-size: 5rem;
 		letter-spacing: 1rem;
 		padding-bottom: 3px;
 		text-decoration: none;

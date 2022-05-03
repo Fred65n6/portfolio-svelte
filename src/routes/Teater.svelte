@@ -41,7 +41,7 @@
 				concept on. After a lot of iterations we ended up with a slogan which translates to "Do you
 				also miss more drama in your everyday life?". We also came up with the idea that the
 				campaign should include a bid to gather Nørrebro, which is why we came up with the vouchers
-				that give you a discount in select local buisnesses when you use your annual pass.
+				that give you a discount in select local businesses when you use your annual pass.
 			</p>
 		</div>
 
@@ -50,7 +50,7 @@
 
 			<p>
 				The final solution, is a campaign site build in wordpress. My main area of responsibility
-				was desiging and setting up the website. The concept was presented for some representatives
+				was designing and setting up the website. The concept was presented for some representatives
 				from "Teater Grob" who were very delighted with our solution.
 			</p>
 		</div>

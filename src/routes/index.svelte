@@ -29,7 +29,7 @@
 			<div class="text-box ">
 				<h2>ABOUT ME</h2>
 				<p>
-					Read a little about why i chose to become a multimedia designer<span>➝</span>
+					Read a little about why I chose to become a multimedia designer<span>➝</span>
 				</p>
 			</div>
 		</a>
@@ -41,6 +41,10 @@
 		padding: 2rem;
 		display: grid;
 		place-items: center;
+	}
+
+	span {
+		margin-left: 0.5rem;
 	}
 
 	#forside a:hover {

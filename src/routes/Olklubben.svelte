@@ -29,7 +29,7 @@
 			<p>
 				"Ølklubben" was a group project where we within the group had to find a common passion, and
 				then base a website on that passion. Besides desiging an inviting website, one of the main
-				focusses was to make a fucntioning sorting system.
+				focusses was to make a functioning sorting system.
 			</p>
 		</div>
 
@@ -38,7 +38,7 @@
 
 			<p>
 				We were tasked with starting of by making the logo for our site. It was a difficiult task
-				bacuse when we designed the logo, we still had no idea which "kind" of beer club we were
+				becuse when we designed the logo, we still had no idea which "kind" of beer club we were
 				about to create. <br /> But we ended up with a logo with a very universal expression, which
 				we were all satisfied with. <br /> Another big task was making the sorting system. In the end
 				it was made by creating a distant database, which we pulled data from into an array that we could
@@ -49,8 +49,8 @@
 		<div>
 			<h4>The solution</h4>
 			<p>
-				We ended up with this dark, cozy site with a bodega vibe, supported by the background images
-				which ties the site together.
+				We ended up with this dark, cozy site with a bodega vibe, supported by the background image
+				which tie the site together.
 			</p>
 		</div>
 	</div>
