@@ -59,5 +59,9 @@
 		h1 {
 			font-size: 1.5rem;
 		}
+
+		.hero {
+			padding-inline: 4rem;
+		}
 	}
 </style>
