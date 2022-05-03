@@ -61,7 +61,6 @@
 		background: rgba(218, 217, 217, 0.605);
 		box-shadow: 2px 2px 4px;
 		height: 13rem;
-<<<<<<< HEAD
 	}
 
 	.text-box:hover {
@@ -71,8 +70,6 @@
 		z-index: 2;
 		position: static;
 		transition: 0.5s linear;
-=======
->>>>>>> 57d547eab0f1cbb8122f787ffcdbabdfbda0e89b
 	}
 
 	span {
