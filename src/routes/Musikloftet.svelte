@@ -24,30 +24,33 @@
 <section>
 	<div class="container">
 		<div>
-			<h4>Opgaven</h4>
+			<h4>The assignment</h4>
+
 			<p>
-				I dette projekt skulle vi designe en hjemmeside for en fiktiv klient, der udlejer
-				øvelokaler. Projektet handlede først og fremmest om at lave et indbyende design, samt at få
-				en masse forskellige informationer ind på siden.
+				In this project we had to design a website for a fictitious client who rents out rehearsel
+				spaces. First and foremost the project was about making an inviting design as well as
+				including a lot of different information.
 			</p>
 		</div>
 
 		<div>
-			<h4>Processen</h4>
+			<h4>The process</h4>
+
 			<p>
-				Med dette projekt fik vi vores første rigtige møde med Figma som vi brugte til at lave
-				prototyper samt at udarbejde designsystemer. Derudover skulle vi bruge frameworket Tailwind
-				til at kode siden, hvilket også var en hel ny måde at kode på.
+				In this project we had our first real meeting with Figma which we used to make the
+				prototypes as well as developing design systems. Other that that we also had to used the
+				framework Tailwind to code the site, which was also a first.
 			</p>
 		</div>
 
 		<div>
-			<h4>Løsning</h4>
+			<h4>The solution</h4>
+
 			<p>
-				I vores endelige løsning valgte vi at bruge den røde farve til at skabe en visuel identitet,
-				samt at strømline billederne ved at trække lidt farve ud af dem, og give dem den her lidt rå
-				grynede effekt. Sitet indeholder information om både medlemspriser, hvem Musikloftet er samt
-				et helt flow for hvordan man booker et lokale.
+				In our final solution we chose to use the red color to create a visual identity, as well as
+				we chose to streamline the pictures by taking out some saturation and giving them a kind of
+				raw grainy look. The site contains different information such as pricing, who "Musiklofet"
+				is, and a flow for booking rooms.
 			</p>
 		</div>
 	</div>
@@ -55,17 +58,17 @@
 
 <section class="grid place-items-center desk-link">
 	<a class="se-siden" href="https://skuret.eu/kea/3semester/musikloftet/" target="blank"
-		>SE SIDEN ➝</a
+		>SEE THE SITE ➝</a
 	>
 </section>
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 GO BACK</a>
 		<a
 			class="se-siden mobil-link"
 			href="https://skuret.eu/kea/3semester/musikloftet/"
-			target="blank">SE SIDEN ➝</a
+			target="blank">SEE THE SITE ➝</a
 		>
 	</div>
 </section>

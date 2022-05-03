@@ -24,45 +24,47 @@
 <section>
 	<div class="container">
 		<div>
-			<h4>Opgaven</h4>
+			<h4>The assignment</h4>
+
 			<p>
-				Ølklubben var et projekt hvor vi i en mindre gruppe, skulle finde en fællespassion, og
-				derefter lave et site, med den passion i centrum. Et af formålene ved dette projekt var at
-				lave et flot site, som skulle indeholde en eller anden form for filtrering af nogle
-				produkter. Vi valgte derfor at lave en hjemmeside for en fiktiv ølklub.
+				"Ølklubben" was a group project where we within the group had to find a common passion, and
+				then base a website on that passion. Besides desiging an inviting website, one of the main
+				focusses was to make a fucntioning sorting system.
 			</p>
 		</div>
 
 		<div>
-			<h4>Processen</h4>
+			<h4>The process</h4>
+
 			<p>
-				I dette projekt brugte vi lang tid på at lave et logo til vores site. Det var en udfordring,
-				fordi vi skulle lave logoet, inden vi havde nogen anelse om hvordan udtrykket for vores
-				fiktive ølklub skulle være. Vi endte dog med et design som vi følte var meget universelt. <br
-				/> En af de store opgaver i dette projekt, var at lave en filtrering. Filtreringen blev lavet
-				igennem en database, som vi trak data ind fra i et array, som vi kunne sortere i.
+				We were tasked with starting of by making the logo for our site. It was a difficiult task
+				bacuse when we designed the logo, we still had no idea which "kind" of beer club we were
+				about to create. <br /> But we ended up with a logo with a very universal expression, which
+				we were all satisfied with. <br /> Another big task was making the sorting system. In the end
+				it was made by creating a distant database, which we pulled data from into an array that we could
+				use to sort the beers.
 			</p>
 		</div>
 
 		<div>
-			<h4>Løsningen</h4>
+			<h4>The solution</h4>
 			<p>
-				Det endelige site, endte med at få en lidt dunkel og hyggelig bodega stemning, støttet op af
-				baggrundsbilledet som er gennemgående på sitet.
+				We ended up with this dark, cozy site with a bodega vibe, supported by the background images
+				which ties the site together.
 			</p>
 		</div>
 	</div>
 </section>
 
 <section class="grid place-items-center desk-link">
-	<a class="se-siden" href="https://skuret.eu/kea/olklubben/" target="blank">SE SIDEN ➝</a>
+	<a class="se-siden" href="https://skuret.eu/kea/olklubben/" target="blank">SEE THE SITE ➝</a>
 </section>
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 GÅ TILBAGE</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 GO BACK</a>
 		<a class="se-siden mobil-link" href="https://skuret.eu/kea/olklubben/" target="blank"
-			>SE SIDEN ➝</a
+			>SEE THE SITE ➝</a
 		>
 	</div>
 </section>
@@ -127,7 +129,7 @@
 		}
 
 		.links {
-			width: 1100px;
+			width: 1300px;
 		}
 
 		.mobil-link {

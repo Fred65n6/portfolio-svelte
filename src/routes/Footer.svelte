@@ -5,7 +5,7 @@
 		<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
 
 		<br />
-		<p>Telefon:</p>
+		<p>Telephone:</p>
 		<a href="tel:+4522901244">+4522901244</a>
 	</address>
 </footer>

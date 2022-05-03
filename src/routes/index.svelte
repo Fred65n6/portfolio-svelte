@@ -17,8 +17,8 @@
 			<div class="text-box ">
 				<h2>Portfolio</h2>
 				<p>
-					Se nogle af de forskellige projekter som jeg har arbejdet på i den tid jeg har været
-					studerende på KEA<span>➝</span>
+					See some of the projects I've worked on during my time at KEA
+					<span>➝</span>
 				</p>
 			</div>
 		</a>
@@ -27,9 +27,9 @@
 	<div id="box-2" class="spacer ">
 		<a sveltekit:prefetch href="/Om_mig">
 			<div class="text-box ">
-				<h2>Om mig</h2>
+				<h2>ABOUT ME</h2>
 				<p>
-					Lær mig lidt bedre at kende og læs om hvilke kompetencer jeg besidder<span>➝</span>
+					Read a little about why i chose to become a multimedia designer<span>➝</span>
 				</p>
 			</div>
 		</a>

@@ -24,48 +24,50 @@
 <section>
 	<div class="container">
 		<div>
-			<h4>Opgaven</h4>
+			<h4>The assignment</h4>
+
 			<p>
-				Dette var eksamensprojektet på 2. semester. Det var et stort projekt, hvor vi kom ud i alle
-				afkroge af det at være Multimedie Designer. Min gruppes case var den lille charmerende café
-				'Toast no.9', som vi skulle udvikle en hjemmeside for, samt producere videomateriale og en
-				so-me strategi for virksomheden.
+				This was the exam project on the 2. semester. It was a big project where we got to work with
+				every aspect of being a multimedia designer. The case that my group and I chose was the
+				little charming café "Toast no.9" which we had to help by making a website, creating video
+				content, and outlining a social media plan for.
 			</p>
 		</div>
 
 		<div>
-			<h4>Processen</h4>
+			<h4>The process</h4>
+
 			<p>
-				At opfylde alle kravene der var i denne opgave, var en stor mundfuld, som krævede at vi
-				udeligerede ansvarsområder i gruppen. Mit hovedansvarsområde var sammen med et andet medlem
-				af gruppen, design og opsætning af hjemmesiden. <br /> I designprocessen var vi meget inspirerede
-				af 90'er stil og udtryk, hvilket f.eks. kom til udtryk i logoet. Vi ville også gerne have et
-				let og legende udtryk, derfor valgte vi at tegne forskellige objekter fra caféen, og sætte dem
-				ind på siden som grafik.
+				It was a big mouthfull to meet the requirements of this assignment, so it was key to
+				delegate different areas of responsibility. My main area of responsibility, along side a
+				fellow student, was designing and setting up the site. During the design process we were
+				very inspired by 90's styles which came to show in the logo design, which was inspired by
+				MTV. We also wanted to keep it light and playfull, which is why we chose to draw different
+				artefacts from the café, and include on to site.
 			</p>
 		</div>
 
 		<div>
 			<h4>Løsningen</h4>
+
 			<p>
-				Den endelige løsning blev et hyggeligt, gult og lyserødt samsurium af tegninger og gakkede
-				elementer, som afspejlede caféen og ejeren Boris personlighed. Sitet blev præsenteret for
-				ejeren af 'Toast no.9' som var utrolig tilfreds, med den visuelle identitet vi havde skabt
-				for hans café.
+				The final solution became this playfull, yellow and pink website filled with whacky elements
+				that reflect the owners personality. We presented the site for the owner, who were very
+				satisfied with the visual identity that we created for him.
 			</p>
 		</div>
 	</div>
 </section>
 
 <section class="grid place-items-center desk-link">
-	<a class="se-siden" href="https://skuret.eu/kea/toastno9" target="blank">SE SIDEN ➝</a>
+	<a class="se-siden" href="https://skuret.eu/kea/toastno9" target="blank">SEE THE SITE ➝</a>
 </section>
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 GO BACK</a>
 		<a class="se-siden mobil-link" href="https://skuret.eu/kea/toastno9" target="blank"
-			>SE SIDEN ➝</a
+			>SEE THE SITE ➝</a
 		>
 	</div>
 </section>

@@ -24,45 +24,49 @@
 <section>
 	<div class="container">
 		<div>
-			<h4>Opgaven</h4>
+			<h4>The assignment</h4>
+
 			<p>
-				Dette gruppe projekt havde to overskrifter: revoltionært redesign og bæredygtigt design. Vi
-				skulle redesigne den eksisterende site for scenekunst festivallen 'Vildskud'. Samtidig
-				skulle vores design også være bæredygtigt, så de enkelte sider måtte ikke fylde mere end 0.5
-				mb, hvilket satte en del begrænsninger.
+				This group project had two main focusses. Making a revolutionary redesign and sustainable
+				design. We had to redesign the existing site for the theater festival "Vildskud", but the
+				design also had to be sustainable, which meant that every site couldn't take up more than
+				0.5mb of space.
 			</p>
 		</div>
 
 		<div>
-			<h4>Processen</h4>
+			<h4>THE PROCESS</h4>
+
 			<p>
-				I vores gruppe valgte vi at gå "all out" på bæredygtigheden, og ikke bruge nogle billeder
-				eller animationer, men kun bygge vores design på vector grafik og fonte. Dette gjorde vi
-				hovedsagligt for at udfordre os selv, samt at se om vi kunne lave et interessant design uden
-				at bruge nogle billeder overhovedet. Vi brugte nogle stærke farver og fonte til at skabe en
-				visuel identitet og farveklatter til at skabe et sammenhæng på siderne.
+				In our group we chose to go all out on the sustainable design, so we chose not to use any
+				pictures or animations at all, and build our design around vector graphics and different
+				fonts. We did that to challenge ourselves a bit and see if we were able to make an exciting
+				website without pictures. We used strong colors and fonts in order to create a visual
+				identity, and used the "color blobs" to create coherence between to pages.
 			</p>
 		</div>
 
 		<div>
-			<h4>Løsningen</h4>
+			<h4>The solution</h4>
+
 			<p>
-				Selve sitet er blevet kodet i SvelteKit, som er en hybrid imellem Svelte og Tailwind. Mit
-				eget hovedansvarsområde i dette projekt var opsætningen af sitet. Derudover designede jeg
-				det nye logo, som vi har brugt til at støtte op, om den nye visuelle identitet.
+				The site was coded using sveltekit which is a hybrid bewteen svelte and tailwind, and my
+				main area of responsibility was setting up the site. Besides that i also designed the new
+				logo, which we based a lot of the visual identuty on.
 			</p>
 		</div>
 	</div>
 </section>
 
 <section class="grid place-items-center desk-link">
-	<a class="se-siden" href="https://vildskud.netlify.app/" target="blank">SE SIDEN ➝</a>
+	<a class="se-siden" href="https://vildskud.netlify.app/" target="blank">SEE THE SITE➝</a>
 </section>
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
-		<a class="se-siden mobil-link" href="https://vildskud.netlify.app/" target="blank">SE SIDEN ➝</a
+		<a sveltekit:prefetch href="/Portfolio">🠔 GO BACK</a>
+		<a class="se-siden mobil-link" href="https://vildskud.netlify.app/" target="blank"
+			>SEE THE SITE ➝</a
 		>
 	</div>
 </section>

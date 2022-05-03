@@ -16,13 +16,13 @@
 </script>
 
 <svelte:head>
-	<title>Om mig</title>
+	<title>About me</title>
 </svelte:head>
 
 <Header />
 
 <div class="heading">
-	<h1>OM MIG</h1>
+	<h1>ABOUT ME</h1>
 </div>
 
 <div class="container">
@@ -35,27 +35,29 @@
 		<h1>Frederik Milland</h1>
 		<div class="text">
 			<p>
-				Hvis man skal gøre det helt kort, så hedder jeg Frederik, jeg er 27 år, opvokset i København
-				og så elsker jeg at lave design og kode hjemmesider. Hvis vi skal lidt længere ind i hvem
-				jeg egentlig er, så kan jeg fortælle at det ikke altid har ligget i kortene, at jeg skulle
-				uddanne mig til multimediedesigner. <br /><br /> Siden jeg var helt ung, så har musik altid været
-				min store passion, og jeg har skrevet sange og spillet i forskellige bands siden jeg var 12 år
-				gammel. Når man er musiker og skal udgive musik, så skal man som regel bruge en form for artwork,
-				hvilket ikke altid er helt lige til selv at lave, ej heller helt billigt at købe sig fra.
+				To put it briefly, my name is Frederik, I'm 27 years old, born and raised in Copenhagen and
+				I love to make designs and set up websites. If you want to get a bit more familiar, I can
+				tell you that it hasn't always been on the cards that i should choose to study multimedia
+				design.
+				<br /><br />
+				Ever since i was a boy, I've had a big passion for music, and I've been writing music and playing
+				in different bands since i was 12 years old. But when you're a performing musician who wants
+				to release your music to the world, you usually need some kind of artwork to supplement your
+				music, and cool artworks arent all that easy to make yourself, nor is it that cheap to get somebody
+				else to make for you.
 			</p>
 			<p>
-				Men så er det godt at jeg altid har haft mantraet: <br />
-				<span class="font-semibold"
-					>"Det har jeg ikke prøvet før, så det er jeg sikkert god til".</span
+				But then it's lucky that I've always had a <span class="font-semibold"
+					>"Can do attitude".</span
 				>
-				Jeg begav mig nemlig ud i selv at designe artworks til forskellige udgivelser. Bevares, de første
-				forsøg var nok mindre heldige, men det blev bedre og bedre, og til sidst begyndte andre end jeg
-				selv at kunne lide de designs jeg lavede, og med det blev en interesse for at lave grafisk design
-				født.
-				<br />
-				<br /> Siden jeg startede på KEA har jeg så også forelsket mig i at kode og sætte hjemmesider
-				op. Ligesom med musikken, så finder jeg noget utroligt tilfredsstillende i at bygge ting op fra
-				bunden, og så elsker jeg at gøre mig umage.
+				So i started to artworks to some of our earliest releases. Don't get me wrong, some of the first
+				ones i made were terrible. But I learned by doing, and suddenly people started to actually like
+				the designs I made, and for the first time ever, I knew what I wanted to do, if I werent meant
+				to be a musician.
+				<br /><br />
+				Since i started studying at KEA, I've fallen in love with coding and setting up websites. Because
+				just like with writing music, I love to build things from scratch, and I love a chance to do
+				my best and get better at something.
 			</p>
 		</div>
 	</article>
@@ -63,29 +65,30 @@
 
 <div class="box">
 	<div class="kompetencer">
-		<h2>Kompetencer</h2>
+		<h2>SKILLS</h2>
 		<ol>
-			<li>- Erfaring med Photoshop, Illustrator, Premiere Pro, InDesign og Figma</li>
+			<li>- Experienced with Photoshop, Illustrator, Premiere Pro, InDesign og Figma</li>
 			<br />
 			<li>
-				- Erfaring med at kode html, css og javascript, samt frameworks som Svelte og Tailwind
+				- Experience in coding in html, css og javascript, as well as frameworks like Svelte and
+				Tailwind
 			</li>
 			<br />
-			<li>- Erfaring med opsætning af hjemmesider i CMS som f.eks. wordpress</li>
+			<li>- Experience in setting up websites in CMS's like Wordpress</li>
 		</ol>
 	</div>
 </div>
 
 <section>
 	<div class="kontakt">
-		<h2>Kontakt</h2>
+		<h2>Contact</h2>
 		<address>
 			<div class="">
 				<p>E-mail:</p>
 				<a href="mailto:frederik-milland@hotmail.com">frederik-milland@hotmail.com</a>
 			</div>
 			<div class="">
-				<p>Telefon:</p>
+				<p>Telephone:</p>
 				<a href="tel:+4522901244">+4522901244</a>
 			</div>
 			<div class="">
@@ -97,7 +100,7 @@
 </section>
 
 <div class="til-toppen hover:pulsate-fwd">
-	<a href="#top"> ︽<br /> Til toppen</a>
+	<a href="#top"> ︽<br /> To the top</a>
 </div>
 
 <style>

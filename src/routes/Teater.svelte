@@ -24,48 +24,48 @@
 <section>
 	<div class="container">
 		<div>
-			<h4>Opgaven</h4>
+			<h4>The assignment</h4>
+
 			<p>
-				Dette var et gruppe projekt, der handlede om at lave et kampagnesite, som skulle lokke flere
-				unge til at købe årskort til teater Grob. <br /> Sitet skulle udover et tydeligt koncept også
-				indholde en kampagnevideo og vidoer til sociale medier.
+				This was a group project where we had to make a campaignsite, which purpose was to get young
+				people in Copenhagen to buy an annual pass to "Teater Grob". The site had to include a clear
+				concept as well as a campaign video and videos for social media.
 			</p>
 		</div>
 
 		<div>
-			<h4>Processen</h4>
+			<h4>The process</h4>
+
 			<p>
-				Vi startede projektet ud med at brainstorme idéer til et slogan, som vi kunne basere vores
-				koncept på. efter mange iterationer endte vi på sloganet "mangler du også mere drama i din
-				hverdag?". Sloganet lagde grund til vores kampagnevideoer, som viser forskellige folk, der
-				måske savner lidt drama i deres liv. Udover kampagne videoerne, så fandt vi også på at
-				kampagnen skulle handle om at samle Nørrebro, men med Teater Grob som centrum, så hvis man
-				køber et årskort, så ville man også få rabatter hos forskellige klassiske nørrebro
-				forretninger, som feks. BRUS og FRIHEDEN.
+				We started of the project by brainstorming ideas for a slogan which we could base our
+				concept on. After a lot of iterations we ended up with a slogan which translates to "Do you
+				also miss more drama in your everyday life?". We also came up with the idea that the
+				campaign should include a bid to gather Nørrebro, which is why we came up with the vouchers
+				that give you a discount in select local buisnesses when you use your annual pass.
 			</p>
 		</div>
 
 		<div>
-			<h4>Løsningen</h4>
+			<h4>The solution</h4>
+
 			<p>
-				Den endelige løsning, blev et kampagnesite, bygget op i wordpress. I dette projekt, som var
-				et gruppeprojekt, havde jeg hovedsagligt ansvar for designet og opsætningen af
-				kampagnesitet. Sitet og vidoerne blev præsenteret for repræsentanter fra Teater Grob, som
-				var meget positive overfor hele konceptet.
+				The final solution, is a campaign site build in wordpress. My main area of responsibility
+				was desiging and setting up the website. The concept was presented for some representatives
+				from "Teater Grob" who were very delighted with our solution.
 			</p>
 		</div>
 	</div>
 </section>
 
 <section class="grid place-items-center desk-link">
-	<a class="se-siden" href="https://skuret.eu/kea/teater_grob/" target="blank">SE SIDEN ➝</a>
+	<a class="se-siden" href="https://skuret.eu/kea/teater_grob/" target="blank">SEE THE SITE ➝</a>
 </section>
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 GO BACK</a>
 		<a class="se-siden mobil-link" href="https://skuret.eu/kea/teater_grob/" target="blank"
-			>SE SIDEN ➝</a
+			>SEE THE SITE ➝</a
 		>
 	</div>
 </section>

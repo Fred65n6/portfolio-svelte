@@ -13,13 +13,13 @@
 		<div class="desktop-menu">
 			<ul>
 				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Forside</a>
+					<a sveltekit:prefetch href="/">HOME</a>
 				</li>
 				<li class:active={$page.url.pathname === '/Portfolio'}>
 					<a sveltekit:prefetch href="/Portfolio">Portfolio</a>
 				</li>
 				<li class:active={$page.url.pathname === '/Om_mig'}>
-					<a sveltekit:prefetch href="/Om_mig">om mig</a>
+					<a sveltekit:prefetch href="/Om_mig">ABOUT ME</a>
 				</li>
 			</ul>
 		</div>
@@ -36,13 +36,13 @@
 					</a>
 				</div>
 				<li class:active={$page.url.pathname === '/'}>
-					<a sveltekit:prefetch href="/">Forside</a>
+					<a sveltekit:prefetch href="/">HOME</a>
 				</li>
 				<li class:active={$page.url.pathname === '/Portfolio'}>
 					<a sveltekit:prefetch href="/Portfolio">Portfolio</a>
 				</li>
 				<li class:active={$page.url.pathname === '/Om_mig'}>
-					<a sveltekit:prefetch href="/Om_mig">om mig</a>
+					<a sveltekit:prefetch href="/Om_mig">ABOUT ME</a>
 				</li>
 			</ul>
 		</div>

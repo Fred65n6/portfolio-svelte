@@ -118,7 +118,7 @@
 					<img src="grob.webp" alt="Teater grob" />
 					<div class="overlay">
 						<div class="text">
-							<h4>KAMPAGNESITE:</h4>
+							<h4>CAMPAIGN SITE:</h4>
 							<h3>TEATER GROB➝</h3>
 						</div>
 					</div>
@@ -172,13 +172,14 @@
 <section>
 	<div class="disclaimer">
 		<p>
-			<span>* </span> Siderne er ikke færdige produkter, men opgaver der har haft et bestemt fokuspunkt,
-			eller en problemstilling der skulle løses. Derfor vil der være ufuldtendte stier og forskellige
-			mangler ved siderne.
+			<span>* </span>
+			These websites aren't finished products, but school projects with certain focusses or problems
+			we had to solve. <br /> That means that some of the sites have links that doesn't work, or paths
+			that lead nowhere .
 		</p>
 	</div>
 	<div class="til-toppen hover:pulsate-fwd">
-		<a href="#top"> ︽<br /> Til toppen</a>
+		<a href="#top"> ︽<br /> To the top</a>
 	</div>
 </section>
 

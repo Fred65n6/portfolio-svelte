@@ -24,31 +24,33 @@
 <section>
 	<div class="container">
 		<div>
-			<h4>Opgaven</h4>
+			<h4>The assignment</h4>
+
 			<p>
-				Dette er artworks som er lavet for det band, som jeg spiller i ved siden af at læse
-				multimediedesign. Alle artworks som vi har brugt gennem tiden er lavet af mig, og det var
-				også i arbejdet med dette, at min interesse for grafisk design blev vakt.
+				These are some of the artworks that I created for the band I play in when I'm not designing
+				websites. All the artworks that we have ever used are created by me, and it was making these
+				artworks that sparked my interest in digital design.
 			</p>
 		</div>
 
 		<div>
-			<h4>Processen</h4>
+			<h4>the Process</h4>
+
 			<p>
-				Der er mange forskellige processer i at lave artworks. Som regel starter det med at jeg
-				snakker med de andre bandmedlemmer, om hvilke tanker og følelser den sang eller det værk,
-				som jeg laver artwork til tænder i dem. <br />
-				Derefter tager jeg alle de ting med og begynder at tegne skitser i hånden. Når jeg har nogle
-				forskellige oplæg så begynder jeg at prøve at sætte dem op i Photoshop. Hvis jeg skal bruge fotos,
-				så plejer jeg som regel at finde nogle placeholder fotos, indtil jeg kan få taget nogle selv.
+				There are a lot of different processes when making artworks. I usually start of by talking
+				with the other band members and bouncing ideas off of them. <br /> Then I start handdrawing mocks-ups
+				with different ideas, and when I have something I like, I start trying to set it up in photosop.
+				If I have an idea where I need certain photos, I use placeholders untill I'm able to take the
+				pictures my self.
 			</p>
 		</div>
 
 		<div>
-			<h4>Løsningen</h4>
+			<h4>the solution</h4>
+
 			<p>
-				I sidste ende er vi endt med nogle flotte artworks, som vi alle er meget glade for. De har
-				alle en lettere rå stil, som også gerne skulle afspejle musikken.
+				In the end we ended up with some nice artworks, which we all love. They all have this raw
+				but also elegant vibe, which should reflect the music.
 			</p>
 		</div>
 	</div>
@@ -56,15 +58,15 @@
 
 <section class="grid place-items-center desk-link">
 	<a class="se-siden" href="https://skuret.eu/kea/1semester/artworks/" target="blank"
-		>SE ARTWORKS ➝</a
+		>SEE THE ARTWORKS ➝</a
 	>
 </section>
 
 <section>
 	<div class="links">
-		<a sveltekit:prefetch href="/Portfolio">🠔 TILBAGE TIL PORTFOLIO</a>
+		<a sveltekit:prefetch href="/Portfolio">🠔 GO BACK</a>
 		<a class="se-siden mobil-link" href="https://skuret.eu/kea/1semester/artworks/" target="blank"
-			>SE SIDEN ➝</a
+			>SEE THE ARTWORKS➝</a
 		>
 	</div>
 </section>
