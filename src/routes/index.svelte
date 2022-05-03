@@ -139,4 +139,10 @@
 				1;
 		}
 	}
+
+	@media (max-width: 450px) {
+		h2 {
+			font-size: 0.8rem;
+		}
+	}
 </style>
