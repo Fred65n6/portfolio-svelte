@@ -67,7 +67,7 @@
 
 	@media (max-width: 650px) {
 		h1 {
-			font-size: 0.8rem;
+			font-size: 0.6rem;
 		}
 
 		.hero {
