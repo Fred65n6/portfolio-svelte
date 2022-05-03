@@ -1,17 +1,13 @@
 <script>
 </script>
 
-<main>
-	<section>
-		<div class="hero md:bg-pan-left">
-			<div class="hero-border grid place-items-center md:border-none ">
-				<img class="fade-in " src="./frederik_milland.svg" alt="logo" />
-				<h1 class="tracking-in-expand-fwd ">WEBDESIGNER</h1>
-				<a class="pulsate-fwd" href="#forside">︾</a>
-			</div>
-		</div>
-	</section>
-</main>
+<div class="hero md:bg-pan-left">
+	<div class="hero-border grid place-items-center md:border-none ">
+		<img class="fade-in " src="./frederik_milland.svg" alt="logo" />
+		<h1 class="tracking-in-expand-fwd ">WEBDESIGNER</h1>
+		<a class="pulsate-fwd" href="#forside">︾</a>
+	</div>
+</div>
 
 <style>
 	h1 {
