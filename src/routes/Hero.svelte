@@ -4,7 +4,7 @@
 <div class="hero md:bg-pan-left bg-hero2">
 	<div class="hero-border grid place-items-center md:border-none ">
 		<img class="fade-in " src="./frederik_milland.svg" alt="logo" />
-		<h1 class="tracking-in-expand-fwd">WEBDESIGNER</h1>
+		<h1 class="md:tracking-in-expand-fwd fade-in">WEBDESIGNER</h1>
 		<a class="pulsate-fwd" href="#forside">︾</a>
 	</div>
 </div>
