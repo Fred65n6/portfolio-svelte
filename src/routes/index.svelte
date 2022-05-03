@@ -142,8 +142,7 @@
 
 	@media (max-width: 450px) {
 		h2 {
-			font-size: 1rem;
-			font-weight: 800;
+			font-size: 2rem;
 		}
 	}
 </style>
