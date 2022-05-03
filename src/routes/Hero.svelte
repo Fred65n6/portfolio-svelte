@@ -4,7 +4,7 @@
 <div class="hero md:bg-pan-left">
 	<div class="hero-border grid place-items-center md:border-none ">
 		<img class="fade-in " src="./frederik_milland.svg" alt="logo" />
-		<h1 class="tracking-in-expand-fwd ">WEBDESIGNER</h1>
+		<h1 class="md:tracking-in-expand-fwd fade-in ">WEBDESIGNER</h1>
 		<a class="pulsate-fwd" href="#forside">︾</a>
 	</div>
 </div>
@@ -39,7 +39,6 @@
 		position: static;
 		z-index: 4;
 		overflow: hidden;
-		width: 100vw;
 		height: 100vh;
 		padding-top: 14rem;
 		padding-bottom: 11.9rem;
@@ -55,13 +54,18 @@
 			1;
 	}
 
+	@media (min-width: 650px) {
+		.hero {
+			width: 100vw;
+		}
+	}
+
 	@media (max-width: 650px) {
 		h1 {
 			font-size: 1.5rem;
 		}
-
 		.hero {
-			padding-inline: 4rem;
+			padding-inline: 2rem;
 		}
 	}
 </style>
