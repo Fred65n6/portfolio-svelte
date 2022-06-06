@@ -11,7 +11,8 @@ const c = [
 	() => import("..\\..\\src\\routes\\Om_mig.svelte"),
 	() => import("..\\..\\src\\routes\\Teater.svelte"),
 	() => import("..\\..\\src\\routes\\Toast.svelte"),
-	() => import("..\\..\\src\\routes\\Hero.svelte")
+	() => import("..\\..\\src\\routes\\Hero.svelte"),
+	() => import("..\\..\\src\\routes\\nb.svelte")
 ];
 
 const d = decodeURIComponent;
@@ -48,7 +49,10 @@ export const routes = [
 	[/^\/Toast\/?$/, [c[0], c[11]], [c[1]]],
 
 	// src/routes/Hero.svelte
-	[/^\/Hero\/?$/, [c[0], c[12]], [c[1]]]
+	[/^\/Hero\/?$/, [c[0], c[12]], [c[1]]],
+
+	// src/routes/nb.svelte
+	[/^\/nb\/?$/, [c[0], c[13]], [c[1]]]
 ];
 
 // we import the root layout/error components eagerly, so that

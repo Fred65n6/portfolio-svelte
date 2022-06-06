@@ -36,6 +36,25 @@
 
 <section id="portfolio">
 	<div class="">
+		<a class="desk-link" sveltekit:prefetch href="/nb">
+			<div class="card ">
+				<div class="container">
+					<img src="nb.svg" alt="nørrebro bryhus logo" />
+					<div class="overlay">
+						<div class="text">
+							<h4>WEBSITE:</h4>
+							<h3>NØRREBRO BRYGHUS➝</h3>
+						</div>
+					</div>
+				</div>
+			</div></a
+		>
+	</div>
+	<div class="mobile-link">
+		<a sveltekit:prefetch href="/nb"><h4>WEBSITE: NØRREBRO BRYGHUS ➝</h4></a>
+	</div>
+
+	<div class="">
 		<a class="desk-link" sveltekit:prefetch href="/Vildskud">
 			<div class="card ">
 				<div class="container">
@@ -58,7 +77,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Musikloftet">
 			<div class="card ">
 				<div class="container">
-					<img src="musikloftet.svg" alt="Musikloftet" />
+					<img src="musikloftet.svg" alt="Musikloftet logo" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -77,7 +96,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Toast">
 			<div class="card ">
 				<div class="container">
-					<img src="toast.webp" alt="Toast no.9" />
+					<img src="toast.webp" alt="Toast no.9 logo" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
@@ -115,7 +134,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Teater">
 			<div class="card">
 				<div class="container">
-					<img src="grob.webp" alt="Teater grob" />
+					<img src="grob.webp" alt="Teater grob logo" />
 					<div class="overlay">
 						<div class="text">
 							<h4>CAMPAIGN SITE:</h4>
@@ -153,7 +172,7 @@
 		<a class="desk-link" sveltekit:prefetch href="/Olklubben">
 			<div class="card ">
 				<div class="container">
-					<img src="olklubben.webp" alt="Ølklubben" />
+					<img src="olklubben.webp" alt="Ølklubben logo" />
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
