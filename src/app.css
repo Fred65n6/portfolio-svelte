@@ -92,9 +92,13 @@
 		place-items: center;
 		text-align: center;
 		text-transform: uppercase;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		padding-bottom: 5rem;
 		padding-top: 5rem;
+	}
+
+	.til-toppen a {
+		font-size: 2rem;
 	}
 
 	.til-toppen:hover {

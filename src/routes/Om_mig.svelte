@@ -99,7 +99,7 @@
 </section>
 
 <div class="til-toppen hover:pulsate-fwd">
-	<a href="#top"> ︽<br /> To the top</a>
+	<a href="#top"> ︽</a>
 </div>
 
 <style>
