@@ -43,7 +43,23 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
-							<h3>NB BRYGHUS ➝</h3>
+							<h3>
+								NB BRYGHUS <svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									aria-hidden="true"
+									role="img"
+									class="iconify iconify--ion"
+									width="28"
+									height="36"
+									preserveAspectRatio="xMidYMid meet"
+									viewBox="0 0 512 512"
+									><path
+										d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+										fill="black"
+									/></svg
+								>
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -51,7 +67,22 @@
 		>
 	</div>
 	<div class="mobile-link">
-		<a sveltekit:prefetch href="/nb"><h4>WEBSITE: NØRREBRO BRYGHUS ➝</h4></a>
+		<a sveltekit:prefetch href="/nb"
+			><h4>
+				WEBSITE: NØRREBRO BRYGHUS <svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ion"
+					width="28"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 512 512"
+					><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z" fill="black" /></svg
+				>
+			</h4></a
+		>
 	</div>
 
 	<div class="">
@@ -62,7 +93,23 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
-							<h3>VILDSKUD ➝</h3>
+							<h3>
+								VILDSKUD <svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									aria-hidden="true"
+									role="img"
+									class="iconify iconify--ion"
+									width="28"
+									height="36"
+									preserveAspectRatio="xMidYMid meet"
+									viewBox="0 0 512 512"
+									><path
+										d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+										fill="black"
+									/></svg
+								>
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -70,7 +117,22 @@
 		>
 	</div>
 	<div class="mobile-link">
-		<a sveltekit:prefetch href="/Vildskud"><h4>WEBSITE: VILDSKUD ➝</h4></a>
+		<a sveltekit:prefetch href="/Vildskud"
+			><h4>
+				WEBSITE: VILDSKUD <svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ion"
+					width="28"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 512 512"
+					><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z" fill="black" /></svg
+				>
+			</h4></a
+		>
 	</div>
 
 	<div class="">
@@ -81,7 +143,23 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
-							<h3>MUSIKLOFTET ➝</h3>
+							<h3>
+								MUSIKLOFTET <svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									aria-hidden="true"
+									role="img"
+									class="iconify iconify--ion"
+									width="28"
+									height="36"
+									preserveAspectRatio="xMidYMid meet"
+									viewBox="0 0 512 512"
+									><path
+										d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+										fill="black"
+									/></svg
+								>
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -89,7 +167,22 @@
 		>
 	</div>
 	<div class="mobile-link">
-		<a sveltekit:prefetch href="/Musikloftet"><h4>WEBSITE: MUSIKLOFTET ➝</h4></a>
+		<a sveltekit:prefetch href="/Musikloftet"
+			><h4>
+				WEBSITE: MUSIKLOFTET <svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ion"
+					width="28"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 512 512"
+					><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z" fill="black" /></svg
+				>
+			</h4></a
+		>
 	</div>
 
 	<div class="">
@@ -100,7 +193,23 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
-							<h3>TOAST no.9 ➝</h3>
+							<h3>
+								TOAST no.9 <svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									aria-hidden="true"
+									role="img"
+									class="iconify iconify--ion"
+									width="28"
+									height="36"
+									preserveAspectRatio="xMidYMid meet"
+									viewBox="0 0 512 512"
+									><path
+										d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+										fill="black"
+									/></svg
+								>
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -108,7 +217,22 @@
 		>
 	</div>
 	<div class="mobile-link">
-		<a sveltekit:prefetch href="/Toast"><h4>WEBSITE: TOAST no.9 ➝</h4></a>
+		<a sveltekit:prefetch href="/Toast"
+			><h4>
+				WEBSITE: TOAST no.9 <svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ion"
+					width="28"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 512 512"
+					><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z" fill="black" /></svg
+				>
+			</h4></a
+		>
 	</div>
 
 	<div class="">
@@ -119,7 +243,23 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>DESIGN:</h4>
-							<h3>ARTWORKS ➝</h3>
+							<h3>
+								ARTWORKS <svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									aria-hidden="true"
+									role="img"
+									class="iconify iconify--ion"
+									width="28"
+									height="36"
+									preserveAspectRatio="xMidYMid meet"
+									viewBox="0 0 512 512"
+									><path
+										d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+										fill="black"
+									/></svg
+								>
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -127,7 +267,22 @@
 		>
 	</div>
 	<div class="mobile-link">
-		<a sveltekit:prefetch href="/Artworks"><h4>DESIGN: ARTWORKS➝</h4></a>
+		<a sveltekit:prefetch href="/Artworks"
+			><h4>
+				DESIGN: ARTWORKS<svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ion"
+					width="28"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 512 512"
+					><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z" fill="black" /></svg
+				>
+			</h4></a
+		>
 	</div>
 
 	<div class="">
@@ -138,7 +293,23 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>CAMPAIGN SITE:</h4>
-							<h3>TEATER GROB ➝</h3>
+							<h3>
+								TEATER GROB <svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									aria-hidden="true"
+									role="img"
+									class="iconify iconify--ion"
+									width="28"
+									height="36"
+									preserveAspectRatio="xMidYMid meet"
+									viewBox="0 0 512 512"
+									><path
+										d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+										fill="black"
+									/></svg
+								>
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -146,7 +317,22 @@
 		>
 	</div>
 	<div class="mobile-link">
-		<a sveltekit:prefetch href="/Teater"><h4>KAMPAGENSITE: TEATER GROB ➝</h4></a>
+		<a sveltekit:prefetch href="/Teater"
+			><h4>
+				KAMPAGENSITE: TEATER GROB <svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ion"
+					width="28"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 512 512"
+					><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z" fill="black" /></svg
+				>
+			</h4></a
+		>
 	</div>
 	<!-- 
 	<div class="">
@@ -176,7 +362,23 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
-							<h3>ØLKLUBBEN ➝</h3>
+							<h3>
+								ØLKLUBBEN <svg
+									xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink"
+									aria-hidden="true"
+									role="img"
+									class="iconify iconify--ion"
+									width="28"
+									height="36"
+									preserveAspectRatio="xMidYMid meet"
+									viewBox="0 0 512 512"
+									><path
+										d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+										fill="black"
+									/></svg
+								>
+							</h3>
 						</div>
 					</div>
 				</div>
@@ -184,7 +386,22 @@
 		>
 	</div>
 	<div class="mobile-link">
-		<a sveltekit:prefetch href="/Olklubben"><h4>WEBSITE: ØLKLUBBEN ➝</h4></a>
+		<a sveltekit:prefetch href="/Olklubben"
+			><h4>
+				WEBSITE: ØLKLUBBEN <svg
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					aria-hidden="true"
+					role="img"
+					class="iconify iconify--ion"
+					width="28"
+					height="32"
+					preserveAspectRatio="xMidYMid meet"
+					viewBox="0 0 512 512"
+					><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z" fill="black" /></svg
+				>
+			</h4></a
+		>
 	</div>
 </section>
 
@@ -214,6 +431,14 @@
 		color: black;
 	}
 
+	h3 {
+		display: flex;
+		font-weight: 400;
+	}
+	h4 {
+		display: flex;
+	}
+
 	span {
 		color: red;
 		font-weight: 500;
@@ -230,7 +455,6 @@
 	}
 
 	.mobile-link {
-		text-decoration: underline;
 		padding-bottom: 2rem;
 		text-align: center;
 	}

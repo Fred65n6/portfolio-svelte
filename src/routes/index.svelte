@@ -16,9 +16,23 @@
 		<a sveltekit:prefetch href="/Portfolio">
 			<div class="text-box ">
 				<h2>Portfolio</h2>
-				<p>
+				<p class="flex">
 					See some of the projects I've worked on during my time at KEA
-					<span>➝</span>
+					<svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						aria-hidden="true"
+						role="img"
+						class="iconify iconify--ion"
+						width="24"
+						height="34"
+						preserveAspectRatio="xMidYMid meet"
+						viewBox="0 0 512 512"
+						><path
+							d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+							fill="black"
+						/></svg
+					>
 				</p>
 			</div>
 		</a>
@@ -28,8 +42,22 @@
 		<a sveltekit:prefetch href="/Om_mig">
 			<div class="text-box ">
 				<h2>ABOUT ME</h2>
-				<p>
-					Read a little about why I chose to become a multimedia designer<span>➝</span>
+				<p class="flex">
+					Read a little about why I chose to become a multimedia designer <svg
+						xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink"
+						aria-hidden="true"
+						role="img"
+						class="iconify iconify--ion"
+						width="24"
+						height="34"
+						preserveAspectRatio="xMidYMid meet"
+						viewBox="0 0 512 512"
+						><path
+							d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"
+							fill="black"
+						/></svg
+					>
 				</p>
 			</div>
 		</a>
