@@ -18,7 +18,7 @@
 <Header />
 
 <div class="heading" />
-<h1 class="my-4">NØRREBRO BRYGHUS</h1>
+<h1 class="my-4">NB BRYGHUS</h1>
 
 <section>
 	<div class="container">
