@@ -99,19 +99,22 @@
 	}
 
 	.se-siden {
-		border: solid 4px white;
-		border-image: linear-gradient(
-				90deg,
-				rgb(152, 6, 6) 0%,
-				rgb(179, 84, 26) 27%,
-				rgb(169, 159, 21) 49%,
-				rgb(65, 141, 187) 67%,
-				rgb(7, 53, 162) 100%
-			)
-			1;
-		box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.449);
-		padding: 0.5rem;
+		padding: 1rem;
+		height: auto;
+		background: rgba(218, 217, 217, 0.605);
+		box-shadow: 2px 2px 4px;
+		height: auto;
 	}
+
+	.se-siden:hover {
+		background: linear-gradient(to right, rgba(196, 196, 196, 0.7), rgba(255, 255, 255, 0.7)),
+			url(https://grainy-gradients.vercel.app/noise.svg);
+		transform: scale(1.02);
+		z-index: 2;
+		position: static;
+		transition: 0.5s linear;
+	}
+
 	section {
 		display: grid;
 	}

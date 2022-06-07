@@ -76,11 +76,6 @@
 		font-weight: 100;
 	}
 
-	a:hover {
-		color: rgb(0, 115, 157);
-		transition: color 0.2s linear;
-	}
-
 	.heading {
 		padding-top: 6rem;
 		padding-bottom: 2rem;

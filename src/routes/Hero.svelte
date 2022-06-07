@@ -1,7 +1,7 @@
 <script>
 </script>
 
-<div class="hero md:bg-pan-left">
+<div class="hero bg-pan-left">
 	<div class="container">
 		<img class="fade-in " src="./frederik_milland.svg" alt="logo" />
 		<h1 class="tracking-in-expand-fwd ">WEBDESIGNER</h1>
