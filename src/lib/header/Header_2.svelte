@@ -75,11 +75,6 @@
 		height: 2rem;
 	}
 
-	a:hover {
-		color: rgb(0, 115, 157);
-		transition: color 0.2s linear;
-	}
-
 	nav {
 		position: sticky;
 		width: 100%;

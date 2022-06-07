@@ -18,7 +18,7 @@
 <Header />
 
 <div class="heading" />
-<h1 class="-my-4">Vildskud</h1>
+<h1>Vildskud</h1>
 
 <section>
 	<div class="container">
@@ -57,53 +57,16 @@
 	</div>
 </section>
 
-<!-- <section class="grid place-items-center desk-link">
-	<a class="se-siden" href="https://vildskud.netlify.app/" target="blank"
-		>SEE THE SITE <svg
-			xmlns="http://www.w3.org/2000/svg"
-			xmlns:xlink="http://www.w3.org/1999/xlink"
-			aria-hidden="true"
-			role="img"
-			class="iconify iconify--ic"
-			width="32"
-			height="32"
-			preserveAspectRatio="xMidYMid meet"
-			viewBox="0 0 24 24"
-			><path fill="black" d="M8.59 16.59L13.17 12L8.59 7.41L10 6l6 6l-6 6l-1.41-1.41z" /></svg
-		></a
-	>
-</section> -->
+<section class="grid place-items-center desk-link">
+	<p class="text-[1.2rem]">
+		SEE THE SITE: <a href="https://vildskud.netlify.app/" target="blank">VILDSKUD </a>
+	</p>
+</section>
 
 <section>
 	<div class="links">
-		<a class="flex" sveltekit:prefetch href="/Portfolio"
-			><svg
-				xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				aria-hidden="true"
-				role="img"
-				class="iconify iconify--ion"
-				width="32"
-				height="32"
-				preserveAspectRatio="xMidYMid meet"
-				viewBox="0 0 512 512"
-				><path d="M352 115.4L331.3 96 160 256l171.3 160 20.7-19.3L201.5 256z" fill="black" /></svg
-			> GO BACK</a
-		>
-		<a class="se-siden" href="https://vildskud.netlify.app/" target="blank"
-			>SEE THE SITE <svg
-				xmlns="http://www.w3.org/2000/svg"
-				xmlns:xlink="http://www.w3.org/1999/xlink"
-				aria-hidden="true"
-				role="img"
-				class="iconify iconify--ion"
-				width="32"
-				height="32"
-				preserveAspectRatio="xMidYMid meet"
-				viewBox="0 0 512 512"
-				><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z" fill="black" /></svg
-			></a
-		>
+		<a sveltekit:prefetch href="/Portfolio"> ❮ GO BACK</a>
+		<!-- <a class="se-siden" href="https://vildskud.netlify.app/" target="blank">SEE THE SITE </a> -->
 	</div>
 </section>
 
@@ -134,7 +97,7 @@
 
 	.se-siden {
 		display: flex;
-		padding: 0.6rem;
+		padding: 1rem;
 		height: auto;
 		background: rgba(218, 217, 217, 0.605);
 		box-shadow: 2px 2px 4px;

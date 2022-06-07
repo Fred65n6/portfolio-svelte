@@ -104,11 +104,6 @@
 		transition: color 0.2s linear;
 	}
 
-	a:hover {
-		color: rgb(0, 115, 157);
-		transition: color 0.2s linear;
-	}
-
 	.hamburger-menu li {
 		padding: 1rem;
 		margin-top: 2rem;
