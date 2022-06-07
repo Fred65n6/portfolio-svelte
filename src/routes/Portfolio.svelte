@@ -43,7 +43,7 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
-							<h3>NØRREBRO BRYGHUS➝</h3>
+							<h3>NB BRYGHUS ➝</h3>
 						</div>
 					</div>
 				</div>
@@ -62,7 +62,7 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
-							<h3>VILDSKUD➝</h3>
+							<h3>VILDSKUD ➝</h3>
 						</div>
 					</div>
 				</div>
@@ -119,7 +119,7 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>DESIGN:</h4>
-							<h3>ARTWORKS➝</h3>
+							<h3>ARTWORKS ➝</h3>
 						</div>
 					</div>
 				</div>
@@ -138,7 +138,7 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>CAMPAIGN SITE:</h4>
-							<h3>TEATER GROB➝</h3>
+							<h3>TEATER GROB ➝</h3>
 						</div>
 					</div>
 				</div>
@@ -176,7 +176,7 @@
 					<div class="overlay">
 						<div class="text">
 							<h4>WEBSITE:</h4>
-							<h3>ØLKLUBBEN➝</h3>
+							<h3>ØLKLUBBEN ➝</h3>
 						</div>
 					</div>
 				</div>
@@ -253,9 +253,8 @@
 	.text {
 		color: white;
 		position: absolute;
+		left: 40%;
 		top: 50%;
-		left: 50%;
-		justify-items: center;
 		-webkit-transform: translate(-50%, -50%);
 		-ms-transform: translate(-50%, -50%);
 		transform: translate(-50%, -50%);
