@@ -81,7 +81,7 @@
 
 	.heading {
 		margin-top: 3rem;
-		background-image: url('../../static/hero_bg_2.svg');
+		background-image: url('../../static/musikloftet.svg');
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 100%;
@@ -92,25 +92,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 120px;
-	}
-
-	.se-siden {
-		display: flex;
-		padding: 1rem;
-		height: auto;
-		background: rgba(218, 217, 217, 0.605);
-		box-shadow: 2px 2px 4px;
-		height: auto;
-	}
-
-	.se-siden:hover {
-		background: linear-gradient(to right, rgba(196, 196, 196, 0.7), rgba(255, 255, 255, 0.7)),
-			url(https://grainy-gradients.vercel.app/noise.svg);
-		transform: scale(1.02);
-		z-index: 2;
-		position: static;
-		transition: 0.5s linear;
+		gap: 80px;
 	}
 
 	section {
@@ -131,6 +113,10 @@
 
 		.links {
 			width: 1300px;
+		}
+
+		.desk-link {
+			display: grid;
 		}
 	}
 </style>
