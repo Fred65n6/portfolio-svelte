@@ -69,7 +69,7 @@
 	<div class="mobile-link">
 		<a sveltekit:prefetch href="/nb"
 			><h4>
-				WEBSITE: NØRREBRO BRYGHUS <svg
+				WEBSITE: NB BRYGHUS <svg
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
 					aria-hidden="true"
@@ -292,7 +292,7 @@
 					<img src="grob.webp" alt="Teater grob logo" />
 					<div class="overlay">
 						<div class="text">
-							<h4>CAMPAIGN SITE:</h4>
+							<h4>WEBSITE:</h4>
 							<h3>
 								TEATER GROB <svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -319,7 +319,7 @@
 	<div class="mobile-link">
 		<a sveltekit:prefetch href="/Teater"
 			><h4>
-				KAMPAGENSITE: TEATER GROB <svg
+				WEBSITE: TEATER GROB <svg
 					xmlns="http://www.w3.org/2000/svg"
 					xmlns:xlink="http://www.w3.org/1999/xlink"
 					aria-hidden="true"

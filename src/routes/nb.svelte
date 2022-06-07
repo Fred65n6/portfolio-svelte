@@ -18,8 +18,7 @@
 <Header />
 
 <div class="heading" />
-
-<section><h1>Vildskud</h1></section>
+<h1 class="my-4">Vildskud</h1>
 
 <section>
 	<div class="container">

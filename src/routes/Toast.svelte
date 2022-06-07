@@ -19,7 +19,7 @@
 
 <div class="heading" />
 
-<section><h1>Toast no.9</h1></section>
+<h1 class="my-4">Toast no.9</h1>
 
 <section>
 	<div class="container">
@@ -122,12 +122,12 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 80px;
+		width: 300px;
 	}
 
 	.se-siden {
 		display: flex;
-		padding: 1rem;
+		padding: 0.6rem;
 		height: auto;
 		background: rgba(218, 217, 217, 0.605);
 		box-shadow: 2px 2px 4px;

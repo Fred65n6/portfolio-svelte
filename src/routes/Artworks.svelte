@@ -19,7 +19,7 @@
 
 <div class="heading" />
 
-<section><h1>Artworks</h1></section>
+<h1 class="my-4">Artworks</h1>
 
 <section>
 	<div class="container">

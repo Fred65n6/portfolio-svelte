@@ -19,7 +19,7 @@
 
 <div class="heading" />
 
-<section><h1>Ølklubben</h1></section>
+<h1 class="my-4">Ølklubben</h1>
 
 <section>
 	<div class="container">
