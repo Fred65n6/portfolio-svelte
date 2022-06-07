@@ -79,12 +79,6 @@
 		}
 	}
 
-	@media (max-width: 400px) {
-		.hero {
-			height: 100%;
-		}
-	}
-
 	@media (max-width: 450px) {
 		h1 {
 			font-size: 0.6rem;

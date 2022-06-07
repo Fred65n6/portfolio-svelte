@@ -61,7 +61,6 @@
 		>SEE THE ARTWORKS ➝</a
 	>
 </section> -->
-
 <section>
 	<div class="links">
 		<a class="flex" sveltekit:prefetch href="/Portfolio"
@@ -113,15 +112,11 @@
 		height: 15rem;
 	}
 
-	.desk-link {
-		display: none;
-	}
-
 	.links {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 80px;
+		gap: 4rem;
 	}
 
 	.se-siden {
@@ -150,23 +145,15 @@
 			grid-template-columns: 1fr 1fr 1fr;
 		}
 
+		.links {
+			width: 1300px;
+		}
+
 		.heading {
 			background-attachment: fixed;
 			position: static;
 			height: 35rem;
 			margin-top: 4.2rem;
-		}
-
-		.links {
-			width: 1300px;
-		}
-
-		.mobil-link {
-			display: none;
-		}
-
-		.desk-link {
-			display: grid;
 		}
 	}
 </style>
