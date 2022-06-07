@@ -80,7 +80,7 @@
 			> GO BACK</a
 		>
 		<a class="se-siden" href="https://skuret.eu/kea/toastno9" target="blank"
-			>SEE THE SITE <svg
+			>SEE SITE <svg
 				xmlns="http://www.w3.org/2000/svg"
 				xmlns:xlink="http://www.w3.org/1999/xlink"
 				aria-hidden="true"
@@ -112,10 +112,6 @@
 		background-size: contain;
 		width: 100%;
 		height: 15rem;
-	}
-
-	.desk-link {
-		display: none;
 	}
 
 	.links {
@@ -161,14 +157,6 @@
 
 		.links {
 			width: 1300px;
-		}
-
-		.mobil-link {
-			display: none;
-		}
-
-		.desk-link {
-			display: grid;
 		}
 	}
 </style>

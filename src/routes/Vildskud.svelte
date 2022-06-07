@@ -18,7 +18,7 @@
 <Header />
 
 <div class="heading" />
-<h1 class="my-4">Vildskud</h1>
+<h1 class="-my-4">Vildskud</h1>
 
 <section>
 	<div class="container">
@@ -129,7 +129,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		width: 300px;
+		gap: 120px;
 	}
 
 	.se-siden {
