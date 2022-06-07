@@ -81,7 +81,7 @@
 
 	.heading {
 		margin-top: 3rem;
-		background-image: url('../../static/musikloftet.svg');
+		background-image: url('../../static/hero_bg_2.svg');
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 100%;

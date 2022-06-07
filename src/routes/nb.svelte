@@ -61,7 +61,7 @@
 
 <section class="grid place-items-center desk-link">
 	<p class="text-[1.2rem]">
-		SEE THE SITE: <a href="https://nb-bryghus.netlify.app/" target="blank">NØRREBRO BRYGHUS</a>
+		SEE THE SITE: <a href="https://nb-bryghus.netlify.app/" target="blank">NB BRYGHUS</a>
 	</p>
 </section>
 
@@ -83,7 +83,7 @@
 
 	.heading {
 		margin-top: 3rem;
-		background-image: url('../../static/musikloftet.svg');
+		background-image: url('../../static/nb.svg');
 		background-repeat: no-repeat;
 		background-size: contain;
 		width: 100%;
