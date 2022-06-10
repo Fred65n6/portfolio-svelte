@@ -66,7 +66,7 @@
 	<div class="kompetencer">
 		<h2>SKILLS</h2>
 		<ol>
-			<li>- Experienced with Photoshop, Illustrator, Premiere Pro, InDesign og Figma</li>
+			<li>- Experienced with Photoshop, Illustrator, Premiere Pro, InDesign & Figma</li>
 			<br />
 			<li>
 				- Experience in coding in html, css og javascript, as well as frameworks like Svelte and
